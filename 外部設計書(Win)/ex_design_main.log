@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.5.19)  13 NOV 2017 10:14
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.5.19)  13 NOV 2017 14:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -200,7 +200,17 @@ Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
 \ALC@tlm=\skip49
 \algorithmicindent=\skip50
 )
-No file ex_design_main.aux.
+(./ex_design_main.aux
+
+LaTeX Warning: Label `fig:sc_select_class' multiply defined.
+
+
+LaTeX Warning: Label `fig:sc_class_detail1' multiply defined.
+
+
+LaTeX Warning: Label `fig:sc_class_detail1' multiply defined.
+
+)
 \openout1 = `ex_design_main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
@@ -220,7 +230,7 @@ LaTeX Font Info:    ... okay on input line 36.
 LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 36.
 LaTeX Font Info:    ... okay on input line 36.
 LaTeX Font Info:    Try loading font information for U+msa on input line 38.
-(c:/w32tex/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (c:/w32tex/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 38.
@@ -235,7 +245,10 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <17.28> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <17.28> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 1.
-) (./screen_transition.tex) (./screens_explanation.tex
+) (./screen_transition.tex
+File: ./img/sc_transition.png Graphic file (type bmp)
+ <./img/sc_transition.png>)
+(./screens_explanation.tex
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 2.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
@@ -244,125 +257,80 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 3.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 3.
-
-
-LaTeX Warning: Reference `fig:sc_login' on page 1 undefined on input line 6.
-
 File: ./img/sc_login.png Graphic file (type bmp)
-<./img/sc_login.png>
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 19.
- (c:/w32tex/share/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 19.
-
-[1] [2]
-
-LaTeX Warning: Reference `fig:sc_account_creat' on page 3 undefined on input li
-ne 36.
-
+ <./img/sc_login.png>
 File: ./img/sc_account_creat.png Graphic file (type bmp)
-<./img/sc_account_creat.png> [3]
-
-LaTeX Warning: Reference `fig:sc_select_class' on page 4 undefined on input lin
-e 59.
-
+ <./img/sc_account_creat.png>
+[1] [2] [3]
 File: ./img/sc_select_class.png Graphic file (type bmp)
-<./img/sc_select_class.png>
+ <./img/sc_select_class.png> [4]
+File: ./img/sc_select_class.png Graphic file (type bmp)
+ <./img/sc_select_class.png>
+[5]
 
-LaTeX Warning: Reference `fig:sc_prog_check' on page 4 undefined on input line 
-80.
-
-File: ./img/sc_prog_check.png Graphic file (type bmp)
-<./img/sc_prog_check.png> [4]
-
-LaTeX Warning: Reference `fig:sc_answer' on page 5 undefined on input line 102.
-
-
-File: ./img/sc_answer.png Graphic file (type bmp)
-<./img/sc_answer.png> [5]
-
-LaTeX Warning: Reference `fig:sc_class_student' on page 6 undefined on input li
-ne 124.
-
-File: ./img/sc_class_student.png Graphic file (type bmp)
-<./img/sc_class_student.png> [6] [7]
-
-LaTeX Warning: Reference `fig:sc_select_year' on page 8 undefined on input line
- 157.
-
-File: ./img/sc_select_year.png Graphic file (type bmp)
-<./img/sc_select_year.png>
-
-LaTeX Warning: Reference `fig:sc_class_content' on page 8 undefined on input li
-ne 178.
-
-File: ./img/sc_class_content.png Graphic file (type bmp)
-<./img/sc_class_content.png> [8]
-
-LaTeX Warning: Reference `fig:sc_pre_q' on page 9 undefined on input line 199.
-
-File: ./img/sc_pre_q.png Graphic file (type bmp)
-<./img/sc_pre_q.png> [9]
-
-LaTeX Warning: Reference `fig:sc_input_q' on page 10 undefined on input line 21
-9.
-
-File: ./img/sc_input_q.png Graphic file (type bmp)
-<./img/sc_input_q.png> [10] [11]
-
-LaTeX Warning: Reference `fig:sc_class_detail1' on page 12 undefined on input l
-ine 243.
-
-
-LaTeX Warning: Reference `fig:sc_class_detail2' on page 12 undefined on input l
-ine 243.
+LaTeX Warning: Reference `fig:sc_class_detail2' on page 6 undefined on input li
+ne 86.
 
 File: ./img/sc_class_detail1.png Graphic file (type bmp)
-<./img/sc_class_detail1.png>
-File: ./img/sc_class_detail2.png Graphic file (type bmp)
- <./img/sc_class_detail2.png> [12] [13]
+<./img/sc_class_detail1.png> [6]
 
-LaTeX Warning: Reference `fig:sc_prog_check_one1' on page 14 undefined on input
- line 276.
+LaTeX Warning: Reference `fig:sc_class_detail2' on page 7 undefined on input li
+ne 106.
 
+[7]
+File: ./img/sc_class_detail1.png Graphic file (type bmp)
+ <./img/sc_class_detail1.png>
 
-LaTeX Warning: Reference `fig:sc_prog_check_one2' on page 14 undefined on input
- line 276.
+LaTeX Warning: Reference `fig:sc_class_detail2' on page 8 undefined on input li
+ne 124.
 
+File: ./img/sc_class_detail1.png Graphic file (type bmp)
+<./img/sc_class_detail1.png> [8]
 File: ./img/sc_prog_check_one1.png Graphic file (type bmp)
-<./img/sc_prog_check_one1.png>
+ <./img/sc_prog_check_one1.png> [9]
 File: ./img/sc_prog_check_one2.png Graphic file (type bmp)
- <./img/sc_prog_check_one2.png>
 
-LaTeX Warning: Reference `fig:sc_class_creat1' on page 14 undefined on input li
-ne 299.
+<./img/sc_prog_check_one2.png>
+File: ./img/sc_answer.png Graphic file (type bmp)
+ <./img/sc_answer.png> [10] [11] [12]
+File: ./img/sc_class_student.png Graphic file (type bmp)
 
+<./img/sc_class_student.png>
+File: ./img/sc_select_year.png Graphic file (type bmp)
+ <./img/sc_select_year.png> [13]
+File: ./img/sc_class_content.png Graphic file (type bmp)
 
-LaTeX Warning: Reference `fig:sc_class_creat2' on page 14 undefined on input li
-ne 299.
+<./img/sc_class_content.png> [14]
+File: ./img/sc_pre_q.png Graphic file (type bmp)
+ <./img/sc_pre_q.png> [15]
+File: ./img/sc_input_q.png Graphic file (type bmp)
 
+<./img/sc_input_q.png> [16] [17]
 File: ./img/sc_class_creat1.png Graphic file (type bmp)
-<./img/sc_class_creat1.png> [14] [15]
+ <./img/sc_class_creat1.png>
 File: ./img/sc_class_creat2.png Graphic file (type bmp)
- <./img/sc_class_creat2.png>)
-(./database.tex) (./network.tex) (./function.tex [16] [17] [18]) [19]
-(./ex_design_main.aux)
+
+<./img/sc_class_creat2.png>) (./database.tex) (./network.tex
+
+LaTeX Warning: Reference `wifi.jpeg' on page 18 undefined on input line 3.
+
+[18] [19]
+File: ./wifi.jpeg Graphic file (type bmp)
+ <./wifi.jpeg>) (./function.tex [20]) [21] (./ex_design_main.aux)
 
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2354 strings out of 493654
- 29999 string characters out of 6150794
+ 2342 strings out of 493654
+ 29742 string characters out of 6150794
  92674 words of memory out of 5000000
- 5886 multiletter control sequences out of 15000+600000
- 15357 words of font info for 63 fonts, out of 8000000 for 9000
+ 5873 multiletter control sequences out of 15000+600000
+ 15100 words of font info for 62 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  34i,8n,26p,231b,329s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on ex_design_main.dvi (20 pages, 27624 bytes).
+Output written on ex_design_main.dvi (22 pages, 29040 bytes).
