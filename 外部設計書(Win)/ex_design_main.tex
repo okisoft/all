@@ -1,0 +1,50 @@
+\documentclass[12pt,a4j]{jarticle}
+%---------------------------------------------------
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{ascmac}
+\usepackage{setspace}
+\usepackage{float}
+\usepackage[dvipdfmx,usenames]{color}
+\usepackage{colortbl}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{setspace}
+%---------------------------------------------------
+\makeatletter
+\def\@maketitle{%
+\begin{center}%
+\let\footnote\thanks
+\vspace*{80mm} % この量でタイトルの位置が下がる。
+{\LARGE \@title \par}%
+\vskip 1.5em%
+{\large
+\lineskip .5em%
+\begin{tabular}[t]{c}%
+\@author
+\end{tabular}\par}%
+\vskip 1em%
+{\large \@date}%
+\end{center}%
+\par\vskip 1.5em}
+\makeatother
+
+\title{\Huge 外部設計書（仮）}
+\date{\today}
+\author{\large Outing Corporation}
+\begin{document}
+
+\maketitle
+
+\newpage
+
+\pagenumbering{arabic}
+\input{business_flow.tex}
+\input{screen_transition.tex}
+\input{screens_explanation.tex}
+\input{database.tex}
+\input{network.tex}
+\input{function.tex}
+
+\end{document}
