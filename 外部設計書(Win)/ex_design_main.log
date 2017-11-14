@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.5.19)  13 NOV 2017 14:53
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.5.19)  14 NOV 2017 06:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -245,10 +245,10 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <17.28> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <17.28> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 1.
-) (./screen_transition.tex
+) [1] (./screen_transition.tex
 File: ./img/sc_transition.png Graphic file (type bmp)
  <./img/sc_transition.png>)
-(./screens_explanation.tex
+[2] (./screens_explanation.tex
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 2.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
@@ -258,65 +258,63 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 3.
 File: ./img/sc_login.png Graphic file (type bmp)
- <./img/sc_login.png>
+ <./img/sc_login.png> [3]
 File: ./img/sc_account_creat.png Graphic file (type bmp)
- <./img/sc_account_creat.png>
-[1] [2] [3]
-File: ./img/sc_select_class.png Graphic file (type bmp)
- <./img/sc_select_class.png> [4]
-File: ./img/sc_select_class.png Graphic file (type bmp)
- <./img/sc_select_class.png>
-[5]
 
-LaTeX Warning: Reference `fig:sc_class_detail2' on page 6 undefined on input li
-ne 86.
+<./img/sc_account_creat.png> [4]
+File: ./img/sc_select_class.png Graphic file (type bmp)
+ <./img/sc_select_class.png> [5]
+File: ./img/sc_select_class.png Graphic file (type bmp)
 
-File: ./img/sc_class_detail1.png Graphic file (type bmp)
-<./img/sc_class_detail1.png> [6]
+<./img/sc_select_class.png> [6]
 
 LaTeX Warning: Reference `fig:sc_class_detail2' on page 7 undefined on input li
-ne 106.
+ne 94.
 
-[7]
 File: ./img/sc_class_detail1.png Graphic file (type bmp)
- <./img/sc_class_detail1.png>
+<./img/sc_class_detail1.png> [7]
 
 LaTeX Warning: Reference `fig:sc_class_detail2' on page 8 undefined on input li
-ne 124.
+ne 116.
 
 File: ./img/sc_class_detail1.png Graphic file (type bmp)
 <./img/sc_class_detail1.png> [8]
+
+LaTeX Warning: Reference `fig:sc_class_detail2' on page 9 undefined on input li
+ne 136.
+
+File: ./img/sc_class_detail1.png Graphic file (type bmp)
+<./img/sc_class_detail1.png> [9]
 File: ./img/sc_prog_check_one1.png Graphic file (type bmp)
- <./img/sc_prog_check_one1.png> [9]
+ <./img/sc_prog_check_one1.png>
 File: ./img/sc_prog_check_one2.png Graphic file (type bmp)
 
-<./img/sc_prog_check_one2.png>
+<./img/sc_prog_check_one2.png> [10] [11]
 File: ./img/sc_answer.png Graphic file (type bmp)
- <./img/sc_answer.png> [10] [11] [12]
+ <./img/sc_answer.png> [12]
 File: ./img/sc_class_student.png Graphic file (type bmp)
 
-<./img/sc_class_student.png>
+<./img/sc_class_student.png> [13]
 File: ./img/sc_select_year.png Graphic file (type bmp)
- <./img/sc_select_year.png> [13]
+ <./img/sc_select_year.png> [14]
 File: ./img/sc_class_content.png Graphic file (type bmp)
 
-<./img/sc_class_content.png> [14]
+<./img/sc_class_content.png> [15]
 File: ./img/sc_pre_q.png Graphic file (type bmp)
- <./img/sc_pre_q.png> [15]
+ <./img/sc_pre_q.png> [16]
 File: ./img/sc_input_q.png Graphic file (type bmp)
 
-<./img/sc_input_q.png> [16] [17]
+<./img/sc_input_q.png> [17]
 File: ./img/sc_class_creat1.png Graphic file (type bmp)
  <./img/sc_class_creat1.png>
 File: ./img/sc_class_creat2.png Graphic file (type bmp)
 
-<./img/sc_class_creat2.png>) (./database.tex) (./network.tex
+<./img/sc_class_creat2.png>) [18] [19] (./database.tex) [20] (./network.tex
 
-LaTeX Warning: Reference `wifi.jpeg' on page 18 undefined on input line 3.
+LaTeX Warning: Reference `wifi.jpeg' on page 21 undefined on input line 3.
 
-[18] [19]
 File: ./wifi.jpeg Graphic file (type bmp)
- <./wifi.jpeg>) (./function.tex [20]) [21] (./ex_design_main.aux)
+<./wifi.jpeg>) [21] (./function.tex) [22] (./ex_design_main.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -333,4 +331,4 @@ Here is how much of TeX's memory you used:
  929 hyphenation exceptions out of 8191
  34i,8n,26p,231b,329s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on ex_design_main.dvi (22 pages, 29040 bytes).
+Output written on ex_design_main.dvi (23 pages, 29212 bytes).
