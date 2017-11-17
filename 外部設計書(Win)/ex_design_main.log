@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.5.19)  14 NOV 2017 06:58
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.5.19)  17 NOV 2017 12:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -247,60 +247,110 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 3.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 3.
-File: ./img/sc_login.png Graphic file (type bmp)
- <./img/sc_login.png> [3]
-File: ./img/sc_account_creat.png Graphic file (type bmp)
+ [3]
+File: ./img/01.png Graphic file (type bmp)
+ <./img/01.png>
+File: ./img/02.png Graphic file (type bmp)
+ <./img/02.png> [4] [5]
+File: ./img/03.png Graphic file (type bmp)
 
-<./img/sc_account_creat.png> [4]
-File: ./img/sc_select_class.png Graphic file (type bmp)
- <./img/sc_select_class.png> [5]
-File: ./img/sc_class_creat1.png Graphic file (type bmp)
+<./img/03.png> [6]
+File: ./img/04.png Graphic file (type bmp)
+ <./img/04.png>
+File: ./img/05.png Graphic file (type bmp)
+ <./img/05.png> [7] [8] [9]
+File: ./img/06.png Graphic file (type bmp)
+ <./img/06.png>
+[10]
+File: ./img/07.png Graphic file (type bmp)
+ <./img/07.png>
+File: ./img/08.png Graphic file (type bmp)
+ <./img/08.png> [11] [12]
+File: ./img/09.png Graphic file (type bmp)
+ <./img/09.png> [13]
+File: ./img/10.png Graphic file (type bmp)
 
-<./img/sc_class_creat1.png> [6]
-File: ./img/sc_class_detail1.png Graphic file (type bmp)
- <./img/sc_class_detail1.png> [7]
-File: ./img/sc_class_detail2.png Graphic file (type bmp)
+<./img/10.png> [14]
+File: ./img/11.png Graphic file (type bmp)
+ <./img/11.png> [15]
+File: ./img/12.png Graphic file (type bmp)
+ <./img/12.png> [16]
+File: ./img/13.png Graphic file (type bmp)
+ <./img/13.png>
+[17]
+File: ./img/14.png Graphic file (type bmp)
+ <./img/14.png> [18]
+File: ./img/15.png Graphic file (type bmp)
+ <./img/15.png> [19]
+File: ./img/16.png Graphic file (type bmp)
+ <./img/16.png> [20]
+File: ./img/17.png Graphic file (type bmp)
 
-<./img/sc_class_detail2.png> [8]
-File: ./img/sc_class_detail3.png Graphic file (type bmp)
- <./img/sc_class_detail3.png> [9]
-File: ./img/sc_prog_check_one1.png Graphic file (type bmp)
+<./img/17.png> [21]
+File: ./img/18.png Graphic file (type bmp)
+ <./img/18.png> [22]
+File: ./img/19.png Graphic file (type bmp)
+ <./img/19.png> [23]
+File: ./img/20.png Graphic file (type bmp)
+ <./img/20.png>
+File: ./img/21.png Graphic file (type bmp)
 
-<./img/sc_prog_check_one1.png>
-File: ./img/sc_prog_check_one2.png Graphic file (type bmp)
- <./img/sc_prog_check_one2.png> [10] [11]
-File: ./img/sc_answer.png Graphic file (type bmp)
+<./img/21.png>
+File: ./img/22.png Graphic file (type bmp)
+ <./img/22.png>
+File: ./img/23.png Graphic file (type bmp)
+ <./img/23.png> [24] [25] [26] [27]
+File: ./img/24.png Graphic file (type bmp)
 
-<./img/sc_answer.png> [12]
-File: ./img/sc_class_student.png Graphic file (type bmp)
- <./img/sc_class_student.png> [13]
-File: ./img/sc_select_year.png Graphic file (type bmp)
+<./img/24.png>
+File: ./img/25.png Graphic file (type bmp)
+ <./img/25.png> [28] [29]
+File: ./img/26.png Graphic file (type bmp)
+ <./img/26.png>
+File: ./img/27.png Graphic file (type bmp)
+ <./img/27.png> [30]
+[31] [32]
+File: ./img/28.png Graphic file (type bmp)
+ <./img/28.png>
+File: ./img/29.png Graphic file (type bmp)
+ <./img/29.png>
+File: ./img/00.png Graphic file (type bmp)
+ <./img/00.png> [33] [34] [35] [36]
+File: ./img/30.png Graphic file (type bmp)
 
-<./img/sc_select_year.png> [14]
-File: ./img/sc_class_content.png Graphic file (type bmp)
- <./img/sc_class_content.png> [15]
-File: ./img/sc_pre_q.png Graphic file (type bmp)
+<./img/30.png>
+File: ./img/31.png Graphic file (type bmp)
+ <./img/31.png> [37] [38]
+File: ./img/32.png Graphic file (type bmp)
+ <./img/32.png>
+File: ./img/33.png Graphic file (type bmp)
+ <./img/33.png> [39]
+[40]
+File: ./img/34.png Graphic file (type bmp)
+ <./img/34.png>
+File: ./img/35.png Graphic file (type bmp)
+ <./img/35.png> [41] [42]
+File: ./img/36.png Graphic file (type bmp)
+ <./img/36.png>
+File: ./img/37.png Graphic file (type bmp)
+ <./img/37.png>
+[43] [44]) (./database.tex) [45] (./network.tex
 
-<./img/sc_pre_q.png> [16]
-File: ./img/sc_input_q.png Graphic file (type bmp)
- <./img/sc_input_q.png> [17]) (./database.tex)
-[18] (./network.tex
-
-LaTeX Warning: Reference `wifi.jpeg' on page 19 undefined on input line 3.
+LaTeX Warning: Reference `wifi.jpeg' on page 46 undefined on input line 3.
 
 File: ./wifi.jpeg Graphic file (type bmp)
-<./wifi.jpeg>) [19] (./function.tex) [20] (./ex_design_main.aux)
+<./wifi.jpeg>) [46] (./function.tex) [47] (./ex_design_main.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 2345 strings out of 493654
- 29836 string characters out of 6150794
+ 2437 strings out of 493654
+ 30400 string characters out of 6150794
  92674 words of memory out of 5000000
- 5875 multiletter control sequences out of 15000+600000
+ 5944 multiletter control sequences out of 15000+600000
  15100 words of font info for 62 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 34i,8n,26p,231b,329s stack positions out of 5000i,500n,10000p,500000b,80000s
+ 34i,8n,26p,305b,329s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on ex_design_main.dvi (21 pages, 28176 bytes).
+Output written on ex_design_main.dvi (48 pages, 50152 bytes).
