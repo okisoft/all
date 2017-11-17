@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.5.19)  17 NOV 2017 18:40
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.5.19)  17 NOV 2017 19:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -235,10 +235,18 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <17.28> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <17.28> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 1.
-) [1] (./screen_transition.tex
-File: ./img/sc_transition.png Graphic file (type bmp)
- <./img/sc_transition.png>)
-[2] (./screens_explanation.tex
+File: ./img/flow.png Graphic file (type bmp)
+ <./img/flow.png>) [1] (./screen_transition.tex
+File: ./img/login.png Graphic file (type bmp)
+
+<./img/login.png>
+File: ./img/for_student.png Graphic file (type bmp)
+ <./img/for_student.png>
+File: ./img/for_manager.png Graphic file (type bmp)
+ <./img/for_manager.png>
+File: ./img/prog_check.png Graphic file (type bmp)
+
+<./img/prog_check.png>) [2] [3] [4] (./screens_explanation.tex
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 2.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
@@ -247,122 +255,121 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 3.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 3.
- [3]
+ [5]
 File: ./img/01.png Graphic file (type bmp)
- <./img/01.png>
-File: ./img/02.png Graphic file (type bmp)
- <./img/02.png> [4]
-File: ./img/03.png Graphic file (type bmp)
 
-<./img/03.png> [5]
+<./img/01.png>
+File: ./img/02.png Graphic file (type bmp)
+ <./img/02.png> [6] [7]
+File: ./img/03.png Graphic file (type bmp)
+ <./img/03.png> [8]
 File: ./img/04.png Graphic file (type bmp)
  <./img/04.png>
 File: ./img/05.png Graphic file (type bmp)
- <./img/05.png> [6] [7] [8]
+
+<./img/05.png> [9] [10] [11]
 File: ./img/06.png Graphic file (type bmp)
- <./img/06.png>
-[9]
+ <./img/06.png> [12]
 File: ./img/07.png Graphic file (type bmp)
  <./img/07.png>
 File: ./img/08.png Graphic file (type bmp)
- <./img/08.png> [10] [11]
+ <./img/08.png>
+[13] [14]
 File: ./img/09.png Graphic file (type bmp)
- <./img/09.png> [12]
+ <./img/09.png> [15]
 File: ./img/10.png Graphic file (type bmp)
- <./img/10.png>
-[13]
+ <./img/10.png> [16]
 File: ./img/11.png Graphic file (type bmp)
- <./img/11.png> [14]
+ <./img/11.png> [17]
 File: ./img/12.png Graphic file (type bmp)
- <./img/12.png> [15]
-File: ./img/13.png Graphic file (type bmp)
- <./img/13.png> [16]
-File: ./img/14.png Graphic file (type bmp)
 
-<./img/14.png> [17]
+<./img/12.png> [18]
+File: ./img/13.png Graphic file (type bmp)
+ <./img/13.png> [19]
+File: ./img/14.png Graphic file (type bmp)
+ <./img/14.png> [20]
 File: ./img/15.png Graphic file (type bmp)
- <./img/15.png> [18]
+ <./img/15.png>
+[21]
 File: ./img/16.png Graphic file (type bmp)
- <./img/16.png> [19]
+ <./img/16.png> [22]
 File: ./img/17.png Graphic file (type bmp)
- <./img/17.png>
-[20]
+ <./img/17.png> [23]
 File: ./img/18.png Graphic file (type bmp)
- <./img/18.png> [21]
+ <./img/18.png> [24]
 File: ./img/19.png Graphic file (type bmp)
- <./img/19.png> [22]
+
+<./img/19.png> [25]
 File: ./img/20.png Graphic file (type bmp)
  <./img/20.png>
 File: ./img/21.png Graphic file (type bmp)
  <./img/21.png>
 File: ./img/22.png Graphic file (type bmp)
-
-<./img/22.png>
+ <./img/22.png>
 File: ./img/23.png Graphic file (type bmp)
- <./img/23.png> [23] [24] [25] [26]
+
+<./img/23.png> [26] [27] [28] [29]
 File: ./img/24.png Graphic file (type bmp)
  <./img/24.png>
 File: ./img/25.png Graphic file (type bmp)
-
-<./img/25.png> [27] [28]
+ <./img/25.png> [30] [31]
 File: ./img/26.png Graphic file (type bmp)
- <./img/26.png>
-File: ./img/27.png Graphic file (type bmp)
- <./img/27.png> [29] [30] [31]
-File: ./img/28.png Graphic file (type bmp)
 
-<./img/28.png>
+<./img/26.png>
+File: ./img/27.png Graphic file (type bmp)
+ <./img/27.png> [32] [33] [34]
+File: ./img/28.png Graphic file (type bmp)
+ <./img/28.png>
 File: ./img/29.png Graphic file (type bmp)
  <./img/29.png>
 File: ./img/00.png Graphic file (type bmp)
- <./img/00.png> [32] [33] [34] [35]
-File: ./img/30.png Graphic file (type bmp)
 
-<./img/30.png>
+<./img/00.png> [35] [36] [37] [38]
+File: ./img/30.png Graphic file (type bmp)
+ <./img/30.png>
 File: ./img/31.png Graphic file (type bmp)
- <./img/31.png> [36] [37]
+ <./img/31.png> [39] [40]
 File: ./img/32.png Graphic file (type bmp)
- <./img/32.png>
+
+<./img/32.png>
 File: ./img/33.png Graphic file (type bmp)
- <./img/33.png> [38]
-[39]
+ <./img/33.png> [41] [42]
 File: ./img/34.png Graphic file (type bmp)
  <./img/34.png>
 File: ./img/35.png Graphic file (type bmp)
- <./img/35.png> [40] [41]
+ <./img/35.png> [43]
+[44]
 File: ./img/36.png Graphic file (type bmp)
  <./img/36.png>
 File: ./img/37.png Graphic file (type bmp)
- <./img/37.png>
-[42] [43]) (./database.tex
+ <./img/37.png> [45] [46]) (./database.tex
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 6.
- (c:/w32tex/share/texmf-dist/tex/latex/base/omscmr.fd
+
+(c:/w32tex/share/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 6.
- [44] [45] [46]
+ [47] [48] [49]
 Overfull \hbox (4.34229pt too wide) in paragraph at lines 119--127
  [][] 
  []
 
-[47] [48] [49] [50]) (./network.tex
+[50] [51] [52] [53]) (./network.tex
+File: ./img/wifi.jpeg Graphic file (type bmp)
+ <./img/wifi.jpeg>) [54] (./function.tex)
+[55] (./ex_design_main.aux)
 
-LaTeX Warning: Reference `wifi.jpeg' on page 51 undefined on input line 3.
-
-File: ./wifi.jpeg Graphic file (type bmp)
-<./wifi.jpeg>) [51] (./function.tex) [52] (./ex_design_main.aux)
-
-LaTeX Warning: There were undefined references.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 2651 strings out of 493654
- 32248 string characters out of 6150794
- 96670 words of memory out of 5000000
- 6143 multiletter control sequences out of 15000+600000
+ 2665 strings out of 493654
+ 32526 string characters out of 6150794
+ 96707 words of memory out of 5000000
+ 6154 multiletter control sequences out of 15000+600000
  19995 words of font info for 81 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  34i,16n,26p,305b,329s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on ex_design_main.dvi (53 pages, 72184 bytes).
+Output written on ex_design_main.dvi (56 pages, 73052 bytes).
