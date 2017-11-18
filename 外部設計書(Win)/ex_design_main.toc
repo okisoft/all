@@ -87,6 +87,6 @@
 \contentsline {subsection}{\numberline {4.11}質問テーブル}{54}
 \contentsline {section}{\numberline {5}ネットワークの構成}{55}
 \contentsline {section}{\numberline {6}機能説明}{56}
-\contentsline {subsection}{\numberline {6.1}管理者画面}{56}
-\contentsline {subsection}{\numberline {6.2}画面作成機能}{56}
-\contentsline {subsection}{\numberline {6.3}質問機能}{56}
+\contentsline {subsection}{\numberline {6.1}進捗確認機能}{56}
+\contentsline {subsection}{\numberline {6.2}質問機能}{56}
+\contentsline {section}{\numberline {付録.\ 7}ユースケース図}{57}
