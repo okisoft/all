@@ -1,15 +1,15 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesPackage{udline}[2005/01/28 ‰ºüƒ}ƒNƒ ver2.52Fƒ[ƒh‚µ‚Ü‚·]
+\ProvidesPackage{udline}[2005/01/28 ä¸‹ç·šãƒã‚¯ãƒ­ ver2.52ï¼šãƒ­ãƒ¼ãƒ‰ã—ã¾ã™]
 %\DeclareOption{}{}
 %\ExecuteOptions{}
 \ProcessOptions\relax
 %
 \@ifundefined{iftdir}{\newif\iftdir\tdirfalse}{}
 %
-%\tracingmacros=2\setcounter{errorcontextlines}{8}%©‚±‚ê‚ÍƒfƒoƒbƒO—p
+%\tracingmacros=2\setcounter{errorcontextlines}{8}%â†ã“ã‚Œã¯ãƒ‡ãƒãƒƒã‚°ç”¨
 %
-%%%%%%%%%%%%%%%%%%%%%%%%%%% Šeíİ’èƒ}ƒNƒ %%%%%%%%%%%%%%%%%%%%%%%%%%
-\def\ulcharC#1#2#3{%                   ‰ºü‚Ég‚¤‹L†‚Ìİ’è(•¶š‚Ì‰º)
+%%%%%%%%%%%%%%%%%%%%%%%%%%% å„ç¨®è¨­å®šãƒã‚¯ãƒ­ %%%%%%%%%%%%%%%%%%%%%%%%%%
+\def\ulcharC#1#2#3{%                   ä¸‹ç·šã«ä½¿ã†è¨˜å·ã®è¨­å®š(æ–‡å­—ã®ä¸‹)
   \font\@tempfontC=#1%
   \def\ulcharact@r{%
     \hbox to #3{%
@@ -18,7 +18,7 @@
   }%
 }
 %--------------------------------------------------------------------
-\def\ulcharG#1#2#3{%                   ‰ºü‚Ég‚¤‹L†‚Ìİ’è(‹ó”’‚Ì‰º)
+\def\ulcharG#1#2#3{%                   ä¸‹ç·šã«ä½¿ã†è¨˜å·ã®è¨­å®š(ç©ºç™½ã®ä¸‹)
   \font\@tempfontG=#1%
   \def\ugcharact@r{%
     \hbox to #3{%
@@ -30,10 +30,10 @@
   }%
 }
 %--------------------------------------------------------------------
-\def\ulchar#1#2#3{%                    ‰ºü‚Ég‚¤‹L†‚Ìİ’è(“¯İ’è)
+\def\ulchar#1#2#3{%                    ä¸‹ç·šã«ä½¿ã†è¨˜å·ã®è¨­å®š(åŒæ™‚è¨­å®š)
   \ulcharC{#1}{#2}{#3}\ulcharG{#1}{#2}{#3}}
 %====================================================================
-\def\BLdot{{%                                ƒx[ƒXƒ‰ƒCƒ“ã‚ÌƒsƒŠƒIƒh
+\def\BLdot{{%                                ãƒ™ãƒ¼ã‚¹ãƒ©ã‚¤ãƒ³ä¸Šã®ãƒ”ãƒªã‚ªãƒ‰
   \setbox\z@=\hbox{\font\@tempfont=cmr10\@tempfont .}%
   \iftdir
     \@tempdima=-0.26389\p@ \advance\@tempdima by \dp\z@
@@ -44,35 +44,35 @@
   \leavevmode\raise\@tempdima\box\z@
   }}
 %--------------------------------------------------------------------
-\def\adjeq{{\font\@tempfont=cmr5\@tempfont% c‘‚«E‰¡‘‚«‚ÅˆÊ’u’²®
-  \iftdir%                                              ‚µ‚½ƒCƒR[ƒ‹
+\def\adjeq{{\font\@tempfont=cmr5\@tempfont% ç¸¦æ›¸ããƒ»æ¨ªæ›¸ãã§ä½ç½®èª¿æ•´
+  \iftdir%                                              ã—ãŸã‚¤ã‚³ãƒ¼ãƒ«
     \raisebox{2.5\p@}[2\p@][\z@]{=}%
   \else
     \raisebox{\z@}[2\p@][\z@]{=}%
   \fi}}
-%============================= üíİ’è =============================
-\def\setniju{\ulchar{cmr5}{\adjeq}{2\p@}}%               “ñdü‚É‚·‚é
+%============================= ç·šç¨®è¨­å®š =============================
+\def\setniju{\ulchar{cmr5}{\adjeq}{2\p@}}%               äºŒé‡ç·šã«ã™ã‚‹
 %--------------------------------------------------------------------
-\def\settensen{\ulchar{cmr10}{\BLdot}{2\p@}}%              “_ü‚É‚·‚é
+\def\settensen{\ulchar{cmr10}{\BLdot}{2\p@}}%              ç‚¹ç·šã«ã™ã‚‹
 %--------------------------------------------------------------------
-\def\setnoko{%                                             ‹˜ü‚É‚·‚é
+\def\setnoko{%                                             é‹¸ç·šã«ã™ã‚‹
   \iftdir
     \ulchar{cmr12}{\raisebox{-0.7ex}[0.3ex][\z@]{\char'136}}{2.6\p@}%
   \else
     \ulchar{cmr12}{\raisebox{-1.2ex}[0.3ex][\z@]{\char'136}}{2.6\p@}%
   \fi}
 %--------------------------------------------------------------------
-\def\setnami{%                                             ”gü‚É‚·‚é
+\def\setnami{%                                             æ³¢ç·šã«ã™ã‚‹
   \iftdir
     \ulchar{cmr12}{\raisebox{-0.7ex}[0.3ex][\z@]{\char'176}}{2.6\p@}%
   \else
     \ulchar{cmr12}{\raisebox{-1.2ex}[0.3ex][\z@]{\char'176}}{2.6\p@}%
   \fi}
 %--------------------------------------------------------------------
-\def\setNami{\ulchar{%                                   ‘¾”gü‚É‚·‚é
-  \iftdir tgoth10\else goth10\fi}{`}{5.5\p@}}
-%----- ˆÈ~‚Í‚­‚è•Ô‚µ’PˆÊ‚ª‘å‚«‚¢‚Ì‚Å•¶šƒ|ƒCƒ“ƒg‚É‡‚í‚¹‚Ä’è‹` -----
-\def\setItten#1#2{%                                    ˆê“_½ü‚É‚·‚é
+\def\setNami{\ulchar{%                                   å¤ªæ³¢ç·šã«ã™ã‚‹
+  \iftdir tgoth10\else goth10\fi}{ã€œ}{5.5\p@}}
+%----- ä»¥é™ã¯ãã‚Šè¿”ã—å˜ä½ãŒå¤§ãã„ã®ã§æ–‡å­—ãƒã‚¤ãƒ³ãƒˆã«åˆã‚ã›ã¦å®šç¾© -----
+\def\setItten#1#2{%                                    ä¸€ç‚¹é–ç·šã«ã™ã‚‹
   \@tempdima=#1\advance\@tempdima by #2\relax
   \edef\@hasenunit{\the\@tempdima}
   \ulcharC{cmr10}{\@tempdima=#1\relax
@@ -89,7 +89,7 @@
   \edef\@temparg{{\the\@tempdima}{\the\@tempdimb}}%
   \expandafter\setItten\@temparg}
 %--------------------------------------------------------------------
-\def\setNiten#1#2{%                                    “ñ“_½ü‚É‚·‚é
+\def\setNiten#1#2{%                                    äºŒç‚¹é–ç·šã«ã™ã‚‹
   \@tempdima=#1\advance\@tempdima by #2\relax
   \edef\@hasenunit{\the\@tempdima}
   \ulcharC{cmr10}{\@tempdima=#1\relax
@@ -106,7 +106,7 @@
   \edef\@temparg{{\the\@tempdima}{\the\@tempdimb}}%
   \expandafter\setNiten\@temparg}
 %--------------------------------------------------------------------
-\def\setHasen{\@ifnextchar[{\setH@sen}{\setH@sen[0.4\p@]}}%”jü‚É‚·‚é
+\def\setHasen{\@ifnextchar[{\setH@sen}{\setH@sen[0.4\p@]}}%ç ´ç·šã«ã™ã‚‹
 \def\setH@sen[#1]#2#3{%
   \@tempdima=#2\advance\@tempdima by #3\relax
   \edef\@hasenunit{\the\@tempdima}
@@ -124,42 +124,42 @@
   \@tempdima=0.8\@tempdima
   \edef\@temparg{{\the\@tempdima}{\the\@tempdimb}}%
   \expandafter\setHasen\@temparg}
-%---------------------- ƒfƒtƒHƒ‹ƒgİ’è:“ñdü -----------------------
+%---------------------- ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆè¨­å®š:äºŒé‡ç·š -----------------------
 \setniju
 %====================================================================
-\def\setulwidth#1{\def\@ulht{#1}}%     ‰ºü‚Ì‘¾‚³(³Šm‚É‚Í‚‚³)‚Ìİ’è
-\setulwidth{0.1ex}%                             ‚»‚Ì‰Šúİ’è( 0.1ex )
+\def\setulwidth#1{\def\@ulht{#1}}%     ä¸‹ç·šã®å¤ªã•(æ­£ç¢ºã«ã¯é«˜ã•)ã®è¨­å®š
+\setulwidth{0.1ex}%                             ãã®åˆæœŸè¨­å®š( 0.1ex )
 %--------------------------------------------------------------------
-\def\setulminsep#1#2{%                   ‰ºü‚Æƒx[ƒXƒ‰ƒCƒ“‚ÌÅ¬‹——£
+\def\setulminsep#1#2{%                   ä¸‹ç·šã¨ãƒ™ãƒ¼ã‚¹ãƒ©ã‚¤ãƒ³ã®æœ€å°è·é›¢
   \def\@ulminsep{\iftdir#1\else#2\fi}}
-\setulminsep{1.2ex}{0.6ex}% ‚»‚Ì‰Šúİ’è(c‘F1.2ex ‰¡‘ 0.6ex)
+\setulminsep{1.2ex}{0.6ex}% ãã®åˆæœŸè¨­å®š(ç¸¦æ›¸æ™‚ï¼š1.2ex æ¨ªæ›¸æ™‚ 0.6ex)
 %--------------------------------------------------------------------
-\def\setulsep#1{\def\@ulsep{#1}}%                    ã‹L‹——£‚Ö‚Ì‘Œ¸
-\setulsep{2\p@}%                                 ‚»‚Ì‰Šúİ’è( 2 pt )
+\def\setulsep#1{\def\@ulsep{#1}}%                    ä¸Šè¨˜è·é›¢ã¸ã®å¢—æ¸›
+\setulsep{2\p@}%                                 ãã®åˆæœŸè¨­å®š( 2 pt )
 %--------------------------------------------------------------------
-\def\setolwidth#1{\def\@olht{#1}}%     ãü‚Ì‘¾‚³(³Šm‚É‚Í‚‚³)‚Ìİ’è
-\setolwidth{0.1ex}%                             ‚»‚Ì‰Šúİ’è( 0.1ex )
+\def\setolwidth#1{\def\@olht{#1}}%     ä¸Šç·šã®å¤ªã•(æ­£ç¢ºã«ã¯é«˜ã•)ã®è¨­å®š
+\setolwidth{0.1ex}%                             ãã®åˆæœŸè¨­å®š( 0.1ex )
 %--------------------------------------------------------------------
-\def\setolminsep#1#2{%                   ãü‚Æƒx[ƒXƒ‰ƒCƒ“‚ÌÅ¬‹——£
+\def\setolminsep#1#2{%                   ä¸Šç·šã¨ãƒ™ãƒ¼ã‚¹ãƒ©ã‚¤ãƒ³ã®æœ€å°è·é›¢
   \def\@olminsep{\iftdir#1\else#2\fi}}
-\setolminsep{1.2ex}{1.8ex}% ‚»‚Ì‰Šúİ’è(c‘F1.2ex ‰¡‘ 1.8ex)
+\setolminsep{1.2ex}{1.8ex}% ãã®åˆæœŸè¨­å®š(ç¸¦æ›¸æ™‚ï¼š1.2ex æ¨ªæ›¸æ™‚ 1.8ex)
 %--------------------------------------------------------------------
-\def\setolsep#1{\def\@olsep{#1}}%                    ã‹L‹——£‚Ö‚Ì‘Œ¸
-\setolsep{2\p@}%                                 ‚»‚Ì‰Šúİ’è( 2 pt )
+\def\setolsep#1{\def\@olsep{#1}}%                    ä¸Šè¨˜è·é›¢ã¸ã®å¢—æ¸›
+\setolsep{2\p@}%                                 ãã®åˆæœŸè¨­å®š( 2 pt )
 %--------------------------------------------------------------------
-\def\setslwidth#1{%                ‘ÅÁ‚µü‚Ì‘¾‚³(³Šm‚É‚Í‚‚³)‚Ìİ’è
+\def\setslwidth#1{%                æ‰“æ¶ˆã—ç·šã®å¤ªã•(æ­£ç¢ºã«ã¯é«˜ã•)ã®è¨­å®š
   \@tempdima=#1\relax\@tempdima=0.5\@tempdima
   \edef\@halfslht{\the\@tempdima}}
-\setslwidth{0.1ex}%                             ‚»‚Ì‰Šúİ’è( 0.1ex )
+\setslwidth{0.1ex}%                             ãã®åˆæœŸè¨­å®š( 0.1ex )
 %--------------------------------------------------------------------
-\def\set@slvpos#1#2{%                        ‘ÅÁ‚µü‚ğˆø‚­‚‚³‚Ìİ’è
+\def\set@slvpos#1#2{%                        æ‰“æ¶ˆã—ç·šã‚’å¼•ãé«˜ã•ã®è¨­å®š
   \ifx\@empty#1\@empty\setbox0=\hbox{#2}\else\setbox0=\hbox{#1}\fi
   \@tempdima=0.5\ht0\advance\@tempdima by -0.5\dp0
   \edef\@slvpos{\the\@tempdima}%
 }
-%%%%%%%%%%%%%%%%%%%%%%%%%%% ‰üs•s‰Âƒ^ƒCƒv %%%%%%%%%%%%%%%%%%%%%%%%%%
-%=============================== ‰ºü ===============================
-\def\unl#1{\leavevmode%                                    ‰ºü‚ğ¶¬
+%%%%%%%%%%%%%%%%%%%%%%%%%%% æ”¹è¡Œä¸å¯ã‚¿ã‚¤ãƒ— %%%%%%%%%%%%%%%%%%%%%%%%%%
+%=============================== ä¸‹ç·š ===============================
+\def\unl#1{\leavevmode%                                    ä¸‹ç·šã‚’ç”Ÿæˆ
   \setbox0=\hbox{#1}\@tempdima=\wd0
   \hb@xt@\@tempdima{\advance\@tempdima by 0.05em\hss
     \iftdir
@@ -177,8 +177,8 @@
     \fi
   \hss}%
 }
-%=============================== ãü ===============================
-\def\ovl#1{\leavevmode%                                    ãü‚ğ¶¬
+%=============================== ä¸Šç·š ===============================
+\def\ovl#1{\leavevmode%                                    ä¸Šç·šã‚’ç”Ÿæˆ
   \setbox0=\hbox{#1}\@tempdima=\wd0
   \hb@xt@\@tempdima{\advance\@tempdima by 0.05em\hss
     \iftdir
@@ -196,8 +196,8 @@
     \fi
   \hss}%
 }
-%============================= ‘ÅÁ‚µü =============================
-\def\sol{\@ifnextchar[{\@sol}{\@sol[]}}%               ‘ÅÁ‚µü‚ğ¶¬
+%============================= æ‰“æ¶ˆã—ç·š =============================
+\def\sol{\@ifnextchar[{\@sol}{\@sol[]}}%               æ‰“æ¶ˆã—ç·šã‚’ç”Ÿæˆ
 \def\@sol[#1]#2{\set@slvpos{#1}{#2}\@@sol{#2}}
 \def\@@sol#1{\leavevmode
   \setbox0=\hbox{#1}\@tempdima=\wd0
@@ -207,8 +207,8 @@
 	\hb@xt@\z@{\hss\unhbox0\hss}%
   \hss}%
 }
-%============================= ü‚è‰ºü =============================
-\def\unc#1{\leavevmode%                                ü‚è‰ºü‚ğ¶¬
+%============================= é£¾ã‚Šä¸‹ç·š =============================
+\def\unc#1{\leavevmode%                                é£¾ã‚Šä¸‹ç·šã‚’ç”Ÿæˆ
   \setbox0=\hbox{#1}%
   \@tempcnta=\wd0
   \setbox1=\ulcharact@r
@@ -235,8 +235,8 @@
     \fi
   }%
 }
-%============================= ü‚èãü =============================
-\def\ovc#1{\leavevmode%                                ü‚è‰ºü‚ğ¶¬
+%============================= é£¾ã‚Šä¸Šç·š =============================
+\def\ovc#1{\leavevmode%                                é£¾ã‚Šä¸‹ç·šã‚’ç”Ÿæˆ
   \setbox0=\hbox{#1}%
   \@tempcnta=\wd0
   \setbox1=\ulcharact@r
@@ -263,8 +263,8 @@
     \fi
   }%
 }
-%=========================== ü‚è‘ÅÁ‚µü ===========================
-\def\soc{\@ifnextchar[{\@soc}{\@soc[]}}%         ü‚è‘Å‚¿Á‚µü‚ğ¶¬
+%=========================== é£¾ã‚Šæ‰“æ¶ˆã—ç·š ===========================
+\def\soc{\@ifnextchar[{\@soc}{\@soc[]}}%         é£¾ã‚Šæ‰“ã¡æ¶ˆã—ç·šã‚’ç”Ÿæˆ
 \def\@soc[#1]#2{\set@slvpos{#1}{#2}\@@soc{#2}}
 \def\@@soc#1{\leavevmode
   \setbox0=\hbox{#1}%
@@ -281,52 +281,52 @@
 	\hb@xt@\z@{\hss\unhbox0\hss}%
   \hss}%
 }
-%%%%%%%%%%%%%%%%%%%%%%%%% “r’†‰üs‰Â”\ƒ^ƒCƒv %%%%%%%%%%%%%%%%%%%%%%%%
-\def\@endul{\relax}%     ‚±‚Ì•Ó‚Ì’è‹`‚Íƒ_ƒ~[BŠÔˆá‚¦‚ÄŠO•”‚Åg‚Á‚Ä‚à
-\def\eiji{\@endul}%   \relax‚É“WŠJ‚³‚ê‚ê‚Î‚³‚µ‚Ä–â‘è‚È‚¢‚Ì‚ÆC\ifx ‚Å
-\def\Eiji{\eiji}%“¯“™‚Æ‚İ‚È‚³‚ê‚È‚¢‚æ‚¤‚É’è‹`‚ÌŠK‘w‚ğ•Ï‚¦‚Ä‚¢‚é‚¾‚¯B
+%%%%%%%%%%%%%%%%%%%%%%%%% é€”ä¸­æ”¹è¡Œå¯èƒ½ã‚¿ã‚¤ãƒ— %%%%%%%%%%%%%%%%%%%%%%%%
+\def\@endul{\relax}%     ã“ã®è¾ºã®å®šç¾©ã¯ãƒ€ãƒŸãƒ¼ã€‚é–“é•ãˆã¦å¤–éƒ¨ã§ä½¿ã£ã¦ã‚‚
+\def\eiji{\@endul}%   \relaxã«å±•é–‹ã•ã‚Œã‚Œã°ã•ã—ã¦å•é¡Œãªã„ã®ã¨ï¼Œ\ifx ã§
+\def\Eiji{\eiji}%åŒç­‰ã¨ã¿ãªã•ã‚Œãªã„ã‚ˆã†ã«å®šç¾©ã®éšå±¤ã‚’å¤‰ãˆã¦ã„ã‚‹ã ã‘ã€‚
 \def\@hogo#1{\@makeun{\mbox{#1}}\@dolist}
 \def\@eiji#1 {\@makeun{#1}\futurelet\@t@gi\@checkEiji}
 \def\@checkEiji{%
   \ifx\@t@gi\Eiji\let\@tugi=\@dolist\else\@ulgl\let\@tugi=\@eiji\fi\@tugi}
 %====================================================================
-\def\ul#1{\leavevmode\@dolist#1\@endul}%                   ‰ºü‚ğ¶¬
-% ˆÈ‰º‚Ù‚Æ‚ñ‚Çˆ—‚Í“¯‚¶‚È‚Ì‚ÅC‚¢‚­‚Â‚©‚Ì“à•”ƒ}ƒNƒ‚ğØ‚è‘Ö‚¦‚ÄÀŒ»
+\def\ul#1{\leavevmode\@dolist#1\@endul}%                   ä¸‹ç·šã‚’ç”Ÿæˆ
+% ä»¥ä¸‹ã»ã¨ã‚“ã©å‡¦ç†ã¯åŒã˜ãªã®ã§ï¼Œã„ãã¤ã‹ã®å†…éƒ¨ãƒã‚¯ãƒ­ã‚’åˆ‡ã‚Šæ›¿ãˆã¦å®Ÿç¾
 %--------------------------------------------------------------------
-\def\ol#1{%                                                ãü‚ğ¶¬
+\def\ol#1{%                                                ä¸Šç·šã‚’ç”Ÿæˆ
   \leavevmode\@changeol\@dolist#1\@endul\@changeul}
 %--------------------------------------------------------------------
-\def\Sl{\@ifnextchar[{\@Sl}{\@Sl[]}}%                  ‘ÅÁ‚µü‚ğ¶¬
+\def\Sl{\@ifnextchar[{\@Sl}{\@Sl[]}}%                  æ‰“æ¶ˆã—ç·šã‚’ç”Ÿæˆ
 \def\@Sl[#1]#2{\set@slvpos{#1}{#2}%
   \leavevmode\@changesl\@dolist#2\@endul\@changeul}
 %--------------------------------------------------------------------
-\def\uc#1{%                                            ü‚è‰ºü‚ğ¶¬
+\def\uc#1{%                                            é£¾ã‚Šä¸‹ç·šã‚’ç”Ÿæˆ
   \leavevmode\@changevarul\@dolist#1\@endul\@changeul}
 %--------------------------------------------------------------------
-\def\oc#1{%                                            ü‚èãü‚ğ¶¬
+\def\oc#1{%                                            é£¾ã‚Šä¸Šç·šã‚’ç”Ÿæˆ
   \leavevmode\@changevarol\@dolist#1\@endul\@changeul}
 %--------------------------------------------------------------------
-\def\Sc{\@ifnextchar[{\@Sc}{\@Sc[]}}%              ü‚è‘ÅÁ‚µü‚ğ¶¬
+\def\Sc{\@ifnextchar[{\@Sc}{\@Sc[]}}%              é£¾ã‚Šæ‰“æ¶ˆã—ç·šã‚’ç”Ÿæˆ
 \def\@Sc[#1]#2{\set@slvpos{#1}{#2}%
   \leavevmode\@changevarsl\@dolist#2\@endul\@changeul}
 %--------------------------------------------------------------------
-\def\Eul#1{%                                       ‰ºü‚ğ¶¬(‰p•¶—p)
+\def\Eul#1{%                                       ä¸‹ç·šã‚’ç”Ÿæˆ(è‹±æ–‡ç”¨)
   \leavevmode\@dolist\eiji#1 \Eiji\@endul}
 %--------------------------------------------------------------------
-\def\Eol#1{%                                       ãü‚ğ¶¬(‰p•¶—p)
+\def\Eol#1{%                                       ä¸Šç·šã‚’ç”Ÿæˆ(è‹±æ–‡ç”¨)
   \leavevmode\@changeol\@dolist\eiji#1 \Eiji\@endul\@changeul}
 %--------------------------------------------------------------------
-\def\ESl{\@ifnextchar[{\@ESl}{\@ESl[]}}%       ‘ÅÁ‚µü‚ğ¶¬(‰p•¶—p)
+\def\ESl{\@ifnextchar[{\@ESl}{\@ESl[]}}%       æ‰“æ¶ˆã—ç·šã‚’ç”Ÿæˆ(è‹±æ–‡ç”¨)
 \def\@ESl[#1]#2{\set@slvpos{#1}{#2}%
   \leavevmode\@changesl\@dolist\eiji#2 \Eiji\@endul\@changeul}
 %--------------------------------------------------------------------
-\def\Euc#1{%                                   ü‚è‰ºü‚ğ¶¬(‰p•¶—p)
+\def\Euc#1{%                                   é£¾ã‚Šä¸‹ç·šã‚’ç”Ÿæˆ(è‹±æ–‡ç”¨)
   \leavevmode\@changevarul\@dolist\eiji#1 \Eiji\@endul\@changeul}
 %--------------------------------------------------------------------
-\def\Eoc#1{%                                   ü‚è‰ºü‚ğ¶¬(‰p•¶—p)
+\def\Eoc#1{%                                   é£¾ã‚Šä¸‹ç·šã‚’ç”Ÿæˆ(è‹±æ–‡ç”¨)
   \leavevmode\@changevarol\@dolist\eiji#1 \Eiji\@endul\@changeul}
 %--------------------------------------------------------------------
-\def\ESc#1{\@ifnextchar[{\@ESc}{\@ESc[]}}%     ü‚è‰ºü‚ğ¶¬(‰p•¶—p)
+\def\ESc#1{\@ifnextchar[{\@ESc}{\@ESc[]}}%     é£¾ã‚Šä¸‹ç·šã‚’ç”Ÿæˆ(è‹±æ–‡ç”¨)
 \def\@ESc[#1]#2{\set@slvpos{#1}{#2}%
   \leavevmode\@changevarsl\@dolist\eiji#2 \Eiji\@endul\@changeul}
 %====================================================================
@@ -345,8 +345,8 @@
     \let\@tugi\@@dolist\fi
   \@tugi}
 \def\@@dolistmbox{\@@dolist\mbox}
-\def\@@dolist{\afterassignment\@d@list\let\@tugi= }% 1•¶š‚¸‚Âæ‚èo‚·
-\def\@d@list{%                                             ‚½‚ß‚Ìˆ—
+\def\@@dolist{\afterassignment\@d@list\let\@tugi= }% 1æ–‡å­—ãšã¤å–ã‚Šå‡ºã™
+\def\@d@list{%                                             ãŸã‚ã®å‡¦ç†
   \ifx\@tugi\@endul
     \let\@tugi\relax
   \else\ifx\@tugi\mbox
@@ -360,7 +360,7 @@
   \fi
   \@tugi}
 %====================================================================
-\def\@udline{%                                     ‹ó”’‚¨‚æ‚Ñ‹Ö‘¥ˆ—
+\def\@udline{%                                     ç©ºç™½ãŠã‚ˆã³ç¦å‰‡å‡¦ç†
   \if\space\@tugi
     \@ulgl
   \else
@@ -378,41 +378,41 @@
     \if ?\@tugi\relax\penalty10000\fi
     \if :\@tugi\relax\penalty10000\fi
     \if ]\@tugi\relax\penalty10000\fi
-    \if A\@tugi\relax\penalty10000\fi
-    \if B\@tugi\relax\penalty10000\fi
-    \if C\@tugi\relax\penalty10000\fi
-    \if D\@tugi\relax\penalty10000\fi
-    \if E\@tugi\relax\penalty10000\fi
-    \if F\@tugi\relax\penalty10000\fi
-    \if G\@tugi\relax\penalty10000\fi
-    \if H\@tugi\relax\penalty10000\fi
-    \if I\@tugi\relax\penalty10000\fi
-    \if j\@tugi\relax\penalty10000\fi
-    \if p\@tugi\relax\penalty10000\fi
-    \if n\@tugi\relax\penalty10000\fi
-    \if f\@tugi\relax\penalty10000\fi
-    \if [\@tugi\relax\penalty10000\fi
-    \if {\@tugi\relax\penalty200\fi
-    \if |\@tugi\relax\penalty200\fi
-    \if \@tugi\relax\penalty200\fi
-    \if ‚Ÿ\@tugi\relax\penalty150\fi
-    \if ‚¡\@tugi\relax\penalty150\fi
-    \if ‚£\@tugi\relax\penalty150\fi
-    \if ‚¥\@tugi\relax\penalty150\fi
-    \if ‚§\@tugi\relax\penalty150\fi
-    \if ‚Á\@tugi\relax\penalty150\fi
-    \if ‚á\@tugi\relax\penalty150\fi
-    \if ‚ã\@tugi\relax\penalty150\fi
-    \if ‚å\@tugi\relax\penalty150\fi
-    \if ƒ@\@tugi\relax\penalty150\fi
-    \if ƒB\@tugi\relax\penalty150\fi
-    \if ƒD\@tugi\relax\penalty150\fi
-    \if ƒF\@tugi\relax\penalty150\fi
-    \if ƒH\@tugi\relax\penalty150\fi
-    \if ƒb\@tugi\relax\penalty150\fi
-    \if ƒƒ\@tugi\relax\penalty150\fi
-    \if ƒ…\@tugi\relax\penalty150\fi
-    \if ƒ‡\@tugi\relax\penalty150\fi
+    \if ã€\@tugi\relax\penalty10000\fi
+    \if ã€‚\@tugi\relax\penalty10000\fi
+    \if ï¼Œ\@tugi\relax\penalty10000\fi
+    \if ï¼\@tugi\relax\penalty10000\fi
+    \if ãƒ»\@tugi\relax\penalty10000\fi
+    \if ï¼š\@tugi\relax\penalty10000\fi
+    \if ï¼›\@tugi\relax\penalty10000\fi
+    \if ï¼Ÿ\@tugi\relax\penalty10000\fi
+    \if ï¼\@tugi\relax\penalty10000\fi
+    \if ï¼‰\@tugi\relax\penalty10000\fi
+    \if ï½\@tugi\relax\penalty10000\fi
+    \if ï¼½\@tugi\relax\penalty10000\fi
+    \if â€™\@tugi\relax\penalty10000\fi
+    \if ãƒ¼\@tugi\relax\penalty10000\fi
+    \if ï¼‹\@tugi\relax\penalty200\fi
+    \if âˆ’\@tugi\relax\penalty200\fi
+    \if ï¼\@tugi\relax\penalty200\fi
+    \if ã\@tugi\relax\penalty150\fi
+    \if ãƒ\@tugi\relax\penalty150\fi
+    \if ã…\@tugi\relax\penalty150\fi
+    \if ã‡\@tugi\relax\penalty150\fi
+    \if ã‰\@tugi\relax\penalty150\fi
+    \if ã£\@tugi\relax\penalty150\fi
+    \if ã‚ƒ\@tugi\relax\penalty150\fi
+    \if ã‚…\@tugi\relax\penalty150\fi
+    \if ã‚‡\@tugi\relax\penalty150\fi
+    \if ã‚¡\@tugi\relax\penalty150\fi
+    \if ã‚£\@tugi\relax\penalty150\fi
+    \if ã‚¥\@tugi\relax\penalty150\fi
+    \if ã‚§\@tugi\relax\penalty150\fi
+    \if ã‚©\@tugi\relax\penalty150\fi
+    \if ãƒƒ\@tugi\relax\penalty150\fi
+    \if ãƒ£\@tugi\relax\penalty150\fi
+    \if ãƒ¥\@tugi\relax\penalty150\fi
+    \if ãƒ§\@tugi\relax\penalty150\fi
     \@makeun{\vrule width\z@\@tugi\vrule width\z@}%
     \ifx \#\@tugi\relax\penalty500\fi
     \ifx \$\@tugi\relax\penalty500\fi
@@ -421,37 +421,37 @@
     \ifx \`\@tugi\relax\penalty10000\fi
     \if (\@tugi\relax\penalty10000\fi
     \if [\@tugi\relax\penalty10000\fi
-    \if i\@tugi\relax\penalty10000\fi
-    \if o\@tugi\relax\penalty10000\fi
-    \if m\@tugi\relax\penalty10000\fi
-    \if e\@tugi\relax\penalty10000\fi
-    \if ”\@tugi\relax\penalty200\fi
-    \if \@tugi\relax\penalty200\fi
-    \if “\@tugi\relax\penalty200\fi
-    \if •\@tugi\relax\penalty200\fi
+    \if ï¼ˆ\@tugi\relax\penalty10000\fi
+    \if ï½›\@tugi\relax\penalty10000\fi
+    \if ï¼»\@tugi\relax\penalty10000\fi
+    \if â€˜\@tugi\relax\penalty10000\fi
+    \if ï¼ƒ\@tugi\relax\penalty200\fi
+    \if ï¼„\@tugi\relax\penalty200\fi
+    \if ï¼…\@tugi\relax\penalty200\fi
+    \if ï¼†\@tugi\relax\penalty200\fi
   \fi}
 %====================================================================
-\def\@makeun#1{%                           •¶š‚É‰ºü‚ğˆø‚­ˆ—‚Ì’†S
-  \hskip \z@ plus.5\p@ minus\z@\unl{#1}}%    ‚·‚Å‚É’è‹`‚µ‚½\unl‚ğ—˜—p
+\def\@makeun#1{%                           æ–‡å­—ã«ä¸‹ç·šã‚’å¼•ãå‡¦ç†ã®ä¸­å¿ƒ
+  \hskip \z@ plus.5\p@ minus\z@\unl{#1}}%    ã™ã§ã«å®šç¾©ã—ãŸ\unlã‚’åˆ©ç”¨
 %--------------------------------------------------------------------
 \let\@naturalmakeun=\@makeun
 %--------------------------------------------------------------------
-\def\@makeov#1{%                           •¶š‚Éãü‚ğˆø‚­ˆ—‚Ì’†S
-  \hskip \z@ plus.5\p@ minus\z@\ovl{#1}}%    ‚·‚Å‚É’è‹`‚µ‚½\ovl‚ğ—˜—p
+\def\@makeov#1{%                           æ–‡å­—ã«ä¸Šç·šã‚’å¼•ãå‡¦ç†ã®ä¸­å¿ƒ
+  \hskip \z@ plus.5\p@ minus\z@\ovl{#1}}%    ã™ã§ã«å®šç¾©ã—ãŸ\ovlã‚’åˆ©ç”¨
 %--------------------------------------------------------------------
-\def\@makeso#1{%                       •¶š‚É‘ÅÁ‚µü‚ğˆø‚­ˆ—‚Ì’†S
-  \hskip \z@ plus.5\p@ minus\z@\@@sol{#1}}%‚·‚Å‚É’è‹`‚µ‚½\@@sol‚ğ—˜—p
+\def\@makeso#1{%                       æ–‡å­—ã«æ‰“æ¶ˆã—ç·šã‚’å¼•ãå‡¦ç†ã®ä¸­å¿ƒ
+  \hskip \z@ plus.5\p@ minus\z@\@@sol{#1}}%ã™ã§ã«å®šç¾©ã—ãŸ\@@solã‚’åˆ©ç”¨
 %--------------------------------------------------------------------
-\def\@varmakeun#1{%                    •¶š‚Éü‚è‰ºü‚ğˆø‚­ˆ—‚Ì’†S
-  \hskip \z@ plus.5\p@ minus\z@\unc{#1}}%    ‚·‚Å‚É’è‹`‚µ‚½\unc‚ğ—˜—p
+\def\@varmakeun#1{%                    æ–‡å­—ã«é£¾ã‚Šä¸‹ç·šã‚’å¼•ãå‡¦ç†ã®ä¸­å¿ƒ
+  \hskip \z@ plus.5\p@ minus\z@\unc{#1}}%    ã™ã§ã«å®šç¾©ã—ãŸ\uncã‚’åˆ©ç”¨
 %--------------------------------------------------------------------
-\def\@varmakeov#1{%                    •¶š‚Éü‚èãü‚ğˆø‚­ˆ—‚Ì’†S
-  \hskip \z@ plus.5\p@ minus\z@\ovc{#1}}%    ‚·‚Å‚É’è‹`‚µ‚½\ovc‚ğ—˜—p
+\def\@varmakeov#1{%                    æ–‡å­—ã«é£¾ã‚Šä¸Šç·šã‚’å¼•ãå‡¦ç†ã®ä¸­å¿ƒ
+  \hskip \z@ plus.5\p@ minus\z@\ovc{#1}}%    ã™ã§ã«å®šç¾©ã—ãŸ\ovcã‚’åˆ©ç”¨
 %--------------------------------------------------------------------
-\def\@varmakeso#1{%                •¶š‚Éü‚è‘ÅÁ‚µü‚ğˆø‚­ˆ—‚Ì’†S
-  \hskip \z@ plus.5\p@ minus\z@\@@soc{#1}}%‚·‚Å‚É’è‹`‚µ‚½\@@soc‚ğ—˜—p
+\def\@varmakeso#1{%                æ–‡å­—ã«é£¾ã‚Šæ‰“æ¶ˆã—ç·šã‚’å¼•ãå‡¦ç†ã®ä¸­å¿ƒ
+  \hskip \z@ plus.5\p@ minus\z@\@@soc{#1}}%ã™ã§ã«å®šç¾©ã—ãŸ\@@socã‚’åˆ©ç”¨
 %====================================================================
-\def\@ulgl{%                               ‹ó”’‚É‰ºü‚ğˆø‚­ˆ—‚Ì’†S
+\def\@ulgl{%                               ç©ºç™½ã«ä¸‹ç·šã‚’å¼•ãå‡¦ç†ã®ä¸­å¿ƒ
   \iftdir
     \@tempdima=\@ulminsep
     \advance\@tempdima by \@ulsep\relax
@@ -471,7 +471,7 @@
 %--------------------------------------------------------------------
 \let\@naturalulgl=\@ulgl
 %--------------------------------------------------------------------
-\def\@olgl{%                               ‹ó”’‚Éãü‚ğˆø‚­ˆ—‚Ì’†S
+\def\@olgl{%                               ç©ºç™½ã«ä¸Šç·šã‚’å¼•ãå‡¦ç†ã®ä¸­å¿ƒ
   \iftdir
     \@tempdima=-\@olminsep
     \advance\@tempdima by -\@olsep\relax
@@ -489,14 +489,14 @@
   \fi
 }
 %--------------------------------------------------------------------
-\def\@slgl{%                           ‹ó”’‚É‘ÅÁ‚µü‚ğˆø‚­ˆ—‚Ì’†S
+\def\@slgl{%                           ç©ºç™½ã«æ‰“æ¶ˆã—ç·šã‚’å¼•ãå‡¦ç†ã®ä¸­å¿ƒ
   \@tempdima=\@slvpos\advance\@tempdima by \@halfslht\relax
   \@tempdimb=-\@slvpos\advance\@tempdimb by \@halfslht\relax
   \leaders\hrule height\@tempdima depth\@tempdimb
     \hskip .34em plus .17em minus .11em
 }
 %--------------------------------------------------------------------
-\def\@varulgl{%                        ‹ó”’‚Éü‚è‰ºü‚ğˆø‚­ˆ—‚Ì’†S
+\def\@varulgl{%                        ç©ºç™½ã«é£¾ã‚Šä¸‹ç·šã‚’å¼•ãå‡¦ç†ã®ä¸­å¿ƒ
   \setbox0=\ugcharact@r
   \setbox1=\hb@xt@\wd0{%
     \iftdir
@@ -519,7 +519,7 @@
     \hskip \@tempdima plus \@tempdimb minus \@tempdimb\relax
 }
 %--------------------------------------------------------------------
-\def\@varolgl{%                        ‹ó”’‚Éü‚èãü‚ğˆø‚­ˆ—‚Ì’†S
+\def\@varolgl{%                        ç©ºç™½ã«é£¾ã‚Šä¸Šç·šã‚’å¼•ãå‡¦ç†ã®ä¸­å¿ƒ
   \setbox0=\ugcharact@r
   \setbox1=\hb@xt@\wd0{%
     \iftdir
@@ -542,7 +542,7 @@
     \hskip \@tempdima plus \@tempdimb minus \@tempdimb\relax
 }
 %--------------------------------------------------------------------
-\def\@varslgl{%                    ‹ó”’‚Éü‚è‘ÅÁ‚µü‚ğˆø‚­ˆ—‚Ì’†S
+\def\@varslgl{%                    ç©ºç™½ã«é£¾ã‚Šæ‰“æ¶ˆã—ç·šã‚’å¼•ãå‡¦ç†ã®ä¸­å¿ƒ
   \setbox1=\ugcharact@r
   \@tempdimb=\@slvpos
   \setbox0=\hbox{\raise\@tempdimb\box1}%
@@ -557,7 +557,7 @@
   \xleaders\box0
     \hskip \@tempdima plus \@tempdimb minus \@tempdimb\relax
 }
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%% ’Zk–¼“o˜^ %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% çŸ­ç¸®åç™»éŒ² %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \def\unnoko#1{{\setnoko\unc{#1}}}
 \def\ovnoko#1{{\setnoko\ovc{#1}}}
 \def\unoko#1{{\setnoko\uc{#1}}}

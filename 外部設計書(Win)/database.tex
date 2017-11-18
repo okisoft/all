@@ -17,7 +17,7 @@
 		\begin{tabular}{|l|l|l|c|l|}
 		\hline
 		フィールド & 型  & 外部キー & Null & オプション\\ \hline\hline
-		{\ul ユーザ番号} & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} &  & No & AUTO\_INCREMENT\\ \hline
+		\ul{ユーザ番号} & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} &  & No & AUTO\_INCREMENT\\ \hline
 		ユーザID & VARCHAR(32) & & No & UNIQUE\\ \hline
 		パスワード & VARCHAR(128) & & No & \\ \hline
 		氏名 & VARCHAR(16) &  & No  &\\ \hline
@@ -42,7 +42,7 @@
 		\begin{tabular}{|l|l|l|c|l|}
 		\hline
 		フィールド & 型 & 外部キー & Null & オプション\\ \hline\hline
-		{\ul グループ番号} & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & & No & AUTO\_INCREMENT \\ \hline
+		\ul{グループ番号} & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & & No & AUTO\_INCREMENT \\ \hline
 		グループ名 & VARCHAR(16) & & No & \\ \hline
 		開講年度番号 & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 授業 & No & \\ \hline
 		\end{tabular}
@@ -79,7 +79,7 @@
 		\begin{tabular}{|l|l|l|c|l|}
 		\hline
 		フィールド & 型 & 外部キー & Null & オプション \\ \hline\hline
-		{\ul 授業番号} & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & & No & AUTO\_INCREMENT \\ \hline
+		\ul{授業番号} & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & & No & AUTO\_INCREMENT \\ \hline
 		授業名 & VARCHAR(32) & & No & UNIQUE \\ \hline
 		\end{tabular}
 	\end{table}
@@ -98,7 +98,7 @@
 		\begin{tabular}{|l|l|l|c|l|}
 		\hline
 		フィールド & 型 & 外部キー & Null & オプション \\ \hline\hline
-		{\ul 開講年度番号} & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & & No & AUTO\_INCREMENT \\ \hline
+		\ul{開講年度番号} & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & & No & AUTO\_INCREMENT \\ \hline
 		授業番号 & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 授業 & No & \\ \hline
 		開講年度 & \begin{tabular}[c]{@{}l@{}}SMALLINT\\ UNSIGNED\end{tabular} & & No & \\ \hline
 		\end{tabular}
@@ -119,7 +119,7 @@
 		\begin{tabular}{|l|l|l|c|l|}
 		\hline
 		フィールド & 型 & 外部キー & Null & オプション \\ \hline\hline
-		{\ul 開講回番号} & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} &  & No & AUTO\_INCREMENT \\ \hline
+		\ul{開講回番号} & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} &  & No & AUTO\_INCREMENT \\ \hline
 		開講年度番号    & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 授業開講年度 & No & \\ \hline
 		開講回 & \begin{tabular}[c]{@{}l@{}}TINYINT\\ UNSIGNED\end{tabular} & & No & \\ \hline
 		授業題目 & VARCHAR(256) & & & \\ \hline
@@ -177,7 +177,7 @@
 		\begin{tabular}{|l|l|l|c|l|}
 		\hline
 		フィールド & 型 & 外部キー & Null & オプション \\ \hline\hline
-		{\ul 課題番号} & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & & No & AUTO\_INCREMENT \\ \hline
+		\ul{課題番号} & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & & No & AUTO\_INCREMENT \\ \hline
 		開講回番号 & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 開講回 & No & \\ \hline
 		課題名 & VARCHAR(8) & & N  & \\ \hline
 		課題内容 & VARCHAR(512) & & N & \\ \hline
@@ -201,7 +201,7 @@
 		\begin{tabular}{|l|l|l|c|l|}
 		\hline
 		フィールド & 型 & 外部キー & Null & オプション \\ \hline\hline
-		{\ul 進捗番号} & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & & No & AUTO\_INCREMENT \\ \hline
+		\ul{進捗番号} & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & & No & AUTO\_INCREMENT \\ \hline
 		開講回番号 & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 開講回 & No & \\ \hline
 		ユーザ番号 & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & ユーザ  & & \\ \hline
 		グループ番号 & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & グループ & & \\ \hline
@@ -230,7 +230,7 @@
 		\begin{tabular}{|l|l|l|c|l|}
 		\hline
 		フィールド & 型 & 外部キー & Null & オプション \\ \hline\hline
-		{\ul 質問番号} & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & & No & AUTO\_INCREMENT \\ \hline
+		\ul{質問番号} & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & & No & AUTO\_INCREMENT \\ \hline
 		課題番号 & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 課題 &  & \\ \hline
 		質問者 & VARCHAR(16) & & & \\ \hline
 		質問グループ & VARCHAR(16) & & & \\ \hline

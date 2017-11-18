@@ -31,7 +31,7 @@
 \par\vskip 1.5em}
 \makeatother
 
-\title{\Huge 授業支援システム\\外部設計書}
+\title{\Huge 教務支援システム\\外部設計書}
 \date{\today}
 \author{\large Outing Corporation}
 \begin{document}
@@ -56,5 +56,21 @@
 \input{network.tex}
 \newpage
 \input{function.tex}
+
+\newpage
+
+\renewcommand{\appendix}{}
+\appendix
+\renewcommand{\thesection}{付録.\ \arabic{section}}
+\renewcommand{\thesubsection}{付録.\ \arabic{section}-\arabic{subsection}.}
+
+\section{ユースケース図}
+本システムのユースケース図を以下に示します。
+\begin{figure}[htbp]
+  \begin{center}
+    \includegraphics[width=1\linewidth,clip]{./img/usecase.jpg}
+    \caption{ユースケース図}\label{fig:usecase}
+  \end{center}
+\end{figure}
 
 \end{document}
