@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.5.19)  18 NOV 2017 04:55
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.5.19)  18 NOV 2017 05:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -241,8 +241,8 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 1.
  [2]
-Overfull \hbox (15.84317pt too wide) detected at line 92
-\JY1/gt/m/n/12 •t˜^\OT1/cmr/bx/n/12 . 7 
+Overfull \hbox (6.09317pt too wide) detected at line 92
+\JY1/gt/m/n/12 •t˜^\OT1/cmr/bx/n/12 . 
  []
 
 )
@@ -310,28 +310,30 @@ File: ./img/18.png Graphic file (type bmp)
 
 <./img/18.png> [25]
 File: ./img/19.png Graphic file (type bmp)
- <./img/19.png> [26]
+ <./img/19.png>
+File: ./img/000.png Graphic file (type bmp)
+ <./img/000.png> [26] [27]
 File: ./img/20.png Graphic file (type bmp)
  <./img/20.png>
 File: ./img/21.png Graphic file (type bmp)
- <./img/21.png>
+
+<./img/21.png>
 File: ./img/22.png Graphic file (type bmp)
-
-<./img/22.png>
+ <./img/22.png>
 File: ./img/23.png Graphic file (type bmp)
- <./img/23.png> [27] [28] [29] [30]
+ <./img/23.png> [28] [29] [30] [31]
 File: ./img/24.png Graphic file (type bmp)
- <./img/24.png>
-File: ./img/25.png Graphic file (type bmp)
 
-<./img/25.png> [31] [32]
+<./img/24.png>
+File: ./img/25.png Graphic file (type bmp)
+ <./img/25.png> [32] [33]
 File: ./img/26.png Graphic file (type bmp)
  <./img/26.png>
 File: ./img/27.png Graphic file (type bmp)
- <./img/27.png> [33] [34] [35]
+ <./img/27.png> [34]
+[35]
 File: ./img/28.png Graphic file (type bmp)
-
-<./img/28.png>
+ <./img/28.png>
 File: ./img/29.png Graphic file (type bmp)
  <./img/29.png>
 File: ./img/00.png Graphic file (type bmp)
@@ -373,12 +375,12 @@ File: ./img/wifi.jpeg Graphic file (type bmp)
 File: ./img/usecase.jpg Graphic file (type bmp)
  <./img/usecase.jpg> [57] (./ex_design_main.aux) ) 
 Here is how much of TeX's memory you used:
- 2674 strings out of 493654
- 32663 string characters out of 6150794
- 97735 words of memory out of 5000000
- 6158 multiletter control sequences out of 15000+600000
+ 2678 strings out of 493654
+ 32723 string characters out of 6150794
+ 97745 words of memory out of 5000000
+ 6161 multiletter control sequences out of 15000+600000
  19995 words of font info for 81 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 34i,16n,26p,305b,333s stack positions out of 5000i,500n,10000p,500000b,80000s
+ 34i,16n,26p,292b,333s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on ex_design_main.dvi (59 pages, 86032 bytes).
+Output written on ex_design_main.dvi (59 pages, 87864 bytes).
