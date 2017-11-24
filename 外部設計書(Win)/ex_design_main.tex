@@ -11,6 +11,7 @@
 \usepackage{algorithm}
 \usepackage{algorithmic}
 \usepackage{setspace}
+\usepackage{udline}
 %---------------------------------------------------
 \makeatletter
 \def\@maketitle{%
@@ -30,7 +31,7 @@
 \par\vskip 1.5em}
 \makeatother
 
-\title{\Huge 外部設計書（仮）}
+\title{\Huge 教務支援システム\\外部設計書}
 \date{\today}
 \author{\large Outing Corporation}
 \begin{document}
@@ -39,9 +40,14 @@
 
 \newpage
 
+\setcounter{tocdepth}{2}
+\tableofcontents
+
 \pagenumbering{arabic}
 \newpage
 \input{business_flow.tex}
+\newpage
+\input{function.tex}
 \newpage
 \input{screen_transition.tex}
 \newpage
@@ -50,7 +56,19 @@
 \input{database.tex}
 \newpage
 \input{network.tex}
+
+
 \newpage
-\input{function.tex}
+
+\appendix
+
+\section{ユースケース図}
+本システムのユースケース図を以下に示します。
+\begin{figure}[htbp]
+  \begin{center}
+    \includegraphics[width=1\linewidth,clip]{./img/usecase.jpg}
+    \caption{ユースケース図}\label{fig:usecase}
+  \end{center}
+\end{figure}
 
 \end{document}

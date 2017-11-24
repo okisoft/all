@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.5.19)  14 NOV 2017 06:58
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.5.19)  21 NOV 2017 05:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -199,108 +199,253 @@ Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
 \c@ALC@depth=\count110
 \ALC@tlm=\skip49
 \algorithmicindent=\skip50
+) (./udline.sty
+Package: udline 2005/01/28 下線マクロ ver2.52：ロードします
+) (./ex_design_main.aux
+
+LaTeX Warning: Label `fig:06' multiply defined.
+
 )
-(./ex_design_main.aux)
 \openout1 = `ex_design_main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Try loading font information for U+msa on input line 38.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Try loading font information for U+msa on input line 39.
  (c:/w32tex/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 38.
+LaTeX Font Info:    Try loading font information for U+msb on input line 39.
 
 (c:/w32tex/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 ]
-(./business_flow.tex
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <17.28> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 1.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 44.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <17.28> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 44.
+
+(./ex_design_main.toc
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 1.
-) [1] (./screen_transition.tex
-File: ./img/sc_transition.png Graphic file (type bmp)
- <./img/sc_transition.png>)
-[2] (./screens_explanation.tex
+ [2])
+\tf@toc=\write3
+\openout3 = `ex_design_main.toc'.
+
+ [1] (./business_flow.tex
+File: ./img/flow.png Graphic file (type bmp)
+ <./img/flow.png>) [2]
+(./screen_transition.tex
+File: ./img/login.png Graphic file (type bmp)
+ <./img/login.png>
+File: ./img/for_student.png Graphic file (type bmp)
+ <./img/for_student.png>
+File: ./img/for_manager.png Graphic file (type bmp)
+
+<./img/for_manager.png>
+File: ./img/prog_check.png Graphic file (type bmp)
+ <./img/prog_check.png>) [3] [4] [5]
+(./screens_explanation.tex
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 2.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 2.
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 3.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 3.
-File: ./img/sc_login.png Graphic file (type bmp)
- <./img/sc_login.png> [3]
-File: ./img/sc_account_creat.png Graphic file (type bmp)
+ [6]
+File: ./img/01.png Graphic file (type bmp)
+ <./img/01.png>
+File: ./img/02.png Graphic file (type bmp)
+ <./img/02.png>
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 33--45
+[][]$[]$[] []$[]$[] 
+ []
 
-<./img/sc_account_creat.png> [4]
-File: ./img/sc_select_class.png Graphic file (type bmp)
- <./img/sc_select_class.png> [5]
-File: ./img/sc_class_creat1.png Graphic file (type bmp)
+File: ./img/03.png Graphic file (type bmp)
+<./img/03.png> [7]
 
-<./img/sc_class_creat1.png> [6]
-File: ./img/sc_class_detail1.png Graphic file (type bmp)
- <./img/sc_class_detail1.png> [7]
-File: ./img/sc_class_detail2.png Graphic file (type bmp)
+LaTeX Warning: Reference `fig:04' on page 8 undefined on input line 72.
 
-<./img/sc_class_detail2.png> [8]
-File: ./img/sc_class_detail3.png Graphic file (type bmp)
- <./img/sc_class_detail3.png> [9]
-File: ./img/sc_prog_check_one1.png Graphic file (type bmp)
+File: ./img/05.png Graphic file (type bmp)
+<./img/05.png>
+File: ./img/06.png Graphic file (type bmp)
+ <./img/06.png>
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 98--110
+[][]$[]$[] []$[]$[] 
+ []
 
-<./img/sc_prog_check_one1.png>
-File: ./img/sc_prog_check_one2.png Graphic file (type bmp)
- <./img/sc_prog_check_one2.png> [10] [11]
-File: ./img/sc_answer.png Graphic file (type bmp)
+[8]
+File: ./img/06.png Graphic file (type bmp)
+ <./img/06.png> [9]
+File: ./img/07.png Graphic file (type bmp)
+ <./img/07.png>
+File: ./img/08.png Graphic file (type bmp)
+ <./img/08.png>
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 162--174
+[][]$[]$[] []$[]$[] 
+ []
 
-<./img/sc_answer.png> [12]
-File: ./img/sc_class_student.png Graphic file (type bmp)
- <./img/sc_class_student.png> [13]
-File: ./img/sc_select_year.png Graphic file (type bmp)
+[10]
+File: ./img/09.png Graphic file (type bmp)
+ <./img/09.png> [11]
+File: ./img/10.png Graphic file (type bmp)
+ <./img/10.png> [12]
+File: ./img/11.png Graphic file (type bmp)
+ <./img/11.png> [13]
+File: ./img/12.png Graphic file (type bmp)
 
-<./img/sc_select_year.png> [14]
-File: ./img/sc_class_content.png Graphic file (type bmp)
- <./img/sc_class_content.png> [15]
-File: ./img/sc_pre_q.png Graphic file (type bmp)
+<./img/12.png> [14]
+File: ./img/13.png Graphic file (type bmp)
+ <./img/13.png> [15]
+File: ./img/14.png Graphic file (type bmp)
+ <./img/14.png> [16]
+File: ./img/15.png Graphic file (type bmp)
+ <./img/15.png>
+[17]
+File: ./img/16.png Graphic file (type bmp)
+ <./img/16.png> [18]
+File: ./img/17.png Graphic file (type bmp)
+ <./img/17.png> [19]
+File: ./img/18.png Graphic file (type bmp)
+ <./img/18.png> [20]
+File: ./img/19.png Graphic file (type bmp)
 
-<./img/sc_pre_q.png> [16]
-File: ./img/sc_input_q.png Graphic file (type bmp)
- <./img/sc_input_q.png> [17]) (./database.tex)
-[18] (./network.tex
+<./img/19.png>
+File: ./img/000.png Graphic file (type bmp)
+ <./img/000.png>
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 416--428
+[][]$[]$[] []$[]$[] 
+ []
 
-LaTeX Warning: Reference `wifi.jpeg' on page 19 undefined on input line 3.
+[21]
+File: ./img/20.png Graphic file (type bmp)
+ <./img/20.png>
+File: ./img/21.png Graphic file (type bmp)
+ <./img/21.png>
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 463--475
+[][]$[]$[] []$[]$[] 
+ []
 
-File: ./wifi.jpeg Graphic file (type bmp)
-<./wifi.jpeg>) [19] (./function.tex) [20] (./ex_design_main.aux)
+File: ./img/22.png Graphic file (type bmp)
+<./img/22.png>
+File: ./img/23.png Graphic file (type bmp)
+ <./img/23.png>
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 492--504
+[][]$[]$[] []$[]$[] 
+ []
+
+[22] [23]
+File: ./img/24.png Graphic file (type bmp)
+ <./img/24.png>
+File: ./img/25.png Graphic file (type bmp)
+ <./img/25.png>
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 534--546
+[][]$[]$[] []$[]$[] 
+ []
+
+[24]
+File: ./img/26.png Graphic file (type bmp)
+ <./img/26.png>
+File: ./img/27.png Graphic file (type bmp)
+ <./img/27.png>
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 583--595
+[][]$[]$[] []$[]$[] 
+ []
+
+[25]
+File: ./img/28.png Graphic file (type bmp)
+ <./img/28.png>
+File: ./img/29.png Graphic file (type bmp)
+ <./img/29.png>
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 631--643
+[][]$[]$[] []$[]$[] 
+ []
+
+File: ./img/00.png Graphic file (type bmp)
+<./img/00.png> [26]
+File: ./img/30.png Graphic file (type bmp)
+ <./img/30.png>
+File: ./img/31.png Graphic file (type bmp)
+ <./img/31.png>
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 680--692
+[][]$[]$[] []$[]$[] 
+ []
+
+[27]
+File: ./img/32.png Graphic file (type bmp)
+ <./img/32.png>
+File: ./img/33.png Graphic file (type bmp)
+ <./img/33.png>
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 722--734
+[][]$[]$[] []$[]$[] 
+ []
+
+[28]
+File: ./img/34.png Graphic file (type bmp)
+ <./img/34.png>
+File: ./img/35.png Graphic file (type bmp)
+ <./img/35.png>
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 767--779
+[][]$[]$[] []$[]$[] 
+ []
+
+[29]
+File: ./img/36.png Graphic file (type bmp)
+ <./img/36.png>
+File: ./img/37.png Graphic file (type bmp)
+ <./img/37.png>
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 814--826
+[][]$[]$[] []$[]$[] 
+ []
+
+[30]) (./database.tex
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 6.
+ (c:/w32tex/share/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 6.
+
+[31] [32] [33]
+Overfull \hbox (4.34229pt too wide) in paragraph at lines 119--127
+ [][] 
+ []
+
+[34] [35] [36] [37]) (./network.tex
+File: ./img/wifi.jpeg Graphic file (type bmp)
+ <./img/wifi.jpeg>) [38] (./function.tex)
+[39]
+File: ./img/usecase.jpg Graphic file (type bmp)
+ <./img/usecase.jpg> [40] (./ex_design_main.aux)
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 2345 strings out of 493654
- 29836 string characters out of 6150794
- 92674 words of memory out of 5000000
- 5875 multiletter control sequences out of 15000+600000
- 15100 words of font info for 62 fonts, out of 8000000 for 9000
+ 2675 strings out of 493654
+ 32675 string characters out of 6150794
+ 97773 words of memory out of 5000000
+ 6159 multiletter control sequences out of 15000+600000
+ 19995 words of font info for 81 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 34i,8n,26p,231b,329s stack positions out of 5000i,500n,10000p,500000b,80000s
+ 34i,16n,26p,292b,381s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on ex_design_main.dvi (21 pages, 28176 bytes).
+Output written on ex_design_main.dvi (42 pages, 84904 bytes).

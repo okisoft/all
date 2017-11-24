@@ -1,4 +1,5 @@
 \section{データベースの設計}
+<<<<<<< HEAD
 本システムで使用するデータベースMySQLのテーブルについて示します。また、ERモデルで表したER図式を図\ref{fig:ER}で示します。
 \begin{figure}[h]
 	\begin{center}
@@ -7,6 +8,9 @@
 	\label{fig:ER}
 	\end{center}
 \end{figure}
+=======
+本システムで使用するデータベースMySQLのテーブルについて示します。
+>>>>>>> 972ef42dea6f40932ca4b5cdeda30d23cd136d8f
 \subsection{ユーザテーブル}
 本システム利用者のユーザ情報を格納します。権限が「学生」であるユーザ情報は、登録日から設定した年が経過すると削除されます。各フィールドの概要は以下の通りです。また、ユーザテーブルの詳細は表\ref{ユーザテーブル}で示します。
 \begin{itemize}
@@ -24,13 +28,25 @@
 		\begin{tabular}{|l|l|l|c|l|}
 		\hline
 		フィールド & 型  & 外部キー & Null & オプション\\ \hline\hline
+<<<<<<< HEAD
 		{\ul ユーザ番号} & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} &  & No & AUTO\_INCREMENT\\ \hline
 		ユーザID & VARCHAR(32) & & No & UNIQUE\\ \hline
 		パスワード & VARCHAR(64) & & No & \\ \hline
+=======
+		\ul{ユーザ番号} & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} &  & No & AUTO\_INCREMENT\\ \hline
+		ユーザID & VARCHAR(32) & & No & UNIQUE\\ \hline
+		パスワード & VARCHAR(128) & & No & \\ \hline
+>>>>>>> 972ef42dea6f40932ca4b5cdeda30d23cd136d8f
 		氏名 & VARCHAR(16) &  & No  &\\ \hline
 		権限 & ENUM & & No & \\ \hline
 		\end{tabular}
 	\end{table}
+<<<<<<< HEAD
+=======
+
+\newpage
+
+>>>>>>> 972ef42dea6f40932ca4b5cdeda30d23cd136d8f
 \subsection{グループテーブル}
 授業のために作成されたグループ情報を格納します。各フィールドの概要は以下の通りです。また、グループテーブルの詳細は表\ref{グループテーブル}で示します。
 \begin{itemize}
@@ -46,7 +62,11 @@
 		\begin{tabular}{|l|l|l|c|l|}
 		\hline
 		フィールド & 型 & 外部キー & Null & オプション\\ \hline\hline
+<<<<<<< HEAD
 		{\ul グループ番号} & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & & No & AUTO\_INCREMENT \\ \hline
+=======
+		\ul{グループ番号} & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & & No & AUTO\_INCREMENT \\ \hline
+>>>>>>> 972ef42dea6f40932ca4b5cdeda30d23cd136d8f
 		グループ名 & VARCHAR(16) & & No & \\ \hline
 		開講年度番号 & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 授業 & No & \\ \hline
 		\end{tabular}
@@ -83,7 +103,11 @@
 		\begin{tabular}{|l|l|l|c|l|}
 		\hline
 		フィールド & 型 & 外部キー & Null & オプション \\ \hline\hline
+<<<<<<< HEAD
 		{\ul 授業番号} & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & & No & AUTO\_INCREMENT \\ \hline
+=======
+		\ul{授業番号} & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & & No & AUTO\_INCREMENT \\ \hline
+>>>>>>> 972ef42dea6f40932ca4b5cdeda30d23cd136d8f
 		授業名 & VARCHAR(32) & & No & UNIQUE \\ \hline
 		\end{tabular}
 	\end{table}
@@ -102,7 +126,11 @@
 		\begin{tabular}{|l|l|l|c|l|}
 		\hline
 		フィールド & 型 & 外部キー & Null & オプション \\ \hline\hline
+<<<<<<< HEAD
 		{\ul 開講年度番号} & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & & No & AUTO\_INCREMENT \\ \hline
+=======
+		\ul{開講年度番号} & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & & No & AUTO\_INCREMENT \\ \hline
+>>>>>>> 972ef42dea6f40932ca4b5cdeda30d23cd136d8f
 		授業番号 & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 授業 & No & \\ \hline
 		開講年度 & \begin{tabular}[c]{@{}l@{}}SMALLINT\\ UNSIGNED\end{tabular} & & No & \\ \hline
 		\end{tabular}
@@ -123,7 +151,11 @@
 		\begin{tabular}{|l|l|l|c|l|}
 		\hline
 		フィールド & 型 & 外部キー & Null & オプション \\ \hline\hline
+<<<<<<< HEAD
 		{\ul 開講回番号} & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} &  & No & AUTO\_INCREMENT \\ \hline
+=======
+		\ul{開講回番号} & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} &  & No & AUTO\_INCREMENT \\ \hline
+>>>>>>> 972ef42dea6f40932ca4b5cdeda30d23cd136d8f
 		開講年度番号    & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 授業開講年度 & No & \\ \hline
 		開講回 & \begin{tabular}[c]{@{}l@{}}TINYINT\\ UNSIGNED\end{tabular} & & No & \\ \hline
 		授業題目 & VARCHAR(256) & & & \\ \hline
@@ -181,10 +213,17 @@
 		\begin{tabular}{|l|l|l|c|l|}
 		\hline
 		フィールド & 型 & 外部キー & Null & オプション \\ \hline\hline
+<<<<<<< HEAD
 		{\ul 課題番号} & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & & No & AUTO\_INCREMENT \\ \hline
 		開講回番号 & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 開講回 & No & \\ \hline
 		課題名 & VARCHAR(8) & & No  & \\ \hline
 		課題内容 & VARCHAR(512) & & No & \\ \hline
+=======
+		\ul{課題番号} & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & & No & AUTO\_INCREMENT \\ \hline
+		開講回番号 & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 開講回 & No & \\ \hline
+		課題名 & VARCHAR(8) & & N  & \\ \hline
+		課題内容 & VARCHAR(512) & & N & \\ \hline
+>>>>>>> 972ef42dea6f40932ca4b5cdeda30d23cd136d8f
 		\end{tabular}
 	\end{table}
 \subsection{進捗テーブル}
@@ -195,7 +234,10 @@
 	\item ユーザ番号：進捗を確認する対象である受講者
 	\item グループ番号：進捗を確認する対象である受講グループ
 	\item 進捗：進捗の最終更新時刻の時点までに達成している課題
+<<<<<<< HEAD
 	\item 進捗アイコン：進捗確認画面で表示されるアイコンの種類
+=======
+>>>>>>> 972ef42dea6f40932ca4b5cdeda30d23cd136d8f
 	\item 更新時刻：進捗の最終更新時刻
 \end{itemize}
 
@@ -206,15 +248,28 @@
 		\begin{tabular}{|l|l|l|c|l|}
 		\hline
 		フィールド & 型 & 外部キー & Null & オプション \\ \hline\hline
+<<<<<<< HEAD
 		{\ul 進捗番号} & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & & No & AUTO\_INCREMENT \\ \hline
+=======
+		\ul{進捗番号} & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & & No & AUTO\_INCREMENT \\ \hline
+>>>>>>> 972ef42dea6f40932ca4b5cdeda30d23cd136d8f
 		開講回番号 & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 開講回 & No & \\ \hline
 		ユーザ番号 & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & ユーザ  & & \\ \hline
 		グループ番号 & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & グループ & & \\ \hline
 		進捗 & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 課題 & & \\ \hline
+<<<<<<< HEAD
 		進捗アイコン & ENUM & & & \\ \hline
 		更新時刻 & TIME & & & \\ \hline
 		\end{tabular}
 	\end{table}
+=======
+		更新時刻 & TIME & & & \\ \hline
+		\end{tabular}
+	\end{table}
+
+\newpage
+
+>>>>>>> 972ef42dea6f40932ca4b5cdeda30d23cd136d8f
 \subsection{質問テーブル}
 授業回ごとに出た質問の情報を格納します。各フィールドの概要は以下の通りです。また、質問テーブルの詳細は表\ref{質問テーブル}で示します。
 \begin{itemize}
@@ -233,12 +288,24 @@
 		\begin{tabular}{|l|l|l|c|l|}
 		\hline
 		フィールド & 型 & 外部キー & Null & オプション \\ \hline\hline
+<<<<<<< HEAD
 		{\ul 質問番号} & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & & No & AUTO\_INCREMENT \\ \hline
+=======
+		\ul{質問番号} & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & & No & AUTO\_INCREMENT \\ \hline
+>>>>>>> 972ef42dea6f40932ca4b5cdeda30d23cd136d8f
 		課題番号 & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 課題 &  & \\ \hline
 		質問者 & VARCHAR(16) & & & \\ \hline
 		質問グループ & VARCHAR(16) & & & \\ \hline
 		質問内容 & VARCHAR(512) & & No & \\ \hline
 		回答 & VARCHAR(512) & & & \\ \hline
+<<<<<<< HEAD
 		可視化フラグ & BOOLEAN &  & No & DEFAULT TRUE\\ \hline
 		\end{tabular}
 	\end{table}
+=======
+		可視化フラグ & BOOLEAN &  & No & \\ \hline
+		\end{tabular}
+	\end{table}
+
+	\newpage
+>>>>>>> 972ef42dea6f40932ca4b5cdeda30d23cd136d8f
