@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.5.19)  24 NOV 2017 06:02
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.5.19)  26 NOV 2017 08:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -267,7 +267,7 @@ File: ./img/01.png Graphic file (type bmp)
  <./img/01.png>
 File: ./img/02.png Graphic file (type bmp)
  <./img/02.png>
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 33--45
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 34--46
 [][]$[]$[] []$[]$[] 
  []
 
@@ -277,7 +277,7 @@ File: ./img/04.png Graphic file (type bmp)
  <./img/04.png>
 File: ./img/05.png Graphic file (type bmp)
  <./img/05.png>
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 99--111
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 100--112
 [][]$[]$[] []$[]$[] 
  []
 
@@ -288,7 +288,7 @@ File: ./img/07.png Graphic file (type bmp)
  <./img/07.png>
 File: ./img/08.png Graphic file (type bmp)
  <./img/08.png>
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 164--176
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 165--177
 [][]$[]$[] []$[]$[] 
  []
 
@@ -320,7 +320,7 @@ File: ./img/19.png Graphic file (type bmp)
 <./img/19.png>
 File: ./img/000.png Graphic file (type bmp)
  <./img/000.png>
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 419--431
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 420--432
 [][]$[]$[] []$[]$[] 
  []
 
@@ -329,7 +329,7 @@ File: ./img/20.png Graphic file (type bmp)
  <./img/20.png>
 File: ./img/21.png Graphic file (type bmp)
  <./img/21.png>
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 467--479
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 468--480
 [][]$[]$[] []$[]$[] 
  []
 
@@ -337,7 +337,7 @@ File: ./img/22.png Graphic file (type bmp)
 <./img/22.png>
 File: ./img/23.png Graphic file (type bmp)
  <./img/23.png>
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 497--509
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 498--510
 [][]$[]$[] []$[]$[] 
  []
 
@@ -346,7 +346,7 @@ File: ./img/24.png Graphic file (type bmp)
  <./img/24.png>
 File: ./img/25.png Graphic file (type bmp)
  <./img/25.png>
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 540--552
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 541--553
 [][]$[]$[] []$[]$[] 
  []
 
@@ -355,7 +355,7 @@ File: ./img/26.png Graphic file (type bmp)
  <./img/26.png>
 File: ./img/27.png Graphic file (type bmp)
  <./img/27.png>
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 590--602
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 591--603
 [][]$[]$[] []$[]$[] 
  []
 
@@ -364,7 +364,7 @@ File: ./img/28.png Graphic file (type bmp)
  <./img/28.png>
 File: ./img/29.png Graphic file (type bmp)
  <./img/29.png>
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 639--651
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 640--652
 [][]$[]$[] []$[]$[] 
  []
 
@@ -374,7 +374,7 @@ File: ./img/30.png Graphic file (type bmp)
  <./img/30.png>
 File: ./img/31.png Graphic file (type bmp)
  <./img/31.png>
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 689--701
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 690--702
 [][]$[]$[] []$[]$[] 
  []
 
@@ -383,7 +383,7 @@ File: ./img/32.png Graphic file (type bmp)
  <./img/32.png>
 File: ./img/33.png Graphic file (type bmp)
  <./img/33.png>
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 732--744
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 733--745
 [][]$[]$[] []$[]$[] 
  []
 
@@ -392,7 +392,7 @@ File: ./img/34.png Graphic file (type bmp)
  <./img/34.png>
 File: ./img/35.png Graphic file (type bmp)
  <./img/35.png>
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 778--790
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 779--791
 [][]$[]$[] []$[]$[] 
  []
 
@@ -401,36 +401,57 @@ File: ./img/36.png Graphic file (type bmp)
  <./img/36.png>
 File: ./img/37.png Graphic file (type bmp)
  <./img/37.png>
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 826--838
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 827--839
 [][]$[]$[] []$[]$[] 
  []
 
 [31]) (./database.tex
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 6.
- (c:/w32tex/share/texmf-dist/tex/latex/base/omscmr.fd
+File: ./img/er.png Graphic file (type bmp)
+ <./img/er.png>
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 13.
+
+(c:/w32tex/share/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 6.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 13.
 
-[32] [33] [34]
-Overfull \hbox (4.34229pt too wide) in paragraph at lines 119--127
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[32]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[33]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[34]
+Overfull \hbox (4.34229pt too wide) in paragraph at lines 123--131
  [][] 
  []
 
-[35] [36] [37] [38]) (./network.tex
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[35]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[36] [37]) [38] (./network.tex
 File: ./img/wifi.jpeg Graphic file (type bmp)
  <./img/wifi.jpeg>) [39]
 File: ./img/usecase.jpg Graphic file (type bmp)
-
-<./img/usecase.jpg> [40] (./ex_design_main.aux) ) 
+ <./img/usecase.jpg>
+[40] (./ex_design_main.aux) ) 
 Here is how much of TeX's memory you used:
- 2665 strings out of 493654
- 32618 string characters out of 6150794
- 97652 words of memory out of 5000000
- 6148 multiletter control sequences out of 15000+600000
+ 2669 strings out of 493654
+ 32674 string characters out of 6150794
+ 98652 words of memory out of 5000000
+ 6151 multiletter control sequences out of 15000+600000
  19995 words of font info for 81 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  34i,16n,26p,292b,381s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on ex_design_main.dvi (42 pages, 85348 bytes).
+Output written on ex_design_main.dvi (42 pages, 85156 bytes).
