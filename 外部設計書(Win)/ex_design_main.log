@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.5.19)  26 NOV 2017 08:13
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.5.19)  26 NOV 2017 08:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -428,7 +428,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [34]
-Overfull \hbox (4.34229pt too wide) in paragraph at lines 123--131
+Overfull \hbox (4.34229pt too wide) in paragraph at lines 126--134
  [][] 
  []
 
@@ -439,12 +439,24 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[36] [37]) [38] (./network.tex
+[36]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[37]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [38] (./network.tex
 File: ./img/wifi.jpeg Graphic file (type bmp)
- <./img/wifi.jpeg>) [39]
+ <./img/wifi.jpeg>) [39] [40]
 File: ./img/usecase.jpg Graphic file (type bmp)
- <./img/usecase.jpg>
-[40] (./ex_design_main.aux) ) 
+ <./img/usecase.jpg> [41]
+(./ex_design_main.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
  2669 strings out of 493654
  32674 string characters out of 6150794
@@ -454,4 +466,4 @@ Here is how much of TeX's memory you used:
  929 hyphenation exceptions out of 8191
  34i,16n,26p,292b,381s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on ex_design_main.dvi (42 pages, 85156 bytes).
+Output written on ex_design_main.dvi (43 pages, 85340 bytes).
