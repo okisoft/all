@@ -55,7 +55,7 @@
 授業のために作成されたグループに所属しているユーザ情報を格納します。各フィールドの概要は以下の通りです。また、グループメンバテーブルの詳細は表\ref{グループメンバテーブル}で示します。
 \begin{itemize}
 	\item グループ番号：何年度の何の授業のために作成されたグループであるかを示す
-	\item メンバ：グループに所属している学生
+	\item ユーザ番号：グループに所属している学生
 \end{itemize}
 
 	\begin{table}[h]
@@ -66,7 +66,7 @@
 		\hline
 		フィールド & 型 & 外部キー & Null & オプション\\ \hline\hline
 		グループ番号 & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & グループ & No & \\ \hline
-		メンバ & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & ユーザ & No & \\ \hline
+		ユーザ番号 & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & ユーザ & No & \\ \hline
 		\end{tabular}
 	\end{table}
 \subsection{授業テーブル}
@@ -136,7 +136,7 @@
 授業を担当するユーザ情報を格納します。各フィールドの概要は以下の通りです。また、教員テーブルの詳細は表\ref{教員テーブル}で示します。
 \begin{itemize}
 	\item 開講年度番号：何年度の何の授業であるかを示す
-	\item 講師番号：授業を担当する教員およびアシスタントユーザ
+	\item ユーザ番号：授業を担当する教員およびアシスタントユーザ
 \end{itemize}
 
 	\begin{table}[h]
@@ -146,15 +146,15 @@
 		\begin{tabular}{|l|l|l|c|l|}
 		\hline
 		フィールド & 型 & 外部キー & Null & オプション \\ \hline\hline
-		開講年度番号 & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 授業開講年度 & No & \\ \hline
-		講師番号 & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & ユーザ & No & \\ \hline
+		開講年度番号 & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 開講年度 & No & \\ \hline
+		ユーザ番号 & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & ユーザ & No & \\ \hline
 		\end{tabular}
 	\end{table}
 \subsection{履修者テーブル}
 受講するユーザ情報を格納します。各フィールドの概要は以下の通りです。また、履修者テーブルの詳細は表\ref{履修者テーブル}で示します。
 \begin{itemize}
 	\item 開講年度番号：何年度の何の授業であるかを示す
-	\item 履修者番号：授業を履修する学生ユーザ
+	\item ユーザ番号：授業を履修する学生ユーザ
 \end{itemize}
 
 	\begin{table}[h]
@@ -164,8 +164,8 @@
 		\begin{tabular}{|l|l|l|c|l|}
 		\hline
 		フィールド & 型 & 外部キー & Null & オプション \\ \hline\hline
-		開講年度番号 & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 授業開講年度 & No & \\ \hline
-		履修者番号 & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & ユーザ & No & \\ \hline
+		開講年度番号 & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 開講年度 & No & \\ \hline
+		ユーザ番号 & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & ユーザ & No & \\ \hline
 		\end{tabular}
 	\end{table}
 \subsection{課題テーブル}

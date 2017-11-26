@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.5.19)  26 NOV 2017 08:51
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.5.19)  26 NOV 2017 16:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -275,52 +275,43 @@ File: ./img/03.png Graphic file (type bmp)
 <./img/03.png> [9]
 File: ./img/04.png Graphic file (type bmp)
  <./img/04.png>
-File: ./img/05.png Graphic file (type bmp)
- <./img/05.png>
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 100--112
-[][]$[]$[] []$[]$[] 
- []
-
-[10]
+File: ./img/05_.png Graphic file (type bmp)
+ <./img/05_.png> [10]
 File: ./img/06.png Graphic file (type bmp)
  <./img/06.png> [11]
 File: ./img/07.png Graphic file (type bmp)
- <./img/07.png>
-File: ./img/08.png Graphic file (type bmp)
- <./img/08.png>
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 165--177
-[][]$[]$[] []$[]$[] 
- []
 
-[12]
+<./img/07.png>
+File: ./img/08_.png Graphic file (type bmp)
+ <./img/08_.png> [12]
 File: ./img/09.png Graphic file (type bmp)
  <./img/09.png> [13]
 File: ./img/10.png Graphic file (type bmp)
  <./img/10.png> [14]
 File: ./img/11.png Graphic file (type bmp)
- <./img/11.png> [15]
-File: ./img/12.png Graphic file (type bmp)
 
-<./img/12.png> [16]
+<./img/11.png> [15]
+File: ./img/12.png Graphic file (type bmp)
+ <./img/12.png> [16]
 File: ./img/13.png Graphic file (type bmp)
  <./img/13.png> [17]
 File: ./img/14.png Graphic file (type bmp)
- <./img/14.png> [18]
+ <./img/14.png>
+[18]
 File: ./img/15.png Graphic file (type bmp)
- <./img/15.png>
-[19]
+ <./img/15.png> [19]
 File: ./img/16.png Graphic file (type bmp)
  <./img/16.png> [20]
 File: ./img/17.png Graphic file (type bmp)
  <./img/17.png> [21]
 File: ./img/18.png Graphic file (type bmp)
- <./img/18.png> [22]
-File: ./img/19.png Graphic file (type bmp)
 
-<./img/19.png>
+<./img/18.png> [22]
+File: ./img/19.png Graphic file (type bmp)
+ <./img/19.png>
 File: ./img/000.png Graphic file (type bmp)
  <./img/000.png>
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 420--432
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 434--446
 [][]$[]$[] []$[]$[] 
  []
 
@@ -329,7 +320,7 @@ File: ./img/20.png Graphic file (type bmp)
  <./img/20.png>
 File: ./img/21.png Graphic file (type bmp)
  <./img/21.png>
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 468--480
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 482--494
 [][]$[]$[] []$[]$[] 
  []
 
@@ -337,7 +328,7 @@ File: ./img/22.png Graphic file (type bmp)
 <./img/22.png>
 File: ./img/23.png Graphic file (type bmp)
  <./img/23.png>
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 498--510
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 512--524
 [][]$[]$[] []$[]$[] 
  []
 
@@ -346,7 +337,7 @@ File: ./img/24.png Graphic file (type bmp)
  <./img/24.png>
 File: ./img/25.png Graphic file (type bmp)
  <./img/25.png>
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 541--553
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 555--567
 [][]$[]$[] []$[]$[] 
  []
 
@@ -355,7 +346,7 @@ File: ./img/26.png Graphic file (type bmp)
  <./img/26.png>
 File: ./img/27.png Graphic file (type bmp)
  <./img/27.png>
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 591--603
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 605--617
 [][]$[]$[] []$[]$[] 
  []
 
@@ -364,7 +355,7 @@ File: ./img/28.png Graphic file (type bmp)
  <./img/28.png>
 File: ./img/29.png Graphic file (type bmp)
  <./img/29.png>
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 640--652
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 654--666
 [][]$[]$[] []$[]$[] 
  []
 
@@ -374,7 +365,7 @@ File: ./img/30.png Graphic file (type bmp)
  <./img/30.png>
 File: ./img/31.png Graphic file (type bmp)
  <./img/31.png>
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 690--702
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 704--716
 [][]$[]$[] []$[]$[] 
  []
 
@@ -383,7 +374,7 @@ File: ./img/32.png Graphic file (type bmp)
  <./img/32.png>
 File: ./img/33.png Graphic file (type bmp)
  <./img/33.png>
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 733--745
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 747--759
 [][]$[]$[] []$[]$[] 
  []
 
@@ -392,7 +383,7 @@ File: ./img/34.png Graphic file (type bmp)
  <./img/34.png>
 File: ./img/35.png Graphic file (type bmp)
  <./img/35.png>
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 779--791
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 793--805
 [][]$[]$[] []$[]$[] 
  []
 
@@ -401,7 +392,7 @@ File: ./img/36.png Graphic file (type bmp)
  <./img/36.png>
 File: ./img/37.png Graphic file (type bmp)
  <./img/37.png>
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 827--839
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 841--853
 [][]$[]$[] []$[]$[] 
  []
 
@@ -452,18 +443,14 @@ File: ./img/wifi.jpeg Graphic file (type bmp)
  <./img/wifi.jpeg>) [39] [40]
 File: ./img/usecase.jpg Graphic file (type bmp)
  <./img/usecase.jpg> [41]
-(./ex_design_main.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+(./ex_design_main.aux) ) 
 Here is how much of TeX's memory you used:
- 2669 strings out of 493654
- 32674 string characters out of 6150794
+ 2671 strings out of 493654
+ 32696 string characters out of 6150794
  98652 words of memory out of 5000000
- 6151 multiletter control sequences out of 15000+600000
+ 6153 multiletter control sequences out of 15000+600000
  19995 words of font info for 81 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  34i,16n,26p,292b,381s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on ex_design_main.dvi (43 pages, 85340 bytes).
+Output written on ex_design_main.dvi (43 pages, 86252 bytes).
