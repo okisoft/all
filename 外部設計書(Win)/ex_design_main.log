@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.5.19)  26 NOV 2017 20:39
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.5.19)  26 NOV 2017 21:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -326,104 +326,68 @@ File: ./img/24.png Graphic file (type bmp)
 File: ./img/26.png Graphic file (type bmp)
  <./img/26.png>
 File: ./img/27.png Graphic file (type bmp)
- <./img/27.png> [27]
+ <./img/27.png>
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 609--621
+[][]$[]$[] []$[]$[] 
+ []
+
+[27]
+File: ./img/00.png Graphic file (type bmp)
+ <./img/00.png>
 File: ./img/28.png Graphic file (type bmp)
  <./img/28.png>
 File: ./img/29.png Graphic file (type bmp)
- <./img/29.png>
-File: ./img/00.png Graphic file (type bmp)
-
-<./img/00.png> [28] [29]
+ <./img/29.png> [28] [29]
 File: ./img/30.png Graphic file (type bmp)
  <./img/30.png>
 File: ./img/31.png Graphic file (type bmp)
- <./img/31.png>
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 704--716
-[][]$[]$[] []$[]$[] 
- []
 
-[30]
+<./img/31.png> [30]
 File: ./img/32.png Graphic file (type bmp)
  <./img/32.png>
 File: ./img/33.png Graphic file (type bmp)
- <./img/33.png>
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 747--759
-[][]$[]$[] []$[]$[] 
- []
-
-[31]
+ <./img/33.png> [31]
 File: ./img/34.png Graphic file (type bmp)
  <./img/34.png>
 File: ./img/35.png Graphic file (type bmp)
- <./img/35.png>
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 793--805
-[][]$[]$[] []$[]$[] 
- []
 
-[32]
+<./img/35.png> [32]
 File: ./img/36.png Graphic file (type bmp)
  <./img/36.png>
 File: ./img/37.png Graphic file (type bmp)
  <./img/37.png>
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 841--853
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 843--855
 [][]$[]$[] []$[]$[] 
  []
 
 [33]) (./database.tex
 File: ./img/er.png Graphic file (type bmp)
- <./img/er.png>
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 13.
+ <./img/er.png> [34]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 15.
 
 (c:/w32tex/share/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 13.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[34]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[35]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[36]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[37]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[38]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[39]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) [40] (./network.tex
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 15.
+ [35] [36] [37] [38]
+[39] [40]) [41] (./network.tex
 File: ./img/wifi.jpeg Graphic file (type bmp)
- <./img/wifi.jpeg>) [41] [42]
+ <./img/wifi.jpeg>) [42]
 File: ./img/usecase.jpg Graphic file (type bmp)
- <./img/usecase.jpg> [43]
-(./ex_design_main.aux)
+ <./img/usecase.jpg>
+[43] (./ex_design_main.aux)
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 2673 strings out of 493654
- 32689 string characters out of 6150794
- 98695 words of memory out of 5000000
- 6156 multiletter control sequences out of 15000+600000
+ 2676 strings out of 493654
+ 32713 string characters out of 6150794
+ 96725 words of memory out of 5000000
+ 6159 multiletter control sequences out of 15000+600000
  19995 words of font info for 81 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  34i,16n,26p,292b,381s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on ex_design_main.dvi (45 pages, 87132 bytes).
+Output written on ex_design_main.dvi (45 pages, 88052 bytes).

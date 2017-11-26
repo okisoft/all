@@ -7,6 +7,8 @@
 	\label{fig:ER}
 	\end{center}
 \end{figure}
+
+\newpage
 \subsection{ユーザテーブル}
 本システム利用者のユーザ情報を格納します。権限が「学生」であるユーザ情報は、登録日から設定した年が経過すると削除されます。各フィールドの概要は以下の通りです。また、ユーザテーブルの詳細は表\ref{ユーザテーブル}で示します。
 \begin{itemize}
@@ -31,6 +33,8 @@
 		権限 & ENUM & & No & \\ \hline
 		\end{tabular}
 	\end{table}
+
+\newpage
 \subsection{グループテーブル}
 授業のために作成されたグループ情報を格納します。各フィールドの概要は以下の通りです。また、グループテーブルの詳細は表\ref{グループテーブル}で示します。
 \begin{itemize}
@@ -51,6 +55,7 @@
 		開講年度番号 & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 授業 & No & \\ \hline
 		\end{tabular}
 	\end{table}
+
 \subsection{グループメンバテーブル}
 授業のために作成されたグループに所属しているユーザ情報を格納します。各フィールドの概要は以下の通りです。また、グループメンバテーブルの詳細は表\ref{グループメンバテーブル}で示します。
 \begin{itemize}
@@ -108,8 +113,6 @@
 		\end{tabular}
 	\end{table}
 
-\newpage
-
 \subsection{開講回テーブル}
 回ごとの授業情報を格納します。各フィールドの概要は以下の通りです。また、開講回テーブルの詳細は表\ref{開講回テーブル}で示します。
 \begin{itemize}
@@ -132,6 +135,7 @@
 		授業題目 & VARCHAR(256) & & & \\ \hline
 		\end{tabular}
 	\end{table}
+
 \subsection{教員テーブル}
 授業を担当するユーザ情報を格納します。各フィールドの概要は以下の通りです。また、教員テーブルの詳細は表\ref{教員テーブル}で示します。
 \begin{itemize}
