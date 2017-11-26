@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.5.19)  26 NOV 2017 16:36
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.5.19)  26 NOV 2017 17:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -252,7 +252,7 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 8.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 8.
- [3]) [4] (./screen_transition.tex
+ [3]) (./screen_transition.tex
 File: ./img/login.png Graphic file (type bmp)
  <./img/login.png>
 File: ./img/for_student.png Graphic file (type bmp)
@@ -262,7 +262,7 @@ File: ./img/for_manager.png Graphic file (type bmp)
  <./img/for_manager.png>
 File: ./img/prog_check.png Graphic file (type bmp)
  <./img/prog_check.png>)
-[5] [6] [7] (./screens_explanation.tex [8]
+[4] [5] [6] (./screens_explanation.tex [7]
 File: ./img/01.png Graphic file (type bmp)
  <./img/01.png>
 File: ./img/02.png Graphic file (type bmp)
@@ -272,41 +272,41 @@ Overfull \hbox (2.61108pt too wide) in paragraph at lines 34--46
  []
 
 File: ./img/03.png Graphic file (type bmp)
-<./img/03.png> [9]
+<./img/03.png> [8]
 File: ./img/04.png Graphic file (type bmp)
  <./img/04.png>
 File: ./img/05_.png Graphic file (type bmp)
- <./img/05_.png> [10]
+ <./img/05_.png> [9]
 File: ./img/06.png Graphic file (type bmp)
- <./img/06.png> [11]
+ <./img/06.png> [10]
 File: ./img/07.png Graphic file (type bmp)
 
 <./img/07.png>
 File: ./img/08_.png Graphic file (type bmp)
- <./img/08_.png> [12]
+ <./img/08_.png> [11]
 File: ./img/09.png Graphic file (type bmp)
- <./img/09.png> [13]
+ <./img/09.png> [12]
 File: ./img/10.png Graphic file (type bmp)
- <./img/10.png> [14]
+ <./img/10.png> [13]
 File: ./img/11.png Graphic file (type bmp)
 
-<./img/11.png> [15]
+<./img/11.png> [14]
 File: ./img/12.png Graphic file (type bmp)
- <./img/12.png> [16]
+ <./img/12.png> [15]
 File: ./img/13.png Graphic file (type bmp)
- <./img/13.png> [17]
+ <./img/13.png> [16]
 File: ./img/14.png Graphic file (type bmp)
  <./img/14.png>
-[18]
+[17]
 File: ./img/15.png Graphic file (type bmp)
- <./img/15.png> [19]
+ <./img/15.png> [18]
 File: ./img/16.png Graphic file (type bmp)
- <./img/16.png> [20]
+ <./img/16.png> [19]
 File: ./img/17.png Graphic file (type bmp)
- <./img/17.png> [21]
+ <./img/17.png> [20]
 File: ./img/18.png Graphic file (type bmp)
 
-<./img/18.png> [22]
+<./img/18.png> [21]
 File: ./img/19.png Graphic file (type bmp)
  <./img/19.png>
 File: ./img/000.png Graphic file (type bmp)
@@ -315,7 +315,7 @@ Overfull \hbox (2.61108pt too wide) in paragraph at lines 434--446
 [][]$[]$[] []$[]$[] 
  []
 
-[23]
+[22]
 File: ./img/20.png Graphic file (type bmp)
  <./img/20.png>
 File: ./img/21.png Graphic file (type bmp)
@@ -332,7 +332,7 @@ Overfull \hbox (2.61108pt too wide) in paragraph at lines 512--524
 [][]$[]$[] []$[]$[] 
  []
 
-[24]
+[23]
 File: ./img/24.png Graphic file (type bmp)
  <./img/24.png>
 File: ./img/25.png Graphic file (type bmp)
@@ -341,7 +341,7 @@ Overfull \hbox (2.61108pt too wide) in paragraph at lines 555--567
 [][]$[]$[] []$[]$[] 
  []
 
-[25]
+[24]
 File: ./img/26.png Graphic file (type bmp)
  <./img/26.png>
 File: ./img/27.png Graphic file (type bmp)
@@ -350,7 +350,7 @@ Overfull \hbox (2.61108pt too wide) in paragraph at lines 605--617
 [][]$[]$[] []$[]$[] 
  []
 
-[26]
+[25]
 File: ./img/28.png Graphic file (type bmp)
  <./img/28.png>
 File: ./img/29.png Graphic file (type bmp)
@@ -360,7 +360,7 @@ Overfull \hbox (2.61108pt too wide) in paragraph at lines 654--666
  []
 
 File: ./img/00.png Graphic file (type bmp)
-<./img/00.png> [27]
+<./img/00.png> [26]
 File: ./img/30.png Graphic file (type bmp)
  <./img/30.png>
 File: ./img/31.png Graphic file (type bmp)
@@ -369,7 +369,7 @@ Overfull \hbox (2.61108pt too wide) in paragraph at lines 704--716
 [][]$[]$[] []$[]$[] 
  []
 
-[28]
+[27]
 File: ./img/32.png Graphic file (type bmp)
  <./img/32.png>
 File: ./img/33.png Graphic file (type bmp)
@@ -378,7 +378,7 @@ Overfull \hbox (2.61108pt too wide) in paragraph at lines 747--759
 [][]$[]$[] []$[]$[] 
  []
 
-[29]
+[28]
 File: ./img/34.png Graphic file (type bmp)
  <./img/34.png>
 File: ./img/35.png Graphic file (type bmp)
@@ -387,7 +387,7 @@ Overfull \hbox (2.61108pt too wide) in paragraph at lines 793--805
 [][]$[]$[] []$[]$[] 
  []
 
-[30]
+[29]
 File: ./img/36.png Graphic file (type bmp)
  <./img/36.png>
 File: ./img/37.png Graphic file (type bmp)
@@ -396,7 +396,7 @@ Overfull \hbox (2.61108pt too wide) in paragraph at lines 841--853
 [][]$[]$[] []$[]$[] 
  []
 
-[31]) (./database.tex
+[30]) (./database.tex
 File: ./img/er.png Graphic file (type bmp)
  <./img/er.png>
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 13.
@@ -410,6 +410,10 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+[31]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 [32]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -419,10 +423,6 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [34]
-Overfull \hbox (4.34229pt too wide) in paragraph at lines 126--134
- [][] 
- []
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -434,15 +434,11 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[37]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) [38] (./network.tex
+) [37] (./network.tex
 File: ./img/wifi.jpeg Graphic file (type bmp)
- <./img/wifi.jpeg>) [39] [40]
+ <./img/wifi.jpeg>) [38] [39]
 File: ./img/usecase.jpg Graphic file (type bmp)
- <./img/usecase.jpg> [41]
+ <./img/usecase.jpg> [40]
 (./ex_design_main.aux) ) 
 Here is how much of TeX's memory you used:
  2671 strings out of 493654
@@ -453,4 +449,4 @@ Here is how much of TeX's memory you used:
  929 hyphenation exceptions out of 8191
  34i,16n,26p,292b,381s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on ex_design_main.dvi (43 pages, 86252 bytes).
+Output written on ex_design_main.dvi (42 pages, 86096 bytes).
