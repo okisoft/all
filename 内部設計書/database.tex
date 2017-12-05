@@ -23,14 +23,14 @@
 		\centering
 		\caption{ユーザテーブル}
 		\label{ユーザテーブル}
-		\begin{tabular}{|l|l|l|c|l|}
+		\begin{tabular}{|l|l|l|l|c|l|}
 		\hline
-		フィールド & 型  & 外部キー & Null & オプション\\ \hline\hline
-		{\ul ユーザ番号} & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} &  & No & AUTO\_INCREMENT\\ \hline
-		ユーザID & VARCHAR(32) & & No & UNIQUE\\ \hline
-		パスワード & VARCHAR(64) & & No & \\ \hline
-		氏名 & VARCHAR(16) &  & No  &\\ \hline
-		権限 & ENUM & & No & \\ \hline
+		フィールド & 物理名 & 型  & 外部キー & Null & オプション\\ \hline\hline
+		\ul{ユーザ番号} & \ul{USER_NO} & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} &  & No & AUTO\_INCREMENT\\ \hline
+		ユーザID & USER_ID & VARCHAR(32) & & No & UNIQUE\\ \hline
+		パスワード & PASSWORD & VARCHAR(64) & & No & \\ \hline
+		氏名 & USER_NAME & VARCHAR(16) &  & No  &\\ \hline
+		権限 & AUTHORITY & ENUM & & No & \\ \hline
 		\end{tabular}
 	\end{table}
 
@@ -47,14 +47,14 @@
 		\centering
 		\caption{履修者テーブル}
 		\label{履修者テーブル}
-		\begin{tabular}{|l|l|l|c|l|}
+		\begin{tabular}{|l|l|l|l|c|l|}
 		\hline
-		フィールド & 型 & 外部キー & Null & オプション \\ \hline\hline
-		開講年度番号 & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 開講年度 & No & \\ \hline
-		ユーザ番号 & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & ユーザ & No & \\ \hline
+		フィールド & 物理名 & 型 & 外部キー & Null & オプション \\ \hline\hline
+		開講年度番号 & LECTURE_YEAR_NO & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 開講年度 & No & \\ \hline
+		ユーザ番号 & USER_NO & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & ユーザ & No & \\ \hline
 		\end{tabular}
 	\end{table}
-	
+
 \subsection{グループテーブル}
 授業のために作成されたグループ情報を格納します。各フィールドの概要は以下の通りです。また、グループテーブルの詳細は表\ref{グループテーブル}で示します。
 \begin{itemize}
@@ -67,12 +67,12 @@
 		\centering
 		\caption{グループテーブル}
 		\label{グループテーブル}
-		\begin{tabular}{|l|l|l|c|l|}
+		\begin{tabular}{|l|l|l|l|c|l|}
 		\hline
-		フィールド & 型 & 外部キー & Null & オプション\\ \hline\hline
-		{\ul グループ番号} & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & & No & AUTO\_INCREMENT \\ \hline
-		グループ名 & VARCHAR(16) & & No & \\ \hline
-		開講年度番号 & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 授業 & No & \\ \hline
+		フィールド & 物理名 & 型 & 外部キー & Null & オプション\\ \hline\hline
+		\ul{グループ番号} & \ul{GROUP_NO} & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & & No & AUTO\_INCREMENT \\ \hline
+		グループ名 & GROUP_NAME & VARCHAR(16) & & No & \\ \hline
+		開講年度番号 & LECTURE_YEAR_NO & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 授業 & No & \\ \hline
 		\end{tabular}
 	\end{table}
 
@@ -87,11 +87,11 @@
 		\centering
 		\caption{グループメンバテーブル}
 		\label{グループメンバテーブル}
-		\begin{tabular}{|l|l|l|c|l|}
+		\begin{tabular}{|l|l|l|l|c|l|}
 		\hline
-		フィールド & 型 & 外部キー & Null & オプション\\ \hline\hline
-		グループ番号 & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & グループ & No & \\ \hline
-		ユーザ番号 & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & ユーザ & No & \\ \hline
+		フィールド & 物理名 & 型 & 外部キー & Null & オプション\\ \hline\hline
+		グループ番号 & GROUP_NO & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & グループ & No & \\ \hline
+		ユーザ番号 & USER_NO & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & ユーザ & No & \\ \hline
 		\end{tabular}
 	\end{table}
 \subsection{授業テーブル}
@@ -105,11 +105,11 @@
 		\centering
 		\caption{授業テーブル}
 		\label{授業テーブル}
-		\begin{tabular}{|l|l|l|c|l|}
+		\begin{tabular}{|l|l|l|l|c|l|}
 		\hline
-		フィールド & 型 & 外部キー & Null & オプション \\ \hline\hline
-		{\ul 授業番号} & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & & No & AUTO\_INCREMENT \\ \hline
-		授業名 & VARCHAR(32) & & No & UNIQUE \\ \hline
+		フィールド & 物理名 & 型 & 外部キー & Null & オプション \\ \hline\hline
+		\ul{授業番号} & \ul{LECTURE_NO} & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & & No & AUTO\_INCREMENT \\ \hline
+		授業名 & LECTURE_NAME & VARCHAR(32) & & No & UNIQUE \\ \hline
 		\end{tabular}
 	\end{table}
 \subsection{開講年度テーブル}
@@ -125,13 +125,13 @@
 		\centering
 		\caption{開講年度テーブル}
 		\label{開講年度テーブル}
-		\begin{tabular}{|l|l|l|c|l|}
+		\begin{tabular}{|l|l|l|l|c|l|}
 		\hline
-		フィールド & 型 & 外部キー & Null & オプション \\ \hline\hline
-		{\ul 開講年度番号} & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & & No & AUTO\_INCREMENT \\ \hline
-		授業番号 & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 授業 & No & \\ \hline
-		開講年度 & \begin{tabular}[c]{@{}l@{}}SMALLINT\\ UNSIGNED\end{tabular} & & No & \\ \hline
-		授業形態 & ENUM & & No & \\ \hline
+		フィールド & 物理名 & 型 & 外部キー & Null & オプション \\ \hline\hline
+		\ul{開講年度番号} & \ul{LECTURE_YEAR_NO} & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & & No & AUTO\_INCREMENT \\ \hline
+		授業番号 & LECTURE_NO & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 授業 & No & \\ \hline
+		開講年度 & LECTURE_YEAR & \begin{tabular}[c]{@{}l@{}}SMALLINT\\ UNSIGNED\end{tabular} & & No & \\ \hline
+		授業形態 & LECTURE_STYLE & ENUM & & No & \\ \hline
 		\end{tabular}
 	\end{table}
 
@@ -148,13 +148,13 @@
 		\centering
 		\caption{開講回テーブル}
 		\label{開講回テーブル}
-		\begin{tabular}{|l|l|l|c|l|}
+		\begin{tabular}{|l|l|l|l|c|l|}
 		\hline
-		フィールド & 型 & 外部キー & Null & オプション \\ \hline\hline
-		{\ul 開講回番号} & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} &  & No & AUTO\_INCREMENT \\ \hline
-		開講年度番号    & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 開講年度 & No & \\ \hline
-		開講回 & \begin{tabular}[c]{@{}l@{}}TINYINT\\ UNSIGNED\end{tabular} & & No & \\ \hline
-		授業題目 & VARCHAR(256) & & & \\ \hline
+		フィールド & 物理名 & 型 & 外部キー & Null & オプション \\ \hline\hline
+		\ul{開講回番号} & \ul{LECTURE_TIMES_NO} & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} &  & No & AUTO\_INCREMENT \\ \hline
+		開講年度番号 & LECTURE_YEAR_NO & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 開講年度 & No & \\ \hline
+		開講回 & LECTURE_TIMES & \begin{tabular}[c]{@{}l@{}}TINYINT\\ UNSIGNED\end{tabular} & & No & \\ \hline
+		授業題目 & LECTURE_TITLE & VARCHAR(256) & & & \\ \hline
 		\end{tabular}
 	\end{table}
 	
@@ -171,13 +171,13 @@
 		\centering
 		\caption{課題テーブル}
 		\label{課題テーブル}
-		\begin{tabular}{|l|l|l|c|l|}
+		\begin{tabular}{|l|l|l|l|c|l|}
 		\hline
-		フィールド & 型 & 外部キー & Null & オプション \\ \hline\hline
-		{\ul 課題番号} & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & & No & AUTO\_INCREMENT \\ \hline
-		開講回番号 & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 開講回 & No & \\ \hline
-		課題名 & VARCHAR(8) & & No  & \\ \hline
-		課題内容 & VARCHAR(512) & & No & \\ \hline
+		フィールド & 物理名 & 型 & 外部キー & Null & オプション \\ \hline\hline
+		\ul{課題番号} & \ul{PROBLEM_NO} & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & & No & AUTO\_INCREMENT \\ \hline
+		開講回番号 & LECTURE_TIMES_NO & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 開講回 & No & \\ \hline
+		課題名 & PROBLEM_NAME & VARCHAR(8) & & No  & \\ \hline
+		課題内容 & PROBLEM_CONTENT & VARCHAR(512) & & No & \\ \hline
 		\end{tabular}
 	\end{table}
 \subsection{進捗テーブル}
@@ -196,16 +196,16 @@
 		\centering
 		\caption{進捗テーブル}
 		\label{進捗テーブル}
-		\begin{tabular}{|l|l|l|c|l|}
+		\begin{tabular}{|l|l|l|l|c|l|}
 		\hline
-		フィールド & 型 & 外部キー & Null & オプション \\ \hline\hline
-		{\ul 進捗番号} & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & & No & AUTO\_INCREMENT \\ \hline
-		開講回番号 & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 開講回 & No & \\ \hline
-		ユーザ番号 & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & ユーザ  & & \\ \hline
-		グループ番号 & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & グループ & & \\ \hline
-		進捗 & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 課題 & & \\ \hline
-		進捗アイコン & ENUM & & & \\ \hline
-		更新時刻 & TIME & & & \\ \hline
+		フィールド & 物理名 & 型 & 外部キー & Null & オプション \\ \hline\hline
+		\ul{進捗番号} & \ul{} & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & & No & AUTO\_INCREMENT \\ \hline
+		開講回番号 & LECTURE_TIMES_NO & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 開講回 & No & \\ \hline
+		ユーザ番号 & USER_NO & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & ユーザ  & & \\ \hline
+		グループ番号 & GROUP_NO & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & グループ & & \\ \hline
+		進捗 & PROBLEM_NO & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 課題 & & \\ \hline
+		進捗アイコン & PROGRESS_ICON & ENUM & & & \\ \hline
+		更新時刻 & UPDATE_TIME & TIME & & & \\ \hline
 		\end{tabular}
 	\end{table}
 
@@ -226,16 +226,16 @@
 		\centering
 		\caption{質問テーブル}
 		\label{質問テーブル}
-		\begin{tabular}{|l|l|l|c|l|}
+		\begin{tabular}{|l|l|l|l|c|l|}
 		\hline
-		フィールド & 型 & 外部キー & Null & オプション \\ \hline\hline
-		{\ul 質問番号} & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & & No & AUTO\_INCREMENT \\ \hline
-		課題番号 & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 課題 &  & \\ \hline
-		質問者 & VARCHAR(16) & & & \\ \hline
-		質問グループ & VARCHAR(16) & & & \\ \hline
-		質問内容 & VARCHAR(512) & & No & \\ \hline
-		回答 & VARCHAR(512) & & & \\ \hline
-		可視化フラグ & BOOLEAN &  & No & DEFAULT TRUE\\ \hline
+		フィールド & 物理名 & 型 & 外部キー & Null & オプション \\ \hline\hline
+		\ul{質問番号} & \ul{QUESTION_NO} & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & & No & AUTO\_INCREMENT \\ \hline
+		課題番号 & PROBLEM_NO & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 課題 &  & \\ \hline
+		質問者 & USER_NAME & VARCHAR(16) & & & \\ \hline
+		質問グループ & GROUP_NAME & VARCHAR(16) & & & \\ \hline
+		質問内容 & QUESTION_CONTENT & VARCHAR(512) & & No & \\ \hline
+		回答 & REPLY & VARCHAR(512) & & & \\ \hline
+		可視化フラグ & VISIBLE_FLAG & BOOLEAN &  & No & DEFAULT TRUE\\ \hline
 		\end{tabular}
 	\end{table}
 
@@ -251,12 +251,12 @@
 		\centering
 		\caption{公開テーブル}
 		\label{公開テーブル}
-		\begin{tabular}{|l|l|l|c|l|}
+		\begin{tabular}{|l|l|l|l|c|l|}
 		\hline
-		フィールド & 型 & 外部キー & Null & オプション \\ \hline\hline
-		ユーザ番号 & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & ユーザ  & & \\ \hline
-		授業番号 & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 授業 &  & \\ \hline
-		開講回番号 & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 開講回 & No & \\ \hline
+		フィールド & 物理名 & 型 & 外部キー & Null & オプション \\ \hline\hline
+		ユーザ番号 & USER_NO & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & ユーザ  & & \\ \hline
+		授業番号 & LECTURE_NO & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 授業 &  & \\ \hline
+		開講回番号 & LECTURE_TIMES_NO & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 開講回 & No & \\ \hline
 		\end{tabular}
 	\end{table}
 
