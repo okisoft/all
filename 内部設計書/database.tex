@@ -157,6 +157,26 @@
 		授業題目 & LECTURE_TITLE & VARCHAR(256) & & & \\ \hline
 		\end{tabular}
 	\end{table}
+\subsection{公開テーブル}
+現在開講されている授業情報を格納します。各フィールドの概要は以下の通りです。また、公開テーブルの詳細は表\ref{公開テーブル}で示します。
+\begin{itemize}
+	\item ユーザ番号：講義を開講した管理者を示す
+	\item 授業番号：開講されている授業を示す
+	\item 開講回番号：開講されている回を示す
+\end{itemize}
+
+	\begin{table}[h]
+		\centering
+		\caption{公開テーブル}
+		\label{公開テーブル}
+		\begin{tabular}{|l|l|l|l|c|l|}
+		\hline
+		フィールド & 物理名 & 型 & 外部キー & Null & オプション \\ \hline\hline
+		ユーザ番号 & USER_NO & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & ユーザ  & & \\ \hline
+		授業番号 & LECTURE_NO & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 授業 &  & \\ \hline
+		開講回番号 & LECTURE_TIMES_NO & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 開講回 & No & \\ \hline
+		\end{tabular}
+	\end{table}
 	
 \subsection{課題テーブル}
 授業の回ごとに提示する課題情報を格納します。各フィールドの概要は以下の通りです。また、課題テーブルの詳細は表\ref{課題テーブル}で示します。
@@ -187,7 +207,6 @@
 	\item 開講回番号：何年度の何の授業の何回目の授業であるかを示す
 	\item ユーザ番号：進捗を確認する対象である受講者
 	\item グループ番号：進捗を確認する対象である受講グループ
-	\item 進捗：進捗の最終更新時刻の時点までに達成している課題
 	\item 進捗アイコン：進捗確認画面で表示されるアイコンの種類
 	\item 更新時刻：進捗の最終更新時刻
 \end{itemize}
@@ -203,7 +222,6 @@
 		開講回番号 & LECTURE_TIMES_NO & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 開講回 & No & \\ \hline
 		ユーザ番号 & USER_NO & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & ユーザ  & & \\ \hline
 		グループ番号 & GROUP_NO & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & グループ & & \\ \hline
-		進捗 & PROBLEM_NO & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 課題 & & \\ \hline
 		進捗アイコン & PROGRESS_ICON & ENUM & & & \\ \hline
 		更新時刻 & UPDATE_TIME & TIME & & & \\ \hline
 		\end{tabular}
@@ -239,24 +257,24 @@
 		\end{tabular}
 	\end{table}
 
-\subsection{公開テーブル}
-現在開講されている授業情報を格納します。各フィールドの概要は以下の通りです。また、公開テーブルの詳細は表\ref{公開テーブル}で示します。
+\subsection{達成テーブル}
+履修者が達成した課題情報を格納します。各フィールドの概要は以下の通りです。また、達成テーブルの詳細は表\ref{達成テーブル}で示します。
 \begin{itemize}
-	\item ユーザ番号：講義を開講した管理者を示す
-	\item 授業番号：開講されている授業を示す
-	\item 開講回番号：開講されている回を示す
+	\item ユーザ番号：進捗確認の対象である学生
+	\item グループ番号：進捗確認の対象であるグループ
+	\item 課題番号：達成した課題
 \end{itemize}
 
 	\begin{table}[h]
 		\centering
-		\caption{公開テーブル}
-		\label{公開テーブル}
+		\caption{達成テーブル}
+		\label{達成テーブル}
 		\begin{tabular}{|l|l|l|l|c|l|}
 		\hline
-		フィールド & 物理名 & 型 & 外部キー & Null & オプション \\ \hline\hline
-		ユーザ番号 & USER_NO & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & ユーザ  & & \\ \hline
-		授業番号 & LECTURE_NO & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 授業 &  & \\ \hline
-		開講回番号 & LECTURE_TIMES_NO & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 開講回 & No & \\ \hline
+		フィールド & 物理名 & 型 & 外部キー & Null & オプション\\ \hline\hline
+		ユーザ番号 & USER_NO & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 進捗  & & \\ \hline
+		グループ番号 & GROUP_NO & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 進捗 & & \\ \hline
+		課題番号 & PROBLEM_NO & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 課題 & & \\ \hline
 		\end{tabular}
 	\end{table}
 
