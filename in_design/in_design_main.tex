@@ -1,0 +1,54 @@
+\documentclass[12pt,a4j]{jarticle}
+%---------------------------------------------------
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{ascmac}
+\usepackage{setspace}
+\usepackage{float}
+\usepackage[dvipdfmx,usenames]{color}
+\usepackage{colortbl}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{setspace}
+\usepackage{udline}
+%---------------------------------------------------
+\makeatletter
+\def\@maketitle{%
+\begin{center}%
+\let\footnote\thanks
+\vspace*{80mm} % この量でタイトルの位置が下がる。
+{\LARGE \@title \par}%
+\vskip 1.5em%
+{\large
+\lineskip .5em%
+\begin{tabular}[t]{c}%
+\@author
+\end{tabular}\par}%
+\vskip 1em%
+{\large \@date}%
+\end{center}%
+\par\vskip 1.5em}
+\makeatother
+
+\title{\Huge 教務支援システム\\外部設計書}
+\date{\today}
+\author{\large Outing Corporation}
+\begin{document}
+
+\maketitle
+
+\newpage
+
+\setcounter{tocdepth}{2}
+\tableofcontents
+
+\pagenumbering{arabic}
+% input
+\input{database.tex}
+
+\newpage
+
+\appendix
+
+\end{document}
