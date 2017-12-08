@@ -12,25 +12,25 @@
 \subsection{ユーザテーブル}
 本システム利用者のユーザ情報を格納します。権限が「学生」であるユーザ情報は、登録日から設定した年が経過すると削除されます。各フィールドの概要は以下の通りです。また、ユーザテーブルの詳細は表\ref{ユーザテーブル}で示します。
 \begin{itemize}
-	\item ユーザ番号：ユーザテーブルの主キー
-	\item ユーザID：システムにおいてユーザを一意に定める名前
-	\item パスワード：ユーザの識別・確認に用いるパスワード
-	\item 氏名：ユーザ本人の名前
-	\item 権限：ユーザに「教員」、「アシスタント」または「学生」のいずれかの権限を与える
+	\item ユーザ番号(USER\_NO)：\\ユーザテーブルの主キー
+	\item ユーザID(USER\_ID)：\\システムにおいてユーザを一意に定める名前
+	\item パスワード(PASSWORD)：\\ユーザの識別・確認に用いるパスワード
+	\item 氏名(USER\_NAME)：\\ユーザ本人の名前
+	\item 権限(AUTHORITY)：\\ユーザに「教員」、「アシスタント」または「学生」のいずれかの権限を与える
 \end{itemize}
 
 	\begin{table}[h]
 		\centering
 		\caption{ユーザテーブル(TB\_USER)}
 		\label{ユーザテーブル}
-		\begin{tabular}{|l|l|l|l|c|l|}
+		\begin{tabular}{|l|l|l|c|l|}
 		\hline
-		フィールド & 物理名 & 型  & 外部キー & Null & オプション\\ \hline\hline
-		\ul{ユーザ番号} & \ul{USER\_NO} & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} &  & No & AUTO\_INCREMENT\\ \hline
-		ユーザID & USER\_ID & VARCHAR(32) & & No & UNIQUE\\ \hline
-		パスワード & PASSWORD & VARCHAR(64) & & No & \\ \hline
-		氏名 & USER\_NAME & VARCHAR(16) &  & No  &\\ \hline
-		権限 & AUTHORITY & ENUM & & No & \\ \hline
+		フィールド & 型  & 外部キー & Null & オプション\\ \hline\hline
+		\ul{ユーザ番号} & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} &  & No & AUTO\_INCREMENT\\ \hline
+		ユーザID & VARCHAR(32) & & No & UNIQUE\\ \hline
+		パスワード & VARCHAR(64) & & No & \\ \hline
+		氏名 & VARCHAR(16) &  & No  &\\ \hline
+		権限 & ENUM & & No & \\ \hline
 		\end{tabular}
 	\end{table}
 
@@ -39,191 +39,191 @@
 \subsection{履修者テーブル}
 受講するユーザ情報を格納します。各フィールドの概要は以下の通りです。また、履修者テーブルの詳細は表\ref{履修者テーブル}で示します。
 \begin{itemize}
-	\item 開講年度番号：何年度の何の授業であるかを示す
-	\item ユーザ番号：授業を履修する学生ユーザ
+	\item 開講年度番号(LECTURE\_YEAR\_NO)：\\何年度の何の授業であるかを示す
+	\item ユーザ番号(USER\_NO)：\\授業を履修する学生ユーザ
 \end{itemize}
 
 	\begin{table}[h]
 		\centering
 		\caption{履修者テーブル(TB\_STUDENT)}
 		\label{履修者テーブル}
-		\begin{tabular}{|l|l|l|l|c|l|}
+		\begin{tabular}{|l|l|l|c|l|}
 		\hline
-		フィールド & 物理名 & 型 & 外部キー & Null & オプション \\ \hline\hline
-		開講年度番号 & LECTURE\_YEAR\_NO & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 開講年度 & No & \\ \hline
-		ユーザ番号 & USER\_NO & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & ユーザ & No & \\ \hline
+		フィールド & 型 & 外部キー & Null & オプション \\ \hline\hline
+		開講年度番号 & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 開講年度 & No & \\ \hline
+		ユーザ番号 & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & ユーザ & No & \\ \hline
 		\end{tabular}
 	\end{table}
 
 \subsection{グループテーブル}
 授業のために作成されたグループ情報を格納します。各フィールドの概要は以下の通りです。また、グループテーブルの詳細は表\ref{グループテーブル}で示します。
 \begin{itemize}
-	\item グループ番号：グループテーブルの主キー
-	\item グループ名：グループの名前
-	\item 開講年度番号：何年度の何の授業のために作成されたかを示す
+	\item グループ番号(GROUP\_NO)：\\グループテーブルの主キー
+	\item グループ名(GROUP\_NAME)：\\グループの名前
+	\item 開講年度番号(LECTURE\_YEAR\_NO)：\\何年度の何の授業のために作成されたかを示す
 \end{itemize}
 
 	\begin{table}[h]
 		\centering
 		\caption{グループテーブル(TB\_GROUP)}
 		\label{グループテーブル}
-		\begin{tabular}{|l|l|l|l|c|l|}
+		\begin{tabular}{|l|l|l|c|l|}
 		\hline
-		フィールド & 物理名 & 型 & 外部キー & Null & オプション\\ \hline\hline
-		\ul{グループ番号} & \ul{GROUP\_NO} & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & & No & AUTO\_INCREMENT \\ \hline
-		グループ名 & GROUP\_NAME & VARCHAR(16) & & No & \\ \hline
-		開講年度番号 & LECTURE\_YEAR\_NO & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 授業 & No & \\ \hline
+		フィールド & 型 & 外部キー & Null & オプション\\ \hline\hline
+		\ul{グループ番号} & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & & No & AUTO\_INCREMENT \\ \hline
+		グループ名 & VARCHAR(16) & & No & \\ \hline
+		開講年度番号 & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 授業 & No & \\ \hline
 		\end{tabular}
 	\end{table}
 
 \subsection{グループメンバテーブル}
 授業のために作成されたグループに所属しているユーザ情報を格納します。各フィールドの概要は以下の通りです。また、グループメンバテーブルの詳細は表\ref{グループメンバテーブル}で示します。
 \begin{itemize}
-	\item グループ番号：何年度の何の授業のために作成されたグループであるかを示す
-	\item ユーザ番号：グループに所属している学生
+	\item グループ番号(GROUP\_NO)：\\何年度の何の授業のために作成されたグループであるかを示す
+	\item ユーザ番号(USER\_NO)：\\グループに所属している学生
 \end{itemize}
 
 	\begin{table}[h]
 		\centering
 		\caption{グループメンバテーブル(TB\_GROUP\_MEMBER)}
 		\label{グループメンバテーブル}
-		\begin{tabular}{|l|l|l|l|c|l|}
+		\begin{tabular}{|l|l|l|c|l|}
 		\hline
-		フィールド & 物理名 & 型 & 外部キー & Null & オプション\\ \hline\hline
-		グループ番号 & GROUP\_NO & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & グループ & No & \\ \hline
-		ユーザ番号 & USER\_NO & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & ユーザ & No & \\ \hline
+		フィールド & 型 & 外部キー & Null & オプション\\ \hline\hline
+		グループ番号 & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & グループ & No & \\ \hline
+		ユーザ番号 & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & ユーザ & No & \\ \hline
 		\end{tabular}
 	\end{table}
 \subsection{授業テーブル}
 本システムを利用する授業の情報を格納します。各フィールドの概要は以下の通りです。また、授業テーブルの詳細は表\ref{授業テーブル}で示します。
 \begin{itemize}
-	\item 授業番号：授業テーブルの主キー
-	\item 授業名：授業の名前
+	\item 授業番号(LECTURE\_NO)：\\授業テーブルの主キー
+	\item 授業名(LECTURE\_NAME)：\\授業の名前
 \end{itemize}
 
 	\begin{table}[h]
 		\centering
 		\caption{授業テーブル(TB\_LECTURE)}
 		\label{授業テーブル}
-		\begin{tabular}{|l|l|l|l|c|l|}
+		\begin{tabular}{|l|l|l|c|l|}
 		\hline
-		フィールド & 物理名 & 型 & 外部キー & Null & オプション \\ \hline\hline
-		\ul{授業番号} & \ul{LECTURE\_NO} & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & & No & AUTO\_INCREMENT \\ \hline
-		授業名 & LECTURE\_NAME & VARCHAR(32) & & No & UNIQUE \\ \hline
+		フィールド & 型 & 外部キー & Null & オプション \\ \hline\hline
+		\ul{授業番号} & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & & No & AUTO\_INCREMENT \\ \hline
+		授業名 & VARCHAR(32) & & No & UNIQUE \\ \hline
 		\end{tabular}
 	\end{table}
 \subsection{開講年度テーブル}
 開講された年度を含めた授業情報を格納します。各フィールドの概要は以下の通りです。また、開講年度テーブルの詳細は表\ref{開講年度テーブル}で示します。
 \begin{itemize}
-	\item 開講年度番号：開講年度テーブルの主キー
-	\item 授業番号：授業を示す
-	\item 開講年度：開講された年度を示す
-	\item 授業形態：授業の進捗を「個人」または「グループ」のどちらで表示するかを示す
+	\item 開講年度番号(LECTURE\_YEAR\_NO)：\\開講年度テーブルの主キー
+	\item 授業番号(LECTURE\_NO)：\\授業を示す
+	\item 開講年度(LECTURE\_YEAR)：\\開講された年度を示す
+	\item 授業形態(LECTURE\_STYLE)：\\授業の進捗を「個人」または「グループ」のどちらで表示するかを示す
 \end{itemize}
 
 	\begin{table}[h]
 		\centering
 		\caption{開講年度テーブル(TB\_LECTURE\_YEAR)}
 		\label{開講年度テーブル}
-		\begin{tabular}{|l|l|l|l|c|l|}
+		\begin{tabular}{|l|l|l|c|l|}
 		\hline
-		フィールド & 物理名 & 型 & 外部キー & Null & オプション \\ \hline\hline
-		\ul{開講年度番号} & \ul{LECTURE\_YEAR\_NO} & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & & No & AUTO\_INCREMENT \\ \hline
-		授業番号 & LECTURE\_NO & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 授業 & No & \\ \hline
-		開講年度 & LECTURE\_YEAR & \begin{tabular}[c]{@{}l@{}}SMALLINT\\ UNSIGNED\end{tabular} & & No & \\ \hline
-		授業形態 & LECTURE\_STYLE & ENUM & & No & \\ \hline
+		フィールド & 型 & 外部キー & Null & オプション \\ \hline\hline
+		\ul{開講年度番号} & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & & No & AUTO\_INCREMENT \\ \hline
+		授業番号 & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 授業 & No & \\ \hline
+		開講年度 & \begin{tabular}[c]{@{}l@{}}SMALLINT\\ UNSIGNED\end{tabular} & & No & \\ \hline
+		授業形態 & ENUM & & No & \\ \hline
 		\end{tabular}
 	\end{table}
 
 \subsection{開講回テーブル}
 回ごとの授業情報を格納します。各フィールドの概要は以下の通りです。また、開講回テーブルの詳細は表\ref{開講回テーブル}で示します。
 \begin{itemize}
-	\item 開講回番号：開講回テーブルの主キー
-	\item 開講年度番号：何年度の何の授業であるかを示す
-	\item 開講回：何年度の何の授業の何回目に開講されたかを示す
-	\item 授業題目：開講された回ごとの授業概要を示す
+	\item 開講回番号(LECTURE\_TIMES\_NO)：\\開講回テーブルの主キー
+	\item 開講年度番号(LECTURE\_YEAR\_NO)：\\何年度の何の授業であるかを示す
+	\item 開講回(LECTURE\_TIMES)：\\何年度の何の授業の何回目に開講されたかを示す
+	\item 授業題目(LECTURE\_TITLE)：\\開講された回ごとの授業概要を示す
 \end{itemize}
 
 	\begin{table}[h]
 		\centering
 		\caption{開講回テーブル(TB\_LECTURE\_TIMES)}
 		\label{開講回テーブル}
-		\begin{tabular}{|l|l|l|l|c|l|}
+		\begin{tabular}{|l|l|l|c|l|}
 		\hline
-		フィールド & 物理名 & 型 & 外部キー & Null & オプション \\ \hline\hline
-		\ul{開講回番号} & \ul{LECTURE\_TIMES\_NO} & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} &  & No & AUTO\_INCREMENT \\ \hline
-		開講年度番号 & LECTURE\_YEAR\_NO & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 開講年度 & No & \\ \hline
-		開講回 & LECTURE\_TIMES & \begin{tabular}[c]{@{}l@{}}TINYINT\\ UNSIGNED\end{tabular} & & No & \\ \hline
-		授業題目 & LECTURE\_TITLE & VARCHAR(256) & & & \\ \hline
+		フィールド & 型 & 外部キー & Null & オプション \\ \hline\hline
+		\ul{開講回番号} & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} &  & No & AUTO\_INCREMENT \\ \hline
+		開講年度番号 & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 開講年度 & No & \\ \hline
+		開講回 & \begin{tabular}[c]{@{}l@{}}TINYINT\\ UNSIGNED\end{tabular} & & No & \\ \hline
+		授業題目 & VARCHAR(256) & & & \\ \hline
 		\end{tabular}
 	\end{table}
 \subsection{公開テーブル}
 現在開講されている授業情報を格納します。各フィールドの概要は以下の通りです。また、公開テーブルの詳細は表\ref{公開テーブル}で示します。
 \begin{itemize}
-	\item ユーザ番号：講義を開講した管理者を示す
-	\item 授業番号：開講されている授業を示す
-	\item 開講回番号：開講されている回を示す
+	\item ユーザ番号(USER\_NO)：\\講義を開講した管理者を示す
+	\item 授業番号(LECTURE\_NO)：\\開講されている授業を示す
+	\item 開講回番号(LECTURE\_TIMES\_NO)：\\開講されている回を示す
 \end{itemize}
 
 	\begin{table}[h]
 		\centering
 		\caption{公開テーブル(TB\_OPEN\_LECTURE)}
 		\label{公開テーブル}
-		\begin{tabular}{|l|l|l|l|c|l|}
+		\begin{tabular}{|l|l|l|c|l|}
 		\hline
-		フィールド & 物理名 & 型 & 外部キー & Null & オプション \\ \hline\hline
-		ユーザ番号 & USER\_NO & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & ユーザ  & & \\ \hline
-		授業番号 & LECTURE\_NO & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 授業 &  & \\ \hline
-		開講回番号 & LECTURE\_TIMES\_NO & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 開講回 & No & \\ \hline
+		フィールド & 型 & 外部キー & Null & オプション \\ \hline\hline
+		ユーザ番号 & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & ユーザ  & & \\ \hline
+		授業番号 & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 授業 &  & \\ \hline
+		開講回番号 & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 開講回 & No & \\ \hline
 		\end{tabular}
 	\end{table}
 
 \subsection{課題テーブル}
 授業の回ごとに提示する課題情報を格納します。各フィールドの概要は以下の通りです。また、課題テーブルの詳細は表\ref{課題テーブル}で示します。
 \begin{itemize}
-	\item 課題番号：課題テーブルの主キー
-	\item 開講回番号：何年度の何の授業の何回目の授業であるかを示す
-	\item 課題名：授業回ごとに提示される課題の番号
-	\item 課題内容：授業回ごとに提示される課題の内容
+	\item 課題番号(PROBLEM\_NO)：\\課題テーブルの主キー
+	\item 開講回番号(LECTURE\_TIMES\_NO)：\\何年度の何の授業の何回目の授業であるかを示す
+	\item 課題名(PROBLEM\_NAME)：\\授業回ごとに提示される課題の番号
+	\item 課題内容(PROBLEM\_CONTENT)：\\授業回ごとに提示される課題の内容
 \end{itemize}
 
 	\begin{table}[h]
 		\centering
 		\caption{課題テーブル(TB\_PROBLEM)}
 		\label{課題テーブル}
-		\begin{tabular}{|l|l|l|l|c|l|}
+		\begin{tabular}{|l|l|l|c|l|}
 		\hline
-		フィールド & 物理名 & 型 & 外部キー & Null & オプション \\ \hline\hline
-		\ul{課題番号} & \ul{PROBLEM\_NO} & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & & No & AUTO\_INCREMENT \\ \hline
-		開講回番号 & LECTURE\_TIMES\_NO & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 開講回 & No & \\ \hline
-		課題名 & PROBLEM\_NAME & VARCHAR(8) & & No  & \\ \hline
-		課題内容 & PROBLEM\_CONTENT & VARCHAR(512) & & No & \\ \hline
+		フィールド & 型 & 外部キー & Null & オプション \\ \hline\hline
+		\ul{課題番号} & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & & No & AUTO\_INCREMENT \\ \hline
+		開講回番号 & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 開講回 & No & \\ \hline
+		課題名 & VARCHAR(8) & & No  & \\ \hline
+		課題内容 & VARCHAR(512) & & No & \\ \hline
 		\end{tabular}
 	\end{table}
 \subsection{進捗テーブル}
 授業回ごとの学生の課題の進捗情報を格納します。進捗情報は授業時間内のみで使用するため、授業終了から一定期間後に格納された情報は削除されます。各フィールドの概要は以下の通りです。また、進捗テーブルの詳細は表\ref{進捗テーブル}で示します。
 \begin{itemize}
-	\item 進捗番号：進捗テーブルの主キー
-	\item 開講回番号：何年度の何の授業の何回目の授業であるかを示す
-	\item ユーザ番号：進捗を確認する対象である受講者
-	\item グループ番号：進捗を確認する対象である受講グループ
-	\item 進捗アイコン：進捗確認画面で表示されるアイコンの種類
-	\item 更新時刻：進捗の最終更新時刻
+	\item 進捗番号(PROGRESS_NO)：\\進捗テーブルの主キー
+	\item 開講回番号(LECTURE\_TIMES\_NO)：\\何年度の何の授業の何回目の授業であるかを示す
+	\item ユーザ番号(USER\_NO)：\\進捗を確認する対象である受講者
+	\item グループ番号(GROUP\_NO)：\\進捗を確認する対象である受講グループ
+	\item 進捗アイコン(PROGRESS\_ICON)：\\進捗確認画面で表示されるアイコンの種類
+	\item 更新時刻(UPDATE\_TIME)：\\進捗の最終更新時刻
 \end{itemize}
 
 	\begin{table}[h]
 		\centering
 		\caption{進捗テーブル(TB\_PROGRESS)}
 		\label{進捗テーブル}
-		\begin{tabular}{|l|l|l|l|c|l|}
+		\begin{tabular}{|l|l|l|c|l|}
 		\hline
-		フィールド & 物理名 & 型 & 外部キー & Null & オプション \\ \hline\hline
-		\ul{進捗番号} & \ul{} & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & & No & AUTO\_INCREMENT \\ \hline
-		開講回番号 & LECTURE\_TIMES\_NO & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 開講回 & No & \\ \hline
-		ユーザ番号 & USER\_NO & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & ユーザ  & & \\ \hline
-		グループ番号 & GROUP\_NO & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & グループ & & \\ \hline
-		進捗アイコン & PROGRESS\_ICON & ENUM & & & \\ \hline
-		更新時刻 & UPDATE\_TIME & TIME & & & \\ \hline
+		フィールド & 型 & 外部キー & Null & オプション \\ \hline\hline
+		\ul{進捗番号} & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & & No & AUTO\_INCREMENT \\ \hline
+		開講回番号 & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 開講回 & No & \\ \hline
+		ユーザ番号 & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & ユーザ  & & \\ \hline
+		グループ番号 & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & グループ & & \\ \hline
+		進捗アイコン & ENUM & & & \\ \hline
+		更新時刻 & TIME & & & \\ \hline
 		\end{tabular}
 	\end{table}
 
@@ -232,48 +232,48 @@
 \subsection{質問テーブル}
 授業回ごとに出た質問の情報を格納します。各フィールドの概要は以下の通りです。また、質問テーブルの詳細は表\ref{質問テーブル}で示します。
 \begin{itemize}
-	\item 質問番号：質問テーブルの主キー
-	\item 質問者：質問をした学生
-	\item 質問グループ：質問をしたグループ
-	\item 質問内容：課題に対する質問の内容
-	\item 回答：質問に対する回答
-	\item 可視化フラグ：過去に出た質問の中で、学生に質問や回答を表示させるかどうかのフラグ
+	\item 質問番号(PROBLEM\_NO)：\\質問テーブルの主キー
+	\item 質問者(USER\_NAME)：\\質問をした学生
+	\item 質問グループ(GROUP\_NAME)：\\質問をしたグループ
+	\item 質問内容(QUESTION\_CONTENT)：\\課題に対する質問の内容
+	\item 回答(REPLY)：\\質問に対する回答
+	\item 可視化フラグ(VISIBLE\_FLAG)：\\過去に出た質問の中で、学生に質問や回答を表示させるかどうかのフラグ
 \end{itemize}
 
 	\begin{table}[h]
 		\centering
 		\caption{質問テーブル(TB\_QUESTION)}
 		\label{質問テーブル}
-		\begin{tabular}{|l|l|l|l|c|l|}
+		\begin{tabular}{|l|l|l|c|l|}
 		\hline
-		フィールド & 物理名 & 型 & 外部キー & Null & オプション \\ \hline\hline
-		\ul{質問番号} & \ul{QUESTION\_NO} & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & & No & AUTO\_INCREMENT \\ \hline
-		課題番号 & PROBLEM\_NO & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 課題 &  & \\ \hline
-		質問者 & USER\_NAME & VARCHAR(16) & & & \\ \hline
-		質問グループ & GROUP\_NAME & VARCHAR(16) & & & \\ \hline
-		質問内容 & QUESTION\_CONTENT & VARCHAR(512) & & No & \\ \hline
-		回答 & REPLY & VARCHAR(512) & & & \\ \hline
-		可視化フラグ & VISIBLE\_FLAG & BOOLEAN &  & No & DEFAULT TRUE\\ \hline
+		フィールド & 型 & 外部キー & Null & オプション \\ \hline\hline
+		\ul{質問番号}QUESTION\_NO & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & & No & AUTO\_INCREMENT \\ \hline
+		課題番号 & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 課題 &  & \\ \hline
+		質問者 & VARCHAR(16) & & & \\ \hline
+		質問グループ & VARCHAR(16) & & & \\ \hline
+		質問内容 & VARCHAR(512) & & No & \\ \hline
+		回答 & VARCHAR(512) & & & \\ \hline
+		可視化フラグ & BOOLEAN &  & No & DEFAULT TRUE\\ \hline
 		\end{tabular}
 	\end{table}
 
 \subsection{達成テーブル}
 履修者が達成した課題情報を格納します。各フィールドの概要は以下の通りです。また、達成テーブルの詳細は表\ref{達成テーブル}で示します。
 \begin{itemize}
-	\item ユーザ番号：進捗確認の対象である学生
-	\item グループ番号：進捗確認の対象であるグループ
-	\item 課題番号：達成した課題
+	\item ユーザ番号(USER\_NO)：\\進捗確認の対象である学生
+	\item グループ番号(GROUP\_NO)：\\進捗確認の対象であるグループ
+	\item 課題番号(PROBLEM\_NO)：\\達成した課題
 \end{itemize}
 
 	\begin{table}[h]
 		\centering
 		\caption{達成テーブル(TB\_ACHIEVMENT)}
 		\label{達成テーブル}
-		\begin{tabular}{|l|l|l|l|c|l|}
+		\begin{tabular}{|l|l|l|c|l|}
 		\hline
-		フィールド & 物理名 & 型 & 外部キー & Null & オプション\\ \hline\hline
-		ユーザ番号 & USER\_NO & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 進捗  & & \\ \hline
-		グループ番号 & GROUP\_NO & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 進捗 & & \\ \hline
-		課題番号 & PROBLEM\_NO & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 課題 & & \\ \hline
+		フィールド & 型 & 外部キー & Null & オプション\\ \hline\hline
+		ユーザ番号 & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 進捗  & & \\ \hline
+		グループ番号 & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 進捗 & & \\ \hline
+		課題番号 & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 課題 & & \\ \hline
 		\end{tabular}
 	\end{table}
