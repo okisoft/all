@@ -234,7 +234,7 @@
 \subsection{質問テーブル}
 授業回ごとに出た質問の情報を格納します。各フィールドの概要は以下の通りです。また、質問テーブルの詳細は表\ref{質問テーブル}で示します。
 \begin{itemize}
-	\item 質問番号(PROBLEM\_NO)：\\質問テーブルの主キー
+	\item 質問番号(QUESTION\_NO)：\\質問テーブルの主キー
 	\item 質問者(USER\_NAME)：\\質問をした学生
 	\item 質問グループ(GROUP\_NAME)：\\質問をしたグループ
 	\item 質問内容(QUESTION\_CONTENT)：\\課題に対する質問の内容
@@ -249,7 +249,7 @@
 		\begin{tabular}{|l|l|l|c|l|}
 		\hline
 		フィールド & 型 & 外部キー & Null & オプション \\ \hline\hline
-		\ul{質問番号}QUESTION\_NO & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & & No & AUTO\_INCREMENT \\ \hline
+		\ul{質問番号} & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & & No & AUTO\_INCREMENT \\ \hline
 		課題番号 & \begin{tabular}[c]{@{}l@{}}INT\\ UNSIGNED\end{tabular} & 課題 &  & \\ \hline
 		質問者 & VARCHAR(16) & & & \\ \hline
 		質問グループ & VARCHAR(16) & & & \\ \hline
