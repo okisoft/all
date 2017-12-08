@@ -16,7 +16,8 @@
 	\item ユーザID(USER\_ID)：\\システムにおいてユーザを一意に定める名前
 	\item パスワード(PASSWORD)：\\ユーザの識別・確認に用いるパスワード
 	\item 氏名(USER\_NAME)：\\ユーザ本人の名前
-	\item 権限(AUTHORITY)：\\ユーザに「教員」、「アシスタント」または「学生」のいずれかの権限を与える
+	\item 権限(AUTHORITY)：\\ユーザに与える権限レベルを示す
+	\item 登録期間(REGISTRATION\_PERIOD)：\\ユーザの情報を登録しておく期間を示す
 \end{itemize}
 
 	\begin{table}[h]
@@ -31,6 +32,7 @@
 		パスワード & VARCHAR(64) & & No & \\ \hline
 		氏名 & VARCHAR(16) &  & No  &\\ \hline
 		権限 & ENUM & & No & \\ \hline
+		登録期間 & INT & & & \\ \hline
 		\end{tabular}
 	\end{table}
 
