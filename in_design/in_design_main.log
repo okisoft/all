@@ -1,15 +1,15 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.5.19)  8 DEC 2017 06:17
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.6.30)  10 DEC 2017 15:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./in_design_main.tex
+**in_design_main.tex
 (./in_design_main.tex
 pLaTeX2e <2017/05/05> (based on LaTeX2e <2017-04-15>)
-Babel <3.9t> and hyphenation patterns for 84 language(s) loaded.
-(c:/w32tex/share/texmf-dist/tex/platex/base/jarticle.cls
+Babel <3.11> and hyphenation patterns for 84 language(s) loaded.
+(/usr/local/texlive/2017/texmf-dist/tex/platex/base/jarticle.cls
 Document Class: jarticle 2017/03/05 v1.7e Standard pLaTeX class
 \c@@paper=\count82
-(c:/w32tex/share/texmf-dist/tex/platex/base/jsize12.clo
+(/usr/local/texlive/2017/texmf-dist/tex/platex/base/jsize12.clo
 File: jsize12.clo 2017/03/05 v1.7e Standard pLaTeX file (size option)
 )
 \c@part=\count83
@@ -30,35 +30,34 @@ LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
 \bibindent=\dimen120
 \heisei=\count91
 )
-(c:/w32tex/share/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(c:/w32tex/share/texmf-dist/tex/latex/graphics/keyval.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
 )
-(c:/w32tex/share/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-(c:/w32tex/share/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(c:/w32tex/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: dvipdfmx.def on input line 99.
 
-(c:/w32tex/share/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
-File: dvipdfmx.def 2016/07/11 v4.12 LaTeX color/graphics driver for dvipdfmx (L
-3/ChoF)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
+File: dvipdfmx.def 2017/06/24 v5.0g Graphics/color driver for dvipdfmx
 ))
 \Gin@req@height=\dimen121
 \Gin@req@width=\dimen122
 )
-(c:/w32tex/share/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(c:/w32tex/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks16
 \symAMSa=\mathgroup5
@@ -66,24 +65,24 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(c:/w32tex/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2016/11/05 v2.16a AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-(c:/w32tex/share/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(c:/w32tex/share/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks17
 \ex@=\dimen123
 ))
-(c:/w32tex/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen124
 )
-(c:/w32tex/share/texmf-dist/tex/latex/amsmath/amsopn.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count92
@@ -124,10 +123,10 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
-(c:/w32tex/share/texmf-dist/tex/platex/base/ascmac.sty
+(/usr/local/texlive/2017/texmf-dist/tex/platex/base/ascmac.sty
 Package: ascmac 2016/08/21 v2.0c ascmac wrapper (community edition) 
 
-(c:/w32tex/share/texmf-dist/tex/platex/base/tascmac.sty
+(/usr/local/texlive/2017/texmf-dist/tex/platex/base/tascmac.sty
 Package: tascmac 2016/08/21 v2.0c ascmac package (community edition) 
 \@savetbaselineshift=\dimen132
 \@saveybaselineshift=\dimen133
@@ -145,10 +144,10 @@ Package: tascmac 2016/08/21 v2.0c ascmac package (community edition)
 \@bcal=\count104
 \shaderule=\dimen137
 ))
-(c:/w32tex/share/texmf-dist/tex/latex/setspace/setspace.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-(c:/w32tex/share/texmf-dist/tex/latex/float/float.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count105
 \float@exts=\toks23
@@ -156,21 +155,21 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks24
 \@floatcapt=\box52
 )
-(c:/w32tex/share/texmf-dist/tex/latex/graphics/color.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 
-(c:/w32tex/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: dvipdfmx.def on input line 147.
 
-(c:/w32tex/share/texmf-dist/tex/latex/graphics/dvipsnam.def
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/dvipsnam.def
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 ))
-(c:/w32tex/share/texmf-dist/tex/latex/colortbl/colortbl.sty
-Package: colortbl 2001/02/13 v0.1j Color table columns (DPC)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 
-(c:/w32tex/share/texmf-dist/tex/latex/tools/array.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/array.sty
 Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \col@sep=\dimen138
 \extrarowheight=\dimen139
@@ -181,17 +180,17 @@ Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \everycr=\toks26
 \minrowclearance=\skip48
 )
-(c:/w32tex/share/texmf-dist/tex/latex/algorithms/algorithm.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/algorithms/algorithm.sty
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
 nment
 
-(c:/w32tex/share/texmf-dist/tex/latex/base/ifthen.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \@float@every@algorithm=\toks27
 \c@algorithm=\count106
 )
-(c:/w32tex/share/texmf-dist/tex/latex/algorithms/algorithmic.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/algorithms/algorithmic.sty
 Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
 \c@ALC@unique=\count107
 \c@ALC@line=\count108
@@ -199,9 +198,26 @@ Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
 \c@ALC@depth=\count110
 \ALC@tlm=\skip49
 \algorithmicindent=\skip50
-) (./udline.sty
-Package: udline 2005/01/28 â∫ê¸É}ÉNÉç ver2.52ÅFÉçÅ[ÉhÇµÇ‹Ç∑
-) (./in_design_main.aux)
+)
+(./udline.sty
+Package: udline 2005/01/28 ‰∏ãÁ∑ö„Éû„ÇØ„É≠ ver2.52Ôºö„É≠„Éº„Éâ„Åó„Åæ„Åô
+) (./in_design_main.aux
+
+LaTeX Warning: Label `fig:editaccountflow0' multiply defined.
+
+
+LaTeX Warning: Label `fig:joingroupflow0' multiply defined.
+
+
+LaTeX Warning: Label `fig:editgroupflow0' multiply defined.
+
+
+LaTeX Warning: Label `fig:qreadoldflow0' multiply defined.
+
+
+LaTeX Warning: Label `fig:qsendflow0' multiply defined.
+
+)
 \openout1 = `in_design_main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
@@ -221,11 +237,12 @@ LaTeX Font Info:    ... okay on input line 37.
 LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 37.
 LaTeX Font Info:    ... okay on input line 37.
 LaTeX Font Info:    Try loading font information for U+msa on input line 39.
- (c:/w32tex/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 39.
- (c:/w32tex/share/texmf-dist/tex/latex/amsfonts/umsb.fd
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
@@ -240,59 +257,427 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 1.
-)
+ [2])
 \tf@toc=\write3
 \openout3 = `in_design_main.toc'.
 
- (./flow_chart.tex
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 4.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 4.
-File: ./img/éøñ‚â{óóÉVÉXÉeÉÄ.png Graphic file (type bmp)
- <./img/éøñ‚â{óóÉVÉXÉeÉÄ.png>)
-(./database.tex
-File: ./img/er.png Graphic file (type bmp)
- <./img/er.png>
+ [1] (./kankyou.tex
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 5.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[1]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 15.
- (c:/w32tex/share/texmf-dist/tex/latex/base/omscmr.fd
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 15.
-
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 5.
+ [2]) [3]
+(./database.tex
+File: ./img/er.png Graphic file (type bmp)
+<./img/er.png>
+ [4]
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 12.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 12.
+ [5]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[2]
+[6] [7] [8] [9] [10] [11] [12]) [13] (./flow_chart.tex
+File: ./img/login/main.png Graphic file (type bmp)
+<./img/login/main.png>
+File: ./img/login/sub1.png Graphic file (type bmp)
+<./img/login/sub1.png>
+File: ./img/login/sub2.png Graphic file (type bmp)
+<./img/login/sub2.png>
+File: ./img/login/sub3.png Graphic file (type bmp)
+<./img/login/sub3.png>
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 22--32
+[][]$[]$[] []$[]$[] 
+ []
 
-[3] [4] [5]
+File: ./img/login/sub4.png Graphic file (type bmp)
+<./img/login/sub4.png>
+File: ./img/login/sub5.png Graphic file (type bmp)
+<./img/login/sub5.png>
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 36--46
+[][]$[]$[] []$[]$[] 
+ []
 
-[6] [7] [8] [9]
-Overfull \hbox (43.47395pt too wide) in paragraph at lines 247--258
+[14] [15]
+File: ./img/admin_login/main.png Graphic file (type bmp)
+<./img/admin_login/main.png>
+File: ./img/admin_login/sub1.png Graphic file (type bmp)
+<./img/admin_login/sub1.png>
+File: ./img/admin_login/sub2.png Graphic file (type bmp)
+<./img/admin_login/sub2.png>
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 63--73
+[][]$[]$[] []$[]$[] 
+ []
+
+[16] [17]
+File: ./img/create_account/main.png Graphic file (type bmp)
+<./img/create_account/main.png>
+File: ./img/create_account/sub1.png Graphic file (type bmp)
+<./img/create_account/sub1.png>
+File: ./img/create_account/sub2.png Graphic file (type bmp)
+<./img/create_account/sub2.png>
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 88--98
+[][]$[]$[] []$[]$[] 
+ []
+
+File: ./img/create_account/sub3.png Graphic file (type bmp)
+<./img/create_account/sub3.png>
+[18] [19]
+File: ./img/admin_create_account/main.png Graphic file (type bmp)
+<./img/admin_create_account/main.png>
+File: ./img/admin_create_account/sub1.png Graphic file (type bmp)
+<./img/admin_create_account/sub1.png>
+File: ./img/admin_create_account/sub2.png Graphic file (type bmp)
+<./img/admin_create_account/sub2.png>
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 120--130
+[][]$[]$[] []$[]$[] 
+ []
+
+File: ./img/admin_create_account/sub3.png Graphic file (type bmp)
+<./img/admin_create_account/sub3.png>
+[20] [21]
+File: ./img/edit_account/main.png Graphic file (type bmp)
+<./img/edit_account/main.png>
+File: ./img/edit_account/sub1.png Graphic file (type bmp)
+<./img/edit_account/sub1.png>
+File: ./img/edit_account/sub2.png Graphic file (type bmp)
+<./img/edit_account/sub2.png>
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 153--163
+[][]$[]$[] []$[]$[] 
+ []
+
+File: ./img/edit_account/sub3.png Graphic file (type bmp)
+<./img/edit_account/sub3.png>
+File: ./img/edit_account/sub4.png Graphic file (type bmp)
+<./img/edit_account/sub4.png>
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 167--177
+[][]$[]$[] []$[]$[] 
+ []
+
+[22] [23]
+File: ./img/create_group/main.png Graphic file (type bmp)
+<./img/create_group/main.png>
+File: ./img/create_group/sub1.png Graphic file (type bmp)
+<./img/create_group/sub1.png>
+File: ./img/create_group/sub2.png Graphic file (type bmp)
+<./img/create_group/sub2.png>
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 193--203
+[][]$[]$[] []$[]$[] 
+ []
+
+File: ./img/create_group/sub3.png Graphic file (type bmp)
+<./img/create_group/sub3.png>
+[24] [25]
+File: ./img/join_group/main.png Graphic file (type bmp)
+<./img/join_group/main.png>
+File: ./img/join_group/sub1.png Graphic file (type bmp)
+<./img/join_group/sub1.png>
+File: ./img/join_group/sub2.png Graphic file (type bmp)
+<./img/join_group/sub2.png>
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 225--235
+[][]$[]$[] []$[]$[] 
+ []
+
+File: ./img/join_group/sub3.png Graphic file (type bmp)
+<./img/join_group/sub3.png>
+File: ./img/join_group/sub4.png Graphic file (type bmp)
+<./img/join_group/sub4.png>
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 239--249
+[][]$[]$[] []$[]$[] 
+ []
+
+[26] [27]
+File: ./img/edit_group/main.png Graphic file (type bmp)
+<./img/edit_group/main.png>
+File: ./img/edit_group/sub1.png Graphic file (type bmp)
+<./img/edit_group/sub1.png>
+File: ./img/edit_group/sub2.png Graphic file (type bmp)
+<./img/edit_group/sub2.png>
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 266--276
+[][]$[]$[] []$[]$[] 
+ []
+
+File: ./img/edit_group/sub3.png Graphic file (type bmp)
+<./img/edit_group/sub3.png>
+File: ./img/edit_group/sub4.png Graphic file (type bmp)
+<./img/edit_group/sub4.png>
+
+Overfull \hbox (41.79936pt too wide) in paragraph at lines 287--288
+ [] 
+ []
+
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 280--290
+[][]$[]$[] []$[]$[] 
+ []
+
+File: ./img/edit_group/sub5.png Graphic file (type bmp)
+<./img/edit_group/sub5.png>
+[28] [29]
+File: ./img/create_lecture/main.png Graphic file (type bmp)
+<./img/create_lecture/main.png>
+File: ./img/create_lecture/sub1.png Graphic file (type bmp)
+<./img/create_lecture/sub1.png>
+File: ./img/create_lecture/sub2.png Graphic file (type bmp)
+<./img/create_lecture/sub2.png>
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 313--323
+[][]$[]$[] []$[]$[] 
+ []
+
+File: ./img/create_lecture/sub3.png Graphic file (type bmp)
+<./img/create_lecture/sub3.png>
+File: ./img/create_lecture/sub4.png Graphic file (type bmp)
+<./img/create_lecture/sub4.png>
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 327--337
+[][]$[]$[] []$[]$[] 
+ []
+
+File: ./img/create_lecture/sub5.png Graphic file (type bmp)
+<./img/create_lecture/sub5.png>
+File: ./img/create_lecture/sub6.png Graphic file (type bmp)
+<./img/create_lecture/sub6.png>
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 341--351
+[][]$[]$[] []$[]$[] 
+ []
+
+File: ./img/create_lecture/sub7.png Graphic file (type bmp)
+<./img/create_lecture/sub7.png>
+File: ./img/create_lecture/sub8.png Graphic file (type bmp)
+<./img/create_lecture/sub8.png>
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 355--365
+[][]$[]$[] []$[]$[] 
+ []
+
+File: ./img/create_lecture/sub9.png Graphic file (type bmp)
+<./img/create_lecture/sub9.png>
+File: ./img/create_lecture/sub10.png Graphic file (type bmp)
+<./img/create_lecture/sub10.png>
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 369--379
+[][]$[]$[] []$[]$[] 
+ []
+
+File: ./img/create_lecture/sub11.png Graphic file (type bmp)
+<./img/create_lecture/sub11.png>
+File: ./img/create_lecture/sub12.png Graphic file (type bmp)
+<./img/create_lecture/sub12.png>
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 383--393
+[][]$[]$[] []$[]$[] 
+ []
+
+[30] [31] [32]
+File: ./img/takeover_lecture/main.png Graphic file (type bmp)
+<./img/takeover_lecture/main.png>
+File: ./img/takeover_lecture/sub1.png Graphic file (type bmp)
+<./img/takeover_lecture/sub1.png>
+File: ./img/takeover_lecture/sub2.png Graphic file (type bmp)
+<./img/takeover_lecture/sub2.png>
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 409--419
+[][]$[]$[] []$[]$[] 
+ []
+
+File: ./img/takeover_lecture/sub3.png Graphic file (type bmp)
+<./img/takeover_lecture/sub3.png>
+File: ./img/takeover_lecture/sub4.png Graphic file (type bmp)
+<./img/takeover_lecture/sub4.png>
+File: ./img/takeover_lecture/sub5.png Graphic file (type bmp)
+<./img/takeover_lecture/sub5.png>
+File: ./img/takeover_lecture/sub6.png Graphic file (type bmp)
+<./img/takeover_lecture/sub6.png>
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 440--450
+[][]$[]$[] []$[]$[] 
+ []
+
+File: ./img/takeover_lecture/sub7.png Graphic file (type bmp)
+<./img/takeover_lecture/sub7.png>
+File: ./img/takeover_lecture/sub8.png Graphic file (type bmp)
+<./img/takeover_lecture/sub8.png>
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 454--464
+[][]$[]$[] []$[]$[] 
+ []
+
+File: ./img/takeover_lecture/sub9.png Graphic file (type bmp)
+<./img/takeover_lecture/sub9.png>
+File: ./img/takeover_lecture/sub10.png Graphic file (type bmp)
+<./img/takeover_lecture/sub10.png>
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 468--478
+[][]$[]$[] []$[]$[] 
+ []
+
+File: ./img/takeover_lecture/sub11.png Graphic file (type bmp)
+<./img/takeover_lecture/sub11.png>
+File: ./img/takeover_lecture/sub12.png Graphic file (type bmp)
+<./img/takeover_lecture/sub12.png>
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 482--492
+[][]$[]$[] []$[]$[] 
+ []
+
+File: ./img/takeover_lecture/sub13.png Graphic file (type bmp)
+<./img/takeover_lecture/sub13.png>
+File: ./img/takeover_lecture/sub14.png Graphic file (type bmp)
+<./img/takeover_lecture/sub14.png>
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 496--506
+[][]$[]$[] []$[]$[] 
+ []
+
+[33] [34] [35]
+File: ./img/preg_check/main.png Graphic file (type bmp)
+<./img/preg_check/main.png>
+File: ./img/preg_check/sub1.png Graphic file (type bmp)
+<./img/preg_check/sub1.png>
+File: ./img/preg_check/sub2.png Graphic file (type bmp)
+<./img/preg_check/sub2.png>
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 522--532
+[][]$[]$[] []$[]$[] 
+ []
+
+File: ./img/preg_check/sub3.png Graphic file (type bmp)
+<./img/preg_check/sub3.png>
+[36] [37]
+File: ./img/q_read/main.png Graphic file (type bmp)
+<./img/q_read/main.png>
+File: ./img/q_read/sub1.png Graphic file (type bmp)
+<./img/q_read/sub1.png>
+File: ./img/q_read/sub2.png Graphic file (type bmp)
+<./img/q_read/sub2.png>
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 554--564
+[][]$[]$[] []$[]$[] 
+ []
+
+[38]
+File: ./img/q_read_old/main.png Graphic file (type bmp)
+<./img/q_read_old/main.png>
+File: ./img/q_read_old/sub1.png Graphic file (type bmp)
+<./img/q_read_old/sub1.png>
+File: ./img/q_read_old/sub2.png Graphic file (type bmp)
+<./img/q_read_old/sub2.png>
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 579--589
+[][]$[]$[] []$[]$[] 
+ []
+
+File: ./img/q_read_old/sub3.png Graphic file (type bmp)
+<./img/q_read_old/sub3.png>
+File: ./img/q_read_old/sub4.png Graphic file (type bmp)
+<./img/q_read_old/sub4.png>
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 593--603
+[][]$[]$[] []$[]$[] 
+ []
+
+[39] [40]
+File: ./img/q_send/main.png Graphic file (type bmp)
+<./img/q_send/main.png>
+File: ./img/q_send/sub1.png Graphic file (type bmp)
+<./img/q_send/sub1.png>
+File: ./img/q_send/sub2.png Graphic file (type bmp)
+<./img/q_send/sub2.png>
+
+Overfull \hbox (41.79936pt too wide) in paragraph at lines 628--629
+ [] 
+ []
+
+File: ./img/q_send/sub3.png Graphic file (type bmp)
+<./img/q_send/sub3.png>
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 626--636
+[][]$[]$[] []$[]$[] 
+ []
+
+[41] [42]
+File: ./img/q_reply/main1.png Graphic file (type bmp)
+<./img/q_reply/main1.png>
+File: ./img/q_reply/main2.png Graphic file (type bmp)
+<./img/q_reply/main2.png>
+File: ./img/q_reply/sub1.png Graphic file (type bmp)
+<./img/q_reply/sub1.png>
+File: ./img/q_reply/sub2.png Graphic file (type bmp)
+<./img/q_reply/sub2.png>
+File: ./img/q_reply/sub3.png Graphic file (type bmp)
+<./img/q_reply/sub3.png>
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 666--676
+[][]$[]$[] []$[]$[] 
+ []
+
+[43] [44] [45]
+File: ./img/q_edit/main.png Graphic file (type bmp)
+<./img/q_edit/main.png>
+File: ./img/q_edit/sub1.png Graphic file (type bmp)
+<./img/q_edit/sub1.png>
+File: ./img/q_edit/sub2.png Graphic file (type bmp)
+<./img/q_edit/sub2.png>
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 692--702
+[][]$[]$[] []$[]$[] 
+ []
+
+[46]
+File: ./img/q_delete/main.png Graphic file (type bmp)
+<./img/q_delete/main.png>
+File: ./img/q_delete/sub1.png Graphic file (type bmp)
+<./img/q_delete/sub1.png>
+ [47] [48]) (./modules.tex
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 6.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 52.
+
+
+Overfull \hbox (45.88838pt too wide) in paragraph at lines 54--84
  [][] 
  []
 
-[10]) [11] (./in_design_main.aux)
+[49] [50] [51] [52] [53] [54] [55]
+Overfull \hbox (41.58716pt too wide) in paragraph at lines 217--226
+[]\OT1/cmr/m/n/12 - past[]index \JY1/mc/m/n/12 Ôºö ÈÅéÂéª„ÅÆË≥™Âïè‰∏ÄË¶ß„Å®ÈÄ≤Êçó„Åå„ÅÇ„Çå„Å∞
+ÈÄ≤ÊçóÊÉÖÂ†±„ÇÇÂèñÂæó„Åó Ôºå \OT1/cmr/m/n/12 /ques-tions/index.html
+ []
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+[56] [57] [58] [59]) [60] (./in_design_main.aux)
+
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2492 strings out of 493654
- 29946 string characters out of 6150794
- 98652 words of memory out of 5000000
- 6029 multiletter control sequences out of 15000+600000
+ 2784 strings out of 493648
+ 39200 string characters out of 6148806
+ 105694 words of memory out of 5000000
+ 6277 multiletter control sequences out of 15000+600000
  19995 words of font info for 81 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 34i,16n,26p,292b,334s stack positions out of 5000i,500n,10000p,500000b,80000s
+ 34i,17n,26p,321b,380s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on in_design_main.dvi (12 pages, 34740 bytes).
+Output written on in_design_main.dvi (62 pages, 103872 bytes).

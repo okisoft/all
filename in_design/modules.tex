@@ -1,0 +1,352 @@
+\section{ルーティングとMVC}
+\subsection{ルーティング}
+Railsの規約に従ったurl規則を以下の表に定義します。
+呼び出されたurlとHTTPメソッドによってRailsで呼び出すcontrollerのアクションを定義します。
+
+\begin{table}[]
+\centering
+\caption{ルーティング一覧}
+\label{my-label}
+\begin{tabular}{lll}
+\hline
+\multicolumn{1}{|l|}{No.}                          & \multicolumn{1}{l|}{METHOD} & \multicolumn{1}{l|}{URL}                                                                                                                                    \\ \hline
+\multicolumn{1}{|l|}{Controller\#Action}           & 画面名(仮定義)                    &                                                                                                                                                             \\ \cline{1-1}
+---                                                & ------                      & ---                                                                                                                                                         \\
+-----------                                        &                             &                                                                                                                                                             \\ \hline
+\multicolumn{1}{|l|}{1}                            & \multicolumn{1}{l|}{GET}    & \multicolumn{1}{l|}{/login}                                                                                                                                 \\ \hline
+\multicolumn{1}{|l|}{sessions\#new}                & ログイン画面                      &                                                                                                                                                             \\ \cline{1-2}
+\multicolumn{1}{|l|}{2}                            & \multicolumn{1}{l|}{POST}   &                                                                                                                                                             \\ \cline{1-2}
+\multicolumn{1}{|l|}{sessions\#create}             &                             &                                                                                                                                                             \\ \hline
+\multicolumn{1}{|l|}{2}                            & \multicolumn{1}{l|}{DELETE} & \multicolumn{1}{l|}{/logout}                                                                                                                                \\ \hline
+\multicolumn{1}{|l|}{sessions\#destroy}            &                             &                                                                                                                                                             \\ \hline
+\multicolumn{1}{|l|}{3}                            & \multicolumn{1}{l|}{GET}    & \multicolumn{1}{l|}{/signup}                                                                                                                                \\ \hline
+\multicolumn{1}{|l|}{users\#new}                   & 学生アカウント新規登録画面               &                                                                                                                                                             \\ \hline
+\multicolumn{1}{|l|}{4}                            & \multicolumn{1}{l|}{POST}   & \multicolumn{1}{l|}{/users}                                                                                                                                 \\ \hline
+\multicolumn{1}{|l|}{users\#create}                &                             &                                                                                                                                                             \\ \hline
+\multicolumn{1}{|l|}{4}                            & \multicolumn{1}{l|}{PATCH}  & \multicolumn{1}{l|}{/users/:id}                                                                                                                             \\ \hline
+\multicolumn{1}{|l|}{users\#update}                &                             &                                                                                                                                                             \\ \hline
+\multicolumn{1}{|l|}{5}                            & \multicolumn{1}{l|}{GET}    & \multicolumn{1}{l|}{/users/:id/edit}                                                                                                                        \\ \hline
+\multicolumn{1}{|l|}{users\#edit}                  & 登録情報編集画面                    &                                                                                                                                                             \\ \hline
+\multicolumn{1}{|l|}{5}                            & \multicolumn{1}{l|}{POST}   & \multicolumn{1}{l|}{/students}                                                                                                                              \\ \hline
+\multicolumn{1}{|l|}{students\#create}             &                             &                                                                                                                                                             \\ \hline
+\multicolumn{1}{|l|}{5}                            & \multicolumn{1}{l|}{GET}    & \multicolumn{1}{l|}{/students/new}                                                                                                                          \\ \hline
+\multicolumn{1}{|l|}{students\#new}                & 履修確認画面                      &                                                                                                                                                             \\ \hline
+\multicolumn{1}{|l|}{6}                            & \multicolumn{1}{l|}{GET}    & \multicolumn{1}{l|}{/}                                                                                                                                      \\ \hline
+\multicolumn{1}{|l|}{questions\#index}             & 開講中の授業画面                    &                                                                                                                                                             \\ \hline
+\multicolumn{1}{|l|}{6}                            & \multicolumn{1}{l|}{GET}    & \multicolumn{1}{l|}{/home}                                                                                                                                  \\ \hline
+\multicolumn{1}{|l|}{questions\#index}             & 開講中の授業画面                    &                                                                                                                                                             \\ \hline
+\multicolumn{1}{|l|}{7}                            & \multicolumn{1}{l|}{GET}    & \multicolumn{1}{l|}{/questions/new}                                                                                                                         \\ \hline
+\multicolumn{1}{|l|}{questions\#new}               & 質問画面                        &                                                                                                                                                             \\ \hline
+\multicolumn{1}{|l|}{7}                            & \multicolumn{1}{l|}{POST}   & \multicolumn{1}{l|}{/questions/create}                                                                                                                      \\ \hline
+\multicolumn{1}{|l|}{questions\#create}            & 質問画面                        &                                                                                                                                                             \\ \hline
+\multicolumn{1}{|l|}{8}                            & \multicolumn{1}{l|}{PATCH}  & \multicolumn{1}{l|}{/progress}                                                                                                                              \\ \hline
+\multicolumn{1}{|l|}{progress\#update}             &                             &                                                                                                                                                             \\ \hline
+\multicolumn{1}{|l|}{8}                            & \multicolumn{1}{l|}{POST}   & \multicolumn{1}{l|}{/achievements}                                                                                                                          \\ \hline
+\multicolumn{1}{|l|}{achievements\#create}         &                             &                                                                                                                                                             \\ \hline
+\multicolumn{1}{|l|}{9}                            & \multicolumn{1}{l|}{GET}    & \multicolumn{1}{l|}{/years}                                                                                                                                 \\ \hline
+\multicolumn{1}{|l|}{years\#index}                 & 年度選択画面                      &
+
+\end{tabular}
+\end{table}
+
+\begin{table}[]
+\centering
+\begin{tabular}{lll}
+\hline
+\multicolumn{1}{|l|}{10}                           & \multicolumn{1}{l|}{GET}    & \multicolumn{1}{l|}{/years/:id/lecture\_times}                                                                                                              \\ \hline
+\multicolumn{1}{|l|}{lecture\_times\#index}        & 授業回選択画面                     &                                                                                                                                                             \\ \hline
+\multicolumn{1}{|l|}{11}                           & \multicolumn{1}{l|}{GET}    & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}/years/:year\_id/lecture\_times/\\ :lecture\_time\_id/questions\end{tabular}}                                \\ \hline
+\multicolumn{1}{|l|}{questions\#post\_index}       & 過去の質問画面                     &                                                                                                                                                             \\ \hline
+\multicolumn{1}{|l|}{12}                           & \multicolumn{1}{l|}{GET}    & \multicolumn{1}{l|}{/groups}                                                                                                                                \\ \hline
+\multicolumn{1}{|l|}{groups\#index}                & グループ選択画面                    &                                                                                                                                                             \\ \cline{1-2}
+\multicolumn{1}{|l|}{12}                           & \multicolumn{1}{l|}{POST}   &                                                                                                                                                             \\ \cline{1-2}
+\multicolumn{1}{|l|}{groups\#create}               &                             &                                                                                                                                                             \\ \cline{1-2}
+\multicolumn{1}{|l|}{12}                           & \multicolumn{1}{l|}{PATCH}  &                                                                                                                                                             \\ \cline{1-2}
+\multicolumn{1}{|l|}{groups\#update}               &                             &                                                                                                                                                             \\ \hline
+\multicolumn{1}{|l|}{13}                           & \multicolumn{1}{l|}{POST}   & \multicolumn{1}{l|}{/group\_members}                                                                                                                        \\ \hline
+\multicolumn{1}{|l|}{group\_members\#create}       &                             &                                                                                                                                                             \\ \hline
+\multicolumn{1}{|l|}{14}                           & \multicolumn{1}{l|}{GET}    & \multicolumn{1}{l|}{/admin}                                                                                                                                 \\ \hline
+\multicolumn{1}{|l|}{admin/lectures\#index}        & 管理者用ホーム画面                   &                                                                                                                                                             \\ \hline
+\multicolumn{1}{|l|}{15}                           & \multicolumn{1}{l|}{GET}    & \multicolumn{1}{l|}{/admin/lectures/:id/lecture\_times}                                                                                                     \\ \hline
+\multicolumn{1}{|l|}{admin/lecture\_times\#index}  & 授業回選択画面                     &                                                                                                                                                             \\ \hline
+\multicolumn{1}{|l|}{16}                           & \multicolumn{1}{l|}{GET}    & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}/admin/lectures/:lecture\_id/\\ lecture\_times/:lecture\_time\_id/\\ questions\end{tabular}}                 \\ \hline
+\multicolumn{1}{|l|}{admin/questions\#index}       & 回答画面                        &                                                                                                                                                             \\ \hline
+\multicolumn{1}{|l|}{17}                           & \multicolumn{1}{l|}{GET}    & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}/admin/lectures/:lecture\_id/\\ lecture\_times/:lecture\_time\_id/\\ progress\end{tabular}}                  \\ \hline
+\multicolumn{1}{|l|}{admin/progress\#index}        & 進捗確認画面                      &                                                                                                                                                             \\ \hline
+\multicolumn{1}{|l|}{18}                           & \multicolumn{1}{l|}{GET}    & \multicolumn{1}{l|}{/admin/lectures/:id/years}                                                                                                              \\ \hline
+\multicolumn{1}{|l|}{admin/years\#index}           & 質問閲覧選択画面1                   &                                                                                                                                                             \\ \hline
+\multicolumn{1}{|l|}{19}                           & \multicolumn{1}{l|}{GET}    & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}/admin/lectures/:lecture\_id/\\ years/:year\_id/lecture\_times\end{tabular}}                                 \\ \hline
+\multicolumn{1}{|l|}{admin/lecture\_times\#index}  & 質問閲覧選択画面2                   &                                                                                                                                                             \\ \hline
+\multicolumn{1}{|l|}{20}                           & \multicolumn{1}{l|}{GET}    & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}/admin/lectures/:lecture\_id/\\ years/:year\_id/lecture\_times/\\ :lecture\_time\_id/questions\end{tabular}} \\ \hline
+\multicolumn{1}{|l|}{admin/questions\#past\_index} & 質問閲覧選択画面3                   &                                                                                                                                                             \\ \cline{1-1}
+
+\end{tabular}
+\end{table}
+
+\newpage
+
+\subsection{View層}
+\begin{enumerate}
+
+
+\item  sessions/new.html \\
+名称:ログイン画面 \\
+概要:ログインをする\\
+処理:\\
+- ログインを押すと，入力されたユーザIDとパスワードを情報として/loginにPOSTリクエストでルーティングにリクエストする．\\
+- 新規登録を押すと，/signupにGETメソッドでルーティングにリクエストする．\\
+
+\item  users/new.html \\
+名称:アカウント作成画面 \\
+概要:アカウントを作成する \\
+処理:\\
+- 登録を押すと，入力されたユーザID，氏名，パスワード，確認用パスワードを情報として，/signupにPOSTメソッドでルーティングにリクエストする．
+
+\item  users/edit.html \\
+名称:アカウント編集画面 \\
+概要:アカウントを編集する \\
+処理:\\
+- 変更を押すと，入力されたユーザID，氏名，旧パスワード，新パスワード，確認用新パスワードを情報として，/usersにPATCHメソッドでルーティングにリクエストする．
+
+\item  students/new.html \\
+名称:履修登録画面 \\
+概要:履修の登録を行う \\
+処理:\\
+- 履修するを押すと，ログインしているユーザを情報として/studentsにPOSTメソッドでルーティングにリクエストする．
+
+\item  groups/index.html\\
+名称:グループ選択画面 \\
+概要:グループの一覧を表示する \\
+処理:\\
+- 参加を押すとログインしているユーザを情報として，/group\_membersにPOSTメソッドでルーティングにリクエストする．\\
+- 新規グループ作成を押すと，入力されたグループ名を情報として/groupsにPOSTメソッドでルーティングにリクエストする．\\
+- 過去の質問を押すと/yearsにGETメソッドでルーティングにリクエストする．
+
+\item  questions/index.html \\
+名称:学生用ホーム画面 \\
+概要:質問の確認や進捗状況の送信を行う \\
+処理:\\
+- 質問をするを押すと，/questions/newにGETメソッドでルーティングにリクエストする．
+
+\item  questions/new.html \\
+名称:質問画面 \\
+概要:課題の質問を行う \\
+処理:\\
+- 質問または緊急を押すと，入力された質問を情報として，/questions/createにPOSTメソッドでルーティングにリクエストする．
+
+\item  years/index.html \\
+名称:年度選択画面 \\
+概要:過去の授業の年度一覧を表示する \\
+処理:\\
+- 一覧で表示された年度のボタンを押すと，入力されたボタンを情報として，/years/:id/lecture\_timesにGETメソッドでルーティングにリクエストする．
+
+\item  lecture\_times/index.html \\
+名称:開講回選択画面 \\
+概要:過去の授業回一覧を表示する \\
+処理:\\
+- 一覧で表示された授業回のボタンを押すと，入力されたボタンを情報として，/years/:id/lecture\_times/:id/questionsにGETメソッドでルーティングにリクエストする．
+
+
+\item  /static\_page/not\_open.html \\
+名称:未開講時画面 \\
+概要:未開講時であることを表示する \\
+処理:\\
+---
+
+\item  /shared/progress.html \\
+名称:進捗情報入力画面 \\
+概要:進捗状況を入力する．この画面は学生用ホーム画面，年度選択画面，回公開選択画面で表示される．\\
+処理:\\
+- 更新を押すと，入力された課題のチェックボックスを情報として，/progressにPATCHメソッドでルーティングにリクエストする．\\
+- 確認を押すと，入力された情報を/achievmentsにPOSTメソッドでルーティングにリクエストする．
+
+\end{enumerate}
+
+\newpage
+
+\subsection{Controller層}
+
+\begin{enumerate}
+
+\item  sessions\_controller.rb\\
+名称:セッション情報処理  \\
+概要:ユーザのセッション情報を処理する \\
+処理: \\
+- new：sessions/new.htmlを表示させる． \\
+- create：ユーザIDとパスワードで認証を行い，認証されたユーザのセッションを作成してユーザによって以下のルーティングにリクエストをする．\\
+  ユーザが教員：/adminをGETメソッドでルーティングにリクエストする．\\
+  ユーザが学生：\\
+  -開講していなければ/static\_page/not\_open.htmlを表示させる．\\
+  -開講していたが，履修していなければ，/students/newにGETメソッドでルーティングにリクエストする．\\
+  -開講していて，履修しているならば/homeにGETメソッドでルーティングにリクエストする．\\
+  -認証が失敗したならばsessions/new.htmlを表示させる．
+
+\item  users\_controller.rb\\
+名称:ユーザ情報処理\\
+概要:ユーザ情報を処理する\\
+処理:\\
+- new：users/new.htmlを表示させる．\\
+- create：入力された情報が正しい情報かを判断し，正しければユーザを作成し，/loginをGETメソッドでルーティングにリクエストする．\\
+          正しくなければusers/new.htmlを表示させる．\\
+- edit：現在ログインしているユーザの情報を取得して，/users/edit.htmlを表示する． \\
+- update：入力された情報が正しい情報かを判断し，正しければユーザ情報を更新し，前回のページを表示させる．
+
+  \item  students\_controller.rb\\
+名称:履修者情報処理\\
+概要:履修者情報を処理する\\
+処理:\\
+- new：students/new.htmlを表示させる．\\
+- create：入力された情報が正しければ，履修者を作成し，グループでの授業ならば/groupsにGETメソッドでルーティングにリクエストする．\\
+          グループの授業でなければ，/homeにGETメソッドでルーティングにリクエストする．\\
+          入力された情報が不正ならば，students/new.htmlを表示させる．
+
+  \item  groups\_controller.rb\\
+名称:グループ情報処理\\
+概要:グループ情報を処理する\\
+処理:\\
+- index：グループ一覧を取得し，groups/index.htmlを表示させる．\\
+- create：入力された情報が正しい情報かを判断し，正しければグループを作成する．その後，/groupsをGETメソッドでルーティングにリクエストする．\\
+- update：入力された情報が正しい情報かを判断し，正しければグループ情報を更新し，前回のページを表示させる．
+
+  \item  group\_members\_controller.rb\\
+名称:グループメンバ情報処理\\
+概要:グルーメンバ情報を処理する\\
+処理:\\
+- create：入力された情報が正しい情報かを判断し，正しければグループメンバを作成する．その後，/homeをGETメソッドでルーティングにリクエストする．
+
+  \item  questions\_controller.rb\\
+名称:質問情報処理\\
+概要:質問情報を処理する\\
+処理:\\
+- index：質問一覧と進捗があれば進捗情報も取得し，/questions/index.htmlを表示する．\\
+- past\_index：過去の質問一覧と進捗があれば進捗情報も取得し，/questions/index.htmlを表示する．\\
+- new：/questions/new.htmlを表示させる．\\
+- create：入力された情報が正しい情報かを判断し，正しければ質問を作成し，/questions/index.htmlを表示させる．\\
+          正しくなければ/questions/new.htmlを表示させる．
+
+  \item  progress\_controller.rb\\
+名称:進捗情報処理\\
+概要:進捗情報を処理する\\
+処理:\\
+- update：入力された情報が正しい情報かを判断し，正しければ進捗を更新し，/homeをGETメソッドでルーティングにリクエストする．
+
+  \item  achievments\_controller.rb\\
+名称:達成情報処理\\
+概要:達成情報を処理する\\
+処理:\\
+- create：入力された情報が正しい情報かを判断し，正しければ達成を作成し，/homeをGETメソッドでルーティングにリクエストする．
+
+  \item  years\_controller.rb\\
+名称:開講年度情報処理\\
+概要:開講年度情報を処理する\\
+処理:\\
+- index：現在の授業から開講年度一覧を取得し，/years/index.htmlを表示する．
+
+  \item  lecture\_times\_controller.rb\\
+名称:開講回情報処理\\
+概要:開講回情報を処理する\\
+処理:\\
+- index：選択された年度から開講回一覧を取得し，/lecture\_times/index.htmlを表示する．
+
+\end{enumerate}
+
+
+
+\newpage
+
+\subsection{Model層}
+
+\begin{enumerate}
+
+\item tb\_user.rb\\
+名称:ユーザ情報管理\\
+概要:ユーザテーブルの管理を行う\\
+関係:\\
+- ユーザ 1:N 履修者\\
+- ユーザ 1:N 進捗\\
+- ユーザ 1:1 公開
+
+\item tb\_student.rb\\
+名称:履修者情報管理\\
+概要:履修者テーブルの管理を行う\\
+関係:\\
+- 履修者 N:1 開講年度\\
+- 履修者 N:1 ユーザ
+
+\item tb\_group.rb\\
+名称:グループ情報管理\\
+概要:グループテーブルの管理を行う\\
+関係:\\
+- グループ 1:N グループメンバ\\
+- グループ N:1 開講年度
+
+\item tb\_group\_member.rb\\
+名称:グループメンバ情報管理\\
+概要:グループメンバテーブルの管理を行う\\
+関係:\\
+- グループメンバ N:1 グループ\\
+- グループメンバ 1:1 履修者\\
+- グループメンバ 1:1 進捗
+
+\item tb\_lecture.rb\\
+名称:授業情報管理\\
+概要:授業テーブルの管理を行う\\
+関係:\\
+- 授業 1:N 開講年度\\
+- 授業 0か1:0か1 公開
+
+\item tb\_lecture\_year.rb\\
+名称:開講年度情報管理\\
+概要:開講年度テーブルの管理を行う\\
+関係:\\
+- 開講年度 N:1 授業\\
+- 開講年度 1:N 履修者\\
+- 開講年度 1:N グループ
+
+\item tb\_lecture\_times.rb\\
+名称:開講回情報管理\\
+概要:開講回テーブルの管理を行う\\
+関係:\\
+- 開講回 0か1:0か1 公開\\
+- 開講回 1:N 進捗\\
+- 開講回 1:N 課題
+
+\item tb\_open\_lecture.rb\\
+名称:公開情報管理\\
+概要:公開テーブルの管理を行う\\
+関係:\\
+- 公開 0か1:0か1 ユーザ\\
+- 公開 0か1:0か1 開講回
+
+\item tb\_problem.rb\\
+名称:課題情報管理\\
+概要:課題テーブルの管理を行う\\
+関係:\\
+- 課題 N:1 開講回\\
+- 課題 N:0かN 達成\\
+- 課題 N:N 進捗\\
+- 課題 1:0かN 質問
+
+\item tb\_progress.rb\\
+名称:進捗情報管理\\
+概要:進捗テーブルの管理を行う\\
+関係:\\
+- 進捗 N:1 ユーザ\\
+- 進捗 1:1 グループメンバ\\
+- 進捗 N:N 課題\\
+- 進捗 0かN:0かN 達成
+
+\item tb\_question.rb\\
+名称:質問情報管理\\
+概要:質問テーブルの管理を行う\\
+関係:\\
+- 質問 0かN:1 課題
+
+\item tb\_achievment.rb\\
+名称:達成情報管理\\
+概要:達成テーブルの管理を行う\\
+関係:\\
+- 達成 0かN:N 課題\\
+- 達成 0かN:0かN 進捗
+
+\end{enumerate}
