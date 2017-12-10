@@ -1,0 +1,2 @@
+﻿sub1 ... join_group/sub1 をコピー
+sub2 ... join_group/sub2 をコピー
