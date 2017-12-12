@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.6.30)  10 DEC 2017 15:07
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.6.30)  11 DEC 2017 01:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -210,6 +210,9 @@ LaTeX Warning: Label `fig:joingroupflow0' multiply defined.
 
 
 LaTeX Warning: Label `fig:editgroupflow0' multiply defined.
+
+
+LaTeX Warning: Label `fig:startlectureflow1' multiply defined.
 
 
 LaTeX Warning: Label `fig:qreadoldflow0' multiply defined.
@@ -486,7 +489,9 @@ Overfull \hbox (2.61108pt too wide) in paragraph at lines 383--393
 [][]$[]$[] []$[]$[] 
  []
 
-[30] [31] [32]
+File: ./img/create_lecture/sub13.png Graphic file (type bmp)
+<./img/create_lecture/sub13.png>
+[30] [31] [32] [33]
 File: ./img/takeover_lecture/main.png Graphic file (type bmp)
 <./img/takeover_lecture/main.png>
 File: ./img/takeover_lecture/sub1.png Graphic file (type bmp)
@@ -494,7 +499,7 @@ File: ./img/takeover_lecture/sub1.png Graphic file (type bmp)
 File: ./img/takeover_lecture/sub2.png Graphic file (type bmp)
 <./img/takeover_lecture/sub2.png>
 
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 409--419
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 414--424
 [][]$[]$[] []$[]$[] 
  []
 
@@ -507,7 +512,7 @@ File: ./img/takeover_lecture/sub5.png Graphic file (type bmp)
 File: ./img/takeover_lecture/sub6.png Graphic file (type bmp)
 <./img/takeover_lecture/sub6.png>
 
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 440--450
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 445--455
 [][]$[]$[] []$[]$[] 
  []
 
@@ -516,7 +521,7 @@ File: ./img/takeover_lecture/sub7.png Graphic file (type bmp)
 File: ./img/takeover_lecture/sub8.png Graphic file (type bmp)
 <./img/takeover_lecture/sub8.png>
 
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 454--464
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 459--469
 [][]$[]$[] []$[]$[] 
  []
 
@@ -525,7 +530,7 @@ File: ./img/takeover_lecture/sub9.png Graphic file (type bmp)
 File: ./img/takeover_lecture/sub10.png Graphic file (type bmp)
 <./img/takeover_lecture/sub10.png>
 
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 468--478
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 473--483
 [][]$[]$[] []$[]$[] 
  []
 
@@ -534,7 +539,7 @@ File: ./img/takeover_lecture/sub11.png Graphic file (type bmp)
 File: ./img/takeover_lecture/sub12.png Graphic file (type bmp)
 <./img/takeover_lecture/sub12.png>
 
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 482--492
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 487--497
 [][]$[]$[] []$[]$[] 
  []
 
@@ -543,11 +548,52 @@ File: ./img/takeover_lecture/sub13.png Graphic file (type bmp)
 File: ./img/takeover_lecture/sub14.png Graphic file (type bmp)
 <./img/takeover_lecture/sub14.png>
 
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 496--506
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 501--511
 [][]$[]$[] []$[]$[] 
  []
 
-[33] [34] [35]
+[34] [35] [36] [37]
+File: ./img/start_lecture/main.png Graphic file (type bmp)
+<./img/start_lecture/main.png>
+File: ./img/start_lecture/sub1.png Graphic file (type bmp)
+<./img/start_lecture/sub1.png>
+File: ./img/start_lecture/sub2.png Graphic file (type bmp)
+<./img/start_lecture/sub2.png>
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 526--536
+[][]$[]$[] []$[]$[] 
+ []
+
+File: ./img/start_lecture/sub3.png Graphic file (type bmp)
+<./img/start_lecture/sub3.png>
+File: ./img/start_lecture/sub4.png Graphic file (type bmp)
+<./img/start_lecture/sub4.png>
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 540--550
+[][]$[]$[] []$[]$[] 
+ []
+
+File: ./img/start_lecture/sub5.png Graphic file (type bmp)
+<./img/start_lecture/sub5.png>
+File: ./img/start_lecture/sub6.png Graphic file (type bmp)
+<./img/start_lecture/sub6.png>
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 554--564
+[][]$[]$[] []$[]$[] 
+ []
+
+File: ./img/start_lecture/sub7.png Graphic file (type bmp)
+<./img/start_lecture/sub7.png>
+File: ./img/start_lecture/sub8.png Graphic file (type bmp)
+<./img/start_lecture/sub8.png>
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 568--578
+[][]$[]$[] []$[]$[] 
+ []
+
+File: ./img/start_lecture/sub9.png Graphic file (type bmp)
+<./img/start_lecture/sub9.png>
+[38] [39]
 File: ./img/preg_check/main.png Graphic file (type bmp)
 <./img/preg_check/main.png>
 File: ./img/preg_check/sub1.png Graphic file (type bmp)
@@ -555,13 +601,13 @@ File: ./img/preg_check/sub1.png Graphic file (type bmp)
 File: ./img/preg_check/sub2.png Graphic file (type bmp)
 <./img/preg_check/sub2.png>
 
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 522--532
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 606--616
 [][]$[]$[] []$[]$[] 
  []
 
 File: ./img/preg_check/sub3.png Graphic file (type bmp)
 <./img/preg_check/sub3.png>
-[36] [37]
+[40] [41]
 File: ./img/q_read/main.png Graphic file (type bmp)
 <./img/q_read/main.png>
 File: ./img/q_read/sub1.png Graphic file (type bmp)
@@ -569,11 +615,11 @@ File: ./img/q_read/sub1.png Graphic file (type bmp)
 File: ./img/q_read/sub2.png Graphic file (type bmp)
 <./img/q_read/sub2.png>
 
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 554--564
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 638--648
 [][]$[]$[] []$[]$[] 
  []
 
-[38]
+[42]
 File: ./img/q_read_old/main.png Graphic file (type bmp)
 <./img/q_read_old/main.png>
 File: ./img/q_read_old/sub1.png Graphic file (type bmp)
@@ -581,7 +627,7 @@ File: ./img/q_read_old/sub1.png Graphic file (type bmp)
 File: ./img/q_read_old/sub2.png Graphic file (type bmp)
 <./img/q_read_old/sub2.png>
 
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 579--589
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 663--673
 [][]$[]$[] []$[]$[] 
  []
 
@@ -590,11 +636,11 @@ File: ./img/q_read_old/sub3.png Graphic file (type bmp)
 File: ./img/q_read_old/sub4.png Graphic file (type bmp)
 <./img/q_read_old/sub4.png>
 
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 593--603
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 677--687
 [][]$[]$[] []$[]$[] 
  []
 
-[39] [40]
+[43] [44]
 File: ./img/q_send/main.png Graphic file (type bmp)
 <./img/q_send/main.png>
 File: ./img/q_send/sub1.png Graphic file (type bmp)
@@ -602,18 +648,18 @@ File: ./img/q_send/sub1.png Graphic file (type bmp)
 File: ./img/q_send/sub2.png Graphic file (type bmp)
 <./img/q_send/sub2.png>
 
-Overfull \hbox (41.79936pt too wide) in paragraph at lines 628--629
+Overfull \hbox (41.79936pt too wide) in paragraph at lines 712--713
  [] 
  []
 
 File: ./img/q_send/sub3.png Graphic file (type bmp)
 <./img/q_send/sub3.png>
 
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 626--636
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 710--720
 [][]$[]$[] []$[]$[] 
  []
 
-[41] [42]
+[45] [46]
 File: ./img/q_reply/main1.png Graphic file (type bmp)
 <./img/q_reply/main1.png>
 File: ./img/q_reply/main2.png Graphic file (type bmp)
@@ -625,11 +671,11 @@ File: ./img/q_reply/sub2.png Graphic file (type bmp)
 File: ./img/q_reply/sub3.png Graphic file (type bmp)
 <./img/q_reply/sub3.png>
 
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 666--676
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 750--760
 [][]$[]$[] []$[]$[] 
  []
 
-[43] [44] [45]
+[47] [48] [49]
 File: ./img/q_edit/main.png Graphic file (type bmp)
 <./img/q_edit/main.png>
 File: ./img/q_edit/sub1.png Graphic file (type bmp)
@@ -637,47 +683,56 @@ File: ./img/q_edit/sub1.png Graphic file (type bmp)
 File: ./img/q_edit/sub2.png Graphic file (type bmp)
 <./img/q_edit/sub2.png>
 
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 692--702
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 776--786
 [][]$[]$[] []$[]$[] 
  []
 
-[46]
+[50]
 File: ./img/q_delete/main.png Graphic file (type bmp)
 <./img/q_delete/main.png>
 File: ./img/q_delete/sub1.png Graphic file (type bmp)
 <./img/q_delete/sub1.png>
- [47] [48]) (./modules.tex
+ [51] [52]) (./modules.tex
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 6.
 
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 52.
-
-
-Overfull \hbox (45.88838pt too wide) in paragraph at lines 54--84
- [][] 
+[53] [54] [55] [56] [57]
+Overfull \hbox (5.78256pt too wide) in paragraph at lines 215--223
+[]\OT1/cmr/m/n/12 - \JY1/mc/m/n/12 更新を押すと ， 入力された課題のチ ェ ッ ク
+ボ ッ クスを情報として ， \OT1/cmr/m/n/12 /progress/:id
  []
 
-[49] [50] [51] [52] [53] [54] [55]
-Overfull \hbox (41.58716pt too wide) in paragraph at lines 217--226
-[]\OT1/cmr/m/n/12 - past[]index \JY1/mc/m/n/12 ： 過去の質問一覧と進捗があれば
-進捗情報も取得し ， \OT1/cmr/m/n/12 /ques-tions/index.html
+[58]
+Overfull \hbox (14.58345pt too wide) in paragraph at lines 252--261
+[]\OT1/cmr/m/n/12 - home \JY1/mc/m/n/12 ： 質問一覧と進捗があれば進捗情報も取得
+し ， \OT1/cmr/m/n/12 /static[]pages/home.html.erb
  []
 
-[56] [57] [58] [59]) [60] (./in_design_main.aux)
+[59]
+Overfull \hbox (35.33362pt too wide) in paragraph at lines 304--316
+[]\OT1/cmr/m/n/12 - in-dex \JY1/mc/m/n/12 ： 過去の質問一覧と進捗があれば進捗情
+報も取得し ， \OT1/cmr/m/n/12 /ques-tions/index.html.erb
+ []
+
+[60] [61]
+Overfull \hbox (9.9993pt too wide) in paragraph at lines 350--359
+[]\OT1/cmr/m/n/12 - in-dex \JY1/mc/m/n/12 ： 選択された年度から開講回一覧を取得
+し ， \OT1/cmr/m/n/12 /lec-ture[]times/index.html.erb
+ []
+
+[62] [63] [64]) [65] (./in_design_main.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2784 strings out of 493648
- 39200 string characters out of 6148806
- 105694 words of memory out of 5000000
- 6277 multiletter control sequences out of 15000+600000
+ 2814 strings out of 493648
+ 40218 string characters out of 6148806
+ 106754 words of memory out of 5000000
+ 6305 multiletter control sequences out of 15000+600000
  19995 words of font info for 81 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 34i,17n,26p,321b,380s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,16n,26p,290b,380s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on in_design_main.dvi (62 pages, 103872 bytes).
+Output written on in_design_main.dvi (67 pages, 115640 bytes).
