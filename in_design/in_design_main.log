@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.6.30)  11 DEC 2017 01:35
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.6.30)  18 DEC 2017 07:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -201,49 +201,36 @@ Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
 )
 (./udline.sty
 Package: udline 2005/01/28 下線マクロ ver2.52：ロードします
-) (./in_design_main.aux
-
-LaTeX Warning: Label `fig:editaccountflow0' multiply defined.
-
-
-LaTeX Warning: Label `fig:joingroupflow0' multiply defined.
-
-
-LaTeX Warning: Label `fig:editgroupflow0' multiply defined.
-
-
-LaTeX Warning: Label `fig:startlectureflow1' multiply defined.
-
-
-LaTeX Warning: Label `fig:qreadoldflow0' multiply defined.
-
-
-LaTeX Warning: Label `fig:qsendflow0' multiply defined.
-
 )
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/here/here.sty)
+(./in_design_main.aux)
 \openout1 = `in_design_main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Try loading font information for U+msa on input line 39.
- (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Try loading font information for U+msa on input line 41.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 39.
+LaTeX Font Info:    Try loading font information for U+msb on input line 41.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -251,9 +238,9 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ]
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <17.28> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 44.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 46.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <17.28> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 44.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 46.
 
 (./in_design_main.toc
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
@@ -273,466 +260,475 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 5.
  [2]) [3]
-(./database.tex
-File: ./img/er.png Graphic file (type bmp)
-<./img/er.png>
- [4]
+(./subsis.tex
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 12.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 3.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 12.
- [5]
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 3.
+ [4] [5] [6]
+Overfull \hbox (60.40314pt too wide) in paragraph at lines 116--146
+ [][] 
+ []
+
+[7]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[6] [7] [8] [9] [10] [11] [12]) [13] (./flow_chart.tex
-File: ./img/login/main.png Graphic file (type bmp)
-<./img/login/main.png>
-File: ./img/login/sub1.png Graphic file (type bmp)
-<./img/login/sub1.png>
-File: ./img/login/sub2.png Graphic file (type bmp)
-<./img/login/sub2.png>
-File: ./img/login/sub3.png Graphic file (type bmp)
-<./img/login/sub3.png>
+) [8] (./database.tex
+File: ./img/er.png Graphic file (type bmp)
+<./img/er.png>
+ [9
 
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 22--32
+
+] [10]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[11] [12] [13] [14] [15] [16] [17]) [18] (./flow_chart.tex
+File: ./img/seq1.png Graphic file (type bmp)
+<./img/seq1.png>
+File: ./img/flow/1.png Graphic file (type bmp)
+<./img/flow/1.png>
+File: ./img/flow/2.png Graphic file (type bmp)
+<./img/flow/2.png>
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 20--30
 [][]$[]$[] []$[]$[] 
  []
 
-File: ./img/login/sub4.png Graphic file (type bmp)
-<./img/login/sub4.png>
-File: ./img/login/sub5.png Graphic file (type bmp)
-<./img/login/sub5.png>
+File: ./img/flow/3.png Graphic file (type bmp)
+<./img/flow/3.png>
+[19
 
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 36--46
+] [20]
+File: ./img/seq2.png Graphic file (type bmp)
+<./img/seq2.png>
+File: ./img/flow/4.png Graphic file (type bmp)
+<./img/flow/4.png>
+File: ./img/flow/5.png Graphic file (type bmp)
+<./img/flow/5.png>
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 64--74
 [][]$[]$[] []$[]$[] 
  []
 
-[14] [15]
-File: ./img/admin_login/main.png Graphic file (type bmp)
-<./img/admin_login/main.png>
-File: ./img/admin_login/sub1.png Graphic file (type bmp)
-<./img/admin_login/sub1.png>
-File: ./img/admin_login/sub2.png Graphic file (type bmp)
-<./img/admin_login/sub2.png>
+[21
 
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 63--73
+] [22]
+File: ./img/seq3.png Graphic file (type bmp)
+<./img/seq3.png>
+File: ./img/flow/6.png Graphic file (type bmp)
+<./img/flow/6.png>
+File: ./img/flow/7.png Graphic file (type bmp)
+<./img/flow/7.png>
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 94--104
 [][]$[]$[] []$[]$[] 
  []
 
-[16] [17]
-File: ./img/create_account/main.png Graphic file (type bmp)
-<./img/create_account/main.png>
-File: ./img/create_account/sub1.png Graphic file (type bmp)
-<./img/create_account/sub1.png>
-File: ./img/create_account/sub2.png Graphic file (type bmp)
-<./img/create_account/sub2.png>
+File: ./img/flow/8.png Graphic file (type bmp)
+<./img/flow/8.png>
+[23
 
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 88--98
+] [24]
+File: ./img/seq4.png Graphic file (type bmp)
+<./img/seq4.png>
+File: ./img/flow/9.png Graphic file (type bmp)
+<./img/flow/9.png>
+File: ./img/flow/10.png Graphic file (type bmp)
+<./img/flow/10.png>
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 130--140
 [][]$[]$[] []$[]$[] 
  []
 
-File: ./img/create_account/sub3.png Graphic file (type bmp)
-<./img/create_account/sub3.png>
-[18] [19]
-File: ./img/admin_create_account/main.png Graphic file (type bmp)
-<./img/admin_create_account/main.png>
-File: ./img/admin_create_account/sub1.png Graphic file (type bmp)
-<./img/admin_create_account/sub1.png>
-File: ./img/admin_create_account/sub2.png Graphic file (type bmp)
-<./img/admin_create_account/sub2.png>
+[25
 
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 120--130
+] [26]
+File: ./img/seq5.png Graphic file (type bmp)
+<./img/seq5.png>
+File: ./img/flow/11.png Graphic file (type bmp)
+<./img/flow/11.png>
+File: ./img/flow/12.png Graphic file (type bmp)
+<./img/flow/12.png>
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 168--178
 [][]$[]$[] []$[]$[] 
  []
 
-File: ./img/admin_create_account/sub3.png Graphic file (type bmp)
-<./img/admin_create_account/sub3.png>
-[20] [21]
-File: ./img/edit_account/main.png Graphic file (type bmp)
-<./img/edit_account/main.png>
-File: ./img/edit_account/sub1.png Graphic file (type bmp)
-<./img/edit_account/sub1.png>
-File: ./img/edit_account/sub2.png Graphic file (type bmp)
-<./img/edit_account/sub2.png>
+File: ./img/flow/13.png Graphic file (type bmp)
+<./img/flow/13.png>
+File: ./img/flow/14.png Graphic file (type bmp)
+<./img/flow/14.png>
+File: ./img/flow/15.png Graphic file (type bmp)
+<./img/flow/15.png>
+File: ./img/flow/16.png Graphic file (type bmp)
+<./img/flow/16.png>
 
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 153--163
+Overfull \hbox (15.65555pt too wide) in paragraph at lines 191--208
+[][] 
+ []
+
+File: ./img/flow/17.png Graphic file (type bmp)
+<./img/flow/17.png>
+File: ./img/flow/18.png Graphic file (type bmp)
+<./img/flow/18.png>
+File: ./img/flow/19.png Graphic file (type bmp)
+<./img/flow/19.png>
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 221--231
 [][]$[]$[] []$[]$[] 
  []
 
-File: ./img/edit_account/sub3.png Graphic file (type bmp)
-<./img/edit_account/sub3.png>
-File: ./img/edit_account/sub4.png Graphic file (type bmp)
-<./img/edit_account/sub4.png>
+File: ./img/flow/20.png Graphic file (type bmp)
+<./img/flow/20.png>
+File: ./img/flow/21.png Graphic file (type bmp)
+<./img/flow/21.png>
 
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 167--177
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 235--245
 [][]$[]$[] []$[]$[] 
  []
 
-[22] [23]
-File: ./img/create_group/main.png Graphic file (type bmp)
-<./img/create_group/main.png>
-File: ./img/create_group/sub1.png Graphic file (type bmp)
-<./img/create_group/sub1.png>
-File: ./img/create_group/sub2.png Graphic file (type bmp)
-<./img/create_group/sub2.png>
+File: ./img/flow/22.png Graphic file (type bmp)
+<./img/flow/22.png>
+File: ./img/flow/23.png Graphic file (type bmp)
+<./img/flow/23.png>
+File: ./img/flow/24.png Graphic file (type bmp)
+<./img/flow/24.png>
+File: ./img/flow/25.png Graphic file (type bmp)
+<./img/flow/25.png>
 
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 193--203
+Overfull \hbox (15.65555pt too wide) in paragraph at lines 256--273
+[][] 
+ []
+
+[27
+
+] [28] [29] [30] [31]
+File: ./img/seq6.png Graphic file (type bmp)
+<./img/seq6.png>
+File: ./img/flow/26.png Graphic file (type bmp)
+<./img/flow/26.png>
+ [32
+
+] [33]
+File: ./img/seq7.png Graphic file (type bmp)
+<./img/seq7.png>
+File: ./img/flow/27.png Graphic file (type bmp)
+<./img/flow/27.png>
+File: ./img/flow/28.png Graphic file (type bmp)
+<./img/flow/28.png>
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 320--330
 [][]$[]$[] []$[]$[] 
  []
 
-File: ./img/create_group/sub3.png Graphic file (type bmp)
-<./img/create_group/sub3.png>
-[24] [25]
-File: ./img/join_group/main.png Graphic file (type bmp)
-<./img/join_group/main.png>
-File: ./img/join_group/sub1.png Graphic file (type bmp)
-<./img/join_group/sub1.png>
-File: ./img/join_group/sub2.png Graphic file (type bmp)
-<./img/join_group/sub2.png>
+File: ./img/flow/29.png Graphic file (type bmp)
+<./img/flow/29.png>
+[34
 
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 225--235
+] [35]
+File: ./img/seq8.png Graphic file (type bmp)
+<./img/seq8.png>
+File: ./img/flow/30.png Graphic file (type bmp)
+<./img/flow/30.png>
+File: ./img/flow/31.png Graphic file (type bmp)
+<./img/flow/31.png>
+File: ./img/flow/32.png Graphic file (type bmp)
+<./img/flow/32.png>
+
+Overfull \hbox (15.65555pt too wide) in paragraph at lines 359--376
+[][] 
+ []
+
+[36
+
+] [37]
+File: ./img/seq9.png Graphic file (type bmp)
+<./img/seq9.png>
+File: ./img/flow/33.png Graphic file (type bmp)
+<./img/flow/33.png>
+File: ./img/flow/34.png Graphic file (type bmp)
+<./img/flow/34.png>
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 401--411
 [][]$[]$[] []$[]$[] 
  []
 
-File: ./img/join_group/sub3.png Graphic file (type bmp)
-<./img/join_group/sub3.png>
-File: ./img/join_group/sub4.png Graphic file (type bmp)
-<./img/join_group/sub4.png>
+File: ./img/flow/35.png Graphic file (type bmp)
+<./img/flow/35.png>
+File: ./img/flow/36.png Graphic file (type bmp)
+<./img/flow/36.png>
+File: ./img/flow/37.png Graphic file (type bmp)
+<./img/flow/37.png>
 
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 239--249
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 424--434
 [][]$[]$[] []$[]$[] 
  []
 
-[26] [27]
-File: ./img/edit_group/main.png Graphic file (type bmp)
-<./img/edit_group/main.png>
-File: ./img/edit_group/sub1.png Graphic file (type bmp)
-<./img/edit_group/sub1.png>
-File: ./img/edit_group/sub2.png Graphic file (type bmp)
-<./img/edit_group/sub2.png>
+[38
 
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 266--276
+] [39] [40]
+File: ./img/seq10.png Graphic file (type bmp)
+<./img/seq10.png>
+File: ./img/flow/38.png Graphic file (type bmp)
+<./img/flow/38.png>
+ [41
+
+] [42]
+File: ./img/seq11.png Graphic file (type bmp)
+<./img/seq11.png>
+File: ./img/flow/39.png Graphic file (type bmp)
+<./img/flow/39.png>
+File: ./img/flow/40.png Graphic file (type bmp)
+<./img/flow/40.png>
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 486--496
 [][]$[]$[] []$[]$[] 
  []
 
-File: ./img/edit_group/sub3.png Graphic file (type bmp)
-<./img/edit_group/sub3.png>
-File: ./img/edit_group/sub4.png Graphic file (type bmp)
-<./img/edit_group/sub4.png>
+File: ./img/flow/41.png Graphic file (type bmp)
+<./img/flow/41.png>
+File: ./img/flow/42.png Graphic file (type bmp)
+<./img/flow/42.png>
+File: ./img/flow/43.png Graphic file (type bmp)
+<./img/flow/43.png>
 
-Overfull \hbox (41.79936pt too wide) in paragraph at lines 287--288
- [] 
+Overfull \hbox (15.65555pt too wide) in paragraph at lines 500--517
+[][] 
  []
 
+File: ./img/flow/44.png Graphic file (type bmp)
+<./img/flow/44.png>
+File: ./img/flow/45.png Graphic file (type bmp)
+<./img/flow/45.png>
 
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 280--290
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 521--531
 [][]$[]$[] []$[]$[] 
  []
 
-File: ./img/edit_group/sub5.png Graphic file (type bmp)
-<./img/edit_group/sub5.png>
-[28] [29]
-File: ./img/create_lecture/main.png Graphic file (type bmp)
-<./img/create_lecture/main.png>
-File: ./img/create_lecture/sub1.png Graphic file (type bmp)
-<./img/create_lecture/sub1.png>
-File: ./img/create_lecture/sub2.png Graphic file (type bmp)
-<./img/create_lecture/sub2.png>
+[43
 
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 313--323
+] [44] [45]
+File: ./img/seq12.png Graphic file (type bmp)
+<./img/seq12.png>
+File: ./img/flow/46.png Graphic file (type bmp)
+<./img/flow/46.png>
+File: ./img/flow/47.png Graphic file (type bmp)
+<./img/flow/47.png>
+File: ./img/flow/48.png Graphic file (type bmp)
+<./img/flow/48.png>
+
+Overfull \hbox (15.65555pt too wide) in paragraph at lines 554--571
+[][] 
+ []
+
+[46
+
+] [47]
+File: ./img/seq13.png Graphic file (type bmp)
+<./img/seq13.png>
+File: ./img/flow/49.png Graphic file (type bmp)
+<./img/flow/49.png>
+File: ./img/flow/50.png Graphic file (type bmp)
+<./img/flow/50.png>
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 594--604
 [][]$[]$[] []$[]$[] 
  []
 
-File: ./img/create_lecture/sub3.png Graphic file (type bmp)
-<./img/create_lecture/sub3.png>
-File: ./img/create_lecture/sub4.png Graphic file (type bmp)
-<./img/create_lecture/sub4.png>
+File: ./img/flow/51.png Graphic file (type bmp)
+<./img/flow/51.png>
+File: ./img/flow/52.png Graphic file (type bmp)
+<./img/flow/52.png>
+File: ./img/flow/53.png Graphic file (type bmp)
+<./img/flow/53.png>
 
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 327--337
+Overfull \hbox (15.65555pt too wide) in paragraph at lines 608--625
+[][] 
+ []
+
+File: ./img/flow/54.png Graphic file (type bmp)
+<./img/flow/54.png>
+File: ./img/flow/55.png Graphic file (type bmp)
+<./img/flow/55.png>
+File: ./img/flow/56.png Graphic file (type bmp)
+<./img/flow/56.png>
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 636--646
 [][]$[]$[] []$[]$[] 
  []
 
-File: ./img/create_lecture/sub5.png Graphic file (type bmp)
-<./img/create_lecture/sub5.png>
-File: ./img/create_lecture/sub6.png Graphic file (type bmp)
-<./img/create_lecture/sub6.png>
+[48
 
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 341--351
+] [49] [50]
+File: ./img/seq14.png Graphic file (type bmp)
+<./img/seq14.png>
+File: ./img/flow/57.png Graphic file (type bmp)
+<./img/flow/57.png>
+File: ./img/flow/58.png Graphic file (type bmp)
+<./img/flow/58.png>
+File: ./img/flow/59.png Graphic file (type bmp)
+<./img/flow/59.png>
+
+Overfull \hbox (15.65555pt too wide) in paragraph at lines 668--685
+[][] 
+ []
+
+[51
+
+] [52]
+File: ./img/seq15.png Graphic file (type bmp)
+<./img/seq15.png>
+File: ./img/flow/60.png Graphic file (type bmp)
+<./img/flow/60.png>
+File: ./img/flow/61.png Graphic file (type bmp)
+<./img/flow/61.png>
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 709--719
 [][]$[]$[] []$[]$[] 
  []
 
-File: ./img/create_lecture/sub7.png Graphic file (type bmp)
-<./img/create_lecture/sub7.png>
-File: ./img/create_lecture/sub8.png Graphic file (type bmp)
-<./img/create_lecture/sub8.png>
+[53
 
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 355--365
+] [54]
+File: ./img/seq16.png Graphic file (type bmp)
+<./img/seq16.png>
+File: ./img/flow/62.png Graphic file (type bmp)
+<./img/flow/62.png>
+File: ./img/flow/63.png Graphic file (type bmp)
+<./img/flow/63.png>
+File: ./img/flow/64.png Graphic file (type bmp)
+<./img/flow/64.png>
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 749--759
 [][]$[]$[] []$[]$[] 
  []
 
-File: ./img/create_lecture/sub9.png Graphic file (type bmp)
-<./img/create_lecture/sub9.png>
-File: ./img/create_lecture/sub10.png Graphic file (type bmp)
-<./img/create_lecture/sub10.png>
+[55
 
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 369--379
+] [56]
+File: ./img/seq17.png Graphic file (type bmp)
+<./img/seq17.png>
+File: ./img/flow/65.png Graphic file (type bmp)
+<./img/flow/65.png>
+File: ./img/flow/66.png Graphic file (type bmp)
+<./img/flow/66.png>
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 780--790
 [][]$[]$[] []$[]$[] 
  []
 
-File: ./img/create_lecture/sub11.png Graphic file (type bmp)
-<./img/create_lecture/sub11.png>
-File: ./img/create_lecture/sub12.png Graphic file (type bmp)
-<./img/create_lecture/sub12.png>
+File: ./img/flow/67.png Graphic file (type bmp)
+<./img/flow/67.png>
+[57
 
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 383--393
+] [58]
+File: ./img/seq18.png Graphic file (type bmp)
+<./img/seq18.png>
+File: ./img/flow/68.png Graphic file (type bmp)
+<./img/flow/68.png>
+File: ./img/flow/69.png Graphic file (type bmp)
+<./img/flow/69.png>
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 821--831
 [][]$[]$[] []$[]$[] 
  []
 
-File: ./img/create_lecture/sub13.png Graphic file (type bmp)
-<./img/create_lecture/sub13.png>
-[30] [31] [32] [33]
-File: ./img/takeover_lecture/main.png Graphic file (type bmp)
-<./img/takeover_lecture/main.png>
-File: ./img/takeover_lecture/sub1.png Graphic file (type bmp)
-<./img/takeover_lecture/sub1.png>
-File: ./img/takeover_lecture/sub2.png Graphic file (type bmp)
-<./img/takeover_lecture/sub2.png>
+File: ./img/flow/70.png Graphic file (type bmp)
+<./img/flow/70.png>
+File: ./img/flow/71.png Graphic file (type bmp)
+<./img/flow/71.png>
 
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 414--424
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 836--846
 [][]$[]$[] []$[]$[] 
  []
 
-File: ./img/takeover_lecture/sub3.png Graphic file (type bmp)
-<./img/takeover_lecture/sub3.png>
-File: ./img/takeover_lecture/sub4.png Graphic file (type bmp)
-<./img/takeover_lecture/sub4.png>
-File: ./img/takeover_lecture/sub5.png Graphic file (type bmp)
-<./img/takeover_lecture/sub5.png>
-File: ./img/takeover_lecture/sub6.png Graphic file (type bmp)
-<./img/takeover_lecture/sub6.png>
+[59
 
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 445--455
+] [60]
+File: ./img/seq19.png Graphic file (type bmp)
+<./img/seq19.png>
+File: ./img/flow/72.png Graphic file (type bmp)
+<./img/flow/72.png>
+File: ./img/flow/73.png Graphic file (type bmp)
+<./img/flow/73.png>
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 871--881
 [][]$[]$[] []$[]$[] 
  []
 
-File: ./img/takeover_lecture/sub7.png Graphic file (type bmp)
-<./img/takeover_lecture/sub7.png>
-File: ./img/takeover_lecture/sub8.png Graphic file (type bmp)
-<./img/takeover_lecture/sub8.png>
+File: ./img/flow/74.png Graphic file (type bmp)
+<./img/flow/74.png>
+[61
 
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 459--469
+] [62]
+File: ./img/seq20.png Graphic file (type bmp)
+<./img/seq20.png>
+File: ./img/flow/75.png Graphic file (type bmp)
+<./img/flow/75.png>
+File: ./img/flow/76.png Graphic file (type bmp)
+<./img/flow/76.png>
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 910--920
 [][]$[]$[] []$[]$[] 
  []
 
-File: ./img/takeover_lecture/sub9.png Graphic file (type bmp)
-<./img/takeover_lecture/sub9.png>
-File: ./img/takeover_lecture/sub10.png Graphic file (type bmp)
-<./img/takeover_lecture/sub10.png>
+File: ./img/flow/77.png Graphic file (type bmp)
+<./img/flow/77.png>
+[63
 
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 473--483
+] [64]
+File: ./img/seq21.png Graphic file (type bmp)
+<./img/seq21.png>
+File: ./img/flow/79.png Graphic file (type bmp)
+<./img/flow/79.png>
+File: ./img/flow/80.png Graphic file (type bmp)
+<./img/flow/80.png>
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 948--958
 [][]$[]$[] []$[]$[] 
  []
 
-File: ./img/takeover_lecture/sub11.png Graphic file (type bmp)
-<./img/takeover_lecture/sub11.png>
-File: ./img/takeover_lecture/sub12.png Graphic file (type bmp)
-<./img/takeover_lecture/sub12.png>
+) [65
 
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 487--497
-[][]$[]$[] []$[]$[] 
- []
-
-File: ./img/takeover_lecture/sub13.png Graphic file (type bmp)
-<./img/takeover_lecture/sub13.png>
-File: ./img/takeover_lecture/sub14.png Graphic file (type bmp)
-<./img/takeover_lecture/sub14.png>
-
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 501--511
-[][]$[]$[] []$[]$[] 
- []
-
-[34] [35] [36] [37]
-File: ./img/start_lecture/main.png Graphic file (type bmp)
-<./img/start_lecture/main.png>
-File: ./img/start_lecture/sub1.png Graphic file (type bmp)
-<./img/start_lecture/sub1.png>
-File: ./img/start_lecture/sub2.png Graphic file (type bmp)
-<./img/start_lecture/sub2.png>
-
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 526--536
-[][]$[]$[] []$[]$[] 
- []
-
-File: ./img/start_lecture/sub3.png Graphic file (type bmp)
-<./img/start_lecture/sub3.png>
-File: ./img/start_lecture/sub4.png Graphic file (type bmp)
-<./img/start_lecture/sub4.png>
-
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 540--550
-[][]$[]$[] []$[]$[] 
- []
-
-File: ./img/start_lecture/sub5.png Graphic file (type bmp)
-<./img/start_lecture/sub5.png>
-File: ./img/start_lecture/sub6.png Graphic file (type bmp)
-<./img/start_lecture/sub6.png>
-
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 554--564
-[][]$[]$[] []$[]$[] 
- []
-
-File: ./img/start_lecture/sub7.png Graphic file (type bmp)
-<./img/start_lecture/sub7.png>
-File: ./img/start_lecture/sub8.png Graphic file (type bmp)
-<./img/start_lecture/sub8.png>
-
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 568--578
-[][]$[]$[] []$[]$[] 
- []
-
-File: ./img/start_lecture/sub9.png Graphic file (type bmp)
-<./img/start_lecture/sub9.png>
-[38] [39]
-File: ./img/preg_check/main.png Graphic file (type bmp)
-<./img/preg_check/main.png>
-File: ./img/preg_check/sub1.png Graphic file (type bmp)
-<./img/preg_check/sub1.png>
-File: ./img/preg_check/sub2.png Graphic file (type bmp)
-<./img/preg_check/sub2.png>
-
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 606--616
-[][]$[]$[] []$[]$[] 
- []
-
-File: ./img/preg_check/sub3.png Graphic file (type bmp)
-<./img/preg_check/sub3.png>
-[40] [41]
-File: ./img/q_read/main.png Graphic file (type bmp)
-<./img/q_read/main.png>
-File: ./img/q_read/sub1.png Graphic file (type bmp)
-<./img/q_read/sub1.png>
-File: ./img/q_read/sub2.png Graphic file (type bmp)
-<./img/q_read/sub2.png>
-
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 638--648
-[][]$[]$[] []$[]$[] 
- []
-
-[42]
-File: ./img/q_read_old/main.png Graphic file (type bmp)
-<./img/q_read_old/main.png>
-File: ./img/q_read_old/sub1.png Graphic file (type bmp)
-<./img/q_read_old/sub1.png>
-File: ./img/q_read_old/sub2.png Graphic file (type bmp)
-<./img/q_read_old/sub2.png>
-
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 663--673
-[][]$[]$[] []$[]$[] 
- []
-
-File: ./img/q_read_old/sub3.png Graphic file (type bmp)
-<./img/q_read_old/sub3.png>
-File: ./img/q_read_old/sub4.png Graphic file (type bmp)
-<./img/q_read_old/sub4.png>
-
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 677--687
-[][]$[]$[] []$[]$[] 
- []
-
-[43] [44]
-File: ./img/q_send/main.png Graphic file (type bmp)
-<./img/q_send/main.png>
-File: ./img/q_send/sub1.png Graphic file (type bmp)
-<./img/q_send/sub1.png>
-File: ./img/q_send/sub2.png Graphic file (type bmp)
-<./img/q_send/sub2.png>
-
-Overfull \hbox (41.79936pt too wide) in paragraph at lines 712--713
- [] 
- []
-
-File: ./img/q_send/sub3.png Graphic file (type bmp)
-<./img/q_send/sub3.png>
-
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 710--720
-[][]$[]$[] []$[]$[] 
- []
-
-[45] [46]
-File: ./img/q_reply/main1.png Graphic file (type bmp)
-<./img/q_reply/main1.png>
-File: ./img/q_reply/main2.png Graphic file (type bmp)
-<./img/q_reply/main2.png>
-File: ./img/q_reply/sub1.png Graphic file (type bmp)
-<./img/q_reply/sub1.png>
-File: ./img/q_reply/sub2.png Graphic file (type bmp)
-<./img/q_reply/sub2.png>
-File: ./img/q_reply/sub3.png Graphic file (type bmp)
-<./img/q_reply/sub3.png>
-
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 750--760
-[][]$[]$[] []$[]$[] 
- []
-
-[47] [48] [49]
-File: ./img/q_edit/main.png Graphic file (type bmp)
-<./img/q_edit/main.png>
-File: ./img/q_edit/sub1.png Graphic file (type bmp)
-<./img/q_edit/sub1.png>
-File: ./img/q_edit/sub2.png Graphic file (type bmp)
-<./img/q_edit/sub2.png>
-
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 776--786
-[][]$[]$[] []$[]$[] 
- []
-
-[50]
-File: ./img/q_delete/main.png Graphic file (type bmp)
-<./img/q_delete/main.png>
-File: ./img/q_delete/sub1.png Graphic file (type bmp)
-<./img/q_delete/sub1.png>
- [51] [52]) (./modules.tex
+] (./modules.tex
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 6.
 
-[53] [54] [55] [56] [57]
+[66] [67] [68] [69] [70]
 Overfull \hbox (5.78256pt too wide) in paragraph at lines 215--223
 []\OT1/cmr/m/n/12 - \JY1/mc/m/n/12 更新を押すと ， 入力された課題のチ ェ ッ ク
 ボ ッ クスを情報として ， \OT1/cmr/m/n/12 /progress/:id
  []
 
-[58]
+[71]
 Overfull \hbox (14.58345pt too wide) in paragraph at lines 252--261
 []\OT1/cmr/m/n/12 - home \JY1/mc/m/n/12 ： 質問一覧と進捗があれば進捗情報も取得
 し ， \OT1/cmr/m/n/12 /static[]pages/home.html.erb
  []
 
-[59]
+[72]
 Overfull \hbox (35.33362pt too wide) in paragraph at lines 304--316
 []\OT1/cmr/m/n/12 - in-dex \JY1/mc/m/n/12 ： 過去の質問一覧と進捗があれば進捗情
 報も取得し ， \OT1/cmr/m/n/12 /ques-tions/index.html.erb
  []
 
-[60] [61]
+[73] [74]
 Overfull \hbox (9.9993pt too wide) in paragraph at lines 350--359
 []\OT1/cmr/m/n/12 - in-dex \JY1/mc/m/n/12 ： 選択された年度から開講回一覧を取得
 し ， \OT1/cmr/m/n/12 /lec-ture[]times/index.html.erb
  []
 
-[62] [63] [64]) [65] (./in_design_main.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+[75] [76] [77]) [78] (./in_design_main.aux) ) 
 Here is how much of TeX's memory you used:
- 2814 strings out of 493648
- 40218 string characters out of 6148806
- 106754 words of memory out of 5000000
- 6305 multiletter control sequences out of 15000+600000
+ 2892 strings out of 493648
+ 37010 string characters out of 6148806
+ 108710 words of memory out of 5000000
+ 6320 multiletter control sequences out of 15000+600000
  19995 words of font info for 81 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 34i,16n,26p,290b,380s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,16n,26p,290b,457s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on in_design_main.dvi (67 pages, 115640 bytes).
+Output written on in_design_main.dvi (80 pages, 150976 bytes).

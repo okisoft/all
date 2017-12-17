@@ -12,6 +12,8 @@
 \usepackage{algorithmic}
 \usepackage{setspace}
 \usepackage{udline}
+\usepackage{lscape}
+\usepackage{here}
 %---------------------------------------------------
 \makeatletter
 \def\@maketitle{%
@@ -48,9 +50,10 @@
 % input
 \input{kankyou.tex}
 \newpage
-
+\input{subsis.tex}
+\clearpage
 \input{database.tex}
-\newpage
+\clearpage
 \input{flow_chart.tex}
 \newpage
 \input{modules.tex}
