@@ -16,7 +16,7 @@
 \contentsline {subsection}{\numberline {4.10}進捗テーブル}{15}
 \contentsline {subsection}{\numberline {4.11}質問テーブル}{17}
 \contentsline {subsection}{\numberline {4.12}達成テーブル}{17}
-\contentsline {section}{\numberline {5}各サブシステムのフローチャート}{19}
+\contentsline {section}{\numberline {5}各サブシステムのシーケンス図とフローチャート}{18}
 \contentsline {subsection}{\numberline {5.1}アカウント作成システム(学生用)}{19}
 \contentsline {subsection}{\numberline {5.2}アカウント作成システム(管理者用)}{21}
 \contentsline {subsection}{\numberline {5.3}アカウント情報編集システム}{23}
