@@ -1,15 +1,15 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.6.30)  18 DEC 2017 07:49
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2017.5.19)  18 DEC 2017 00:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**in_design_main.tex
+**./in_design_main.tex
 (./in_design_main.tex
 pLaTeX2e <2017/05/05> (based on LaTeX2e <2017-04-15>)
-Babel <3.11> and hyphenation patterns for 84 language(s) loaded.
-(/usr/local/texlive/2017/texmf-dist/tex/platex/base/jarticle.cls
+Babel <3.9t> and hyphenation patterns for 84 language(s) loaded.
+(c:/w32tex/share/texmf-dist/tex/platex/base/jarticle.cls
 Document Class: jarticle 2017/03/05 v1.7e Standard pLaTeX class
 \c@@paper=\count82
-(/usr/local/texlive/2017/texmf-dist/tex/platex/base/jsize12.clo
+(c:/w32tex/share/texmf-dist/tex/platex/base/jsize12.clo
 File: jsize12.clo 2017/03/05 v1.7e Standard pLaTeX file (size option)
 )
 \c@part=\count83
@@ -30,34 +30,35 @@ LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
 \bibindent=\dimen120
 \heisei=\count91
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+(c:/w32tex/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
+(c:/w32tex/share/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+(c:/w32tex/share/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/trig.sty
+(c:/w32tex/share/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+(c:/w32tex/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: dvipdfmx.def on input line 99.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
-File: dvipdfmx.def 2017/06/24 v5.0g Graphics/color driver for dvipdfmx
+(c:/w32tex/share/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
+File: dvipdfmx.def 2016/07/11 v4.12 LaTeX color/graphics driver for dvipdfmx (L
+3/ChoF)
 ))
 \Gin@req@height=\dimen121
 \Gin@req@width=\dimen122
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(c:/w32tex/share/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+(c:/w32tex/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks16
 \symAMSa=\mathgroup5
@@ -65,24 +66,24 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
+(c:/w32tex/share/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2016/11/05 v2.16a AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amstext.sty
+(c:/w32tex/share/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsgen.sty
+(c:/w32tex/share/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks17
 \ex@=\dimen123
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(c:/w32tex/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen124
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
+(c:/w32tex/share/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count92
@@ -123,10 +124,10 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
-(/usr/local/texlive/2017/texmf-dist/tex/platex/base/ascmac.sty
+(c:/w32tex/share/texmf-dist/tex/platex/base/ascmac.sty
 Package: ascmac 2016/08/21 v2.0c ascmac wrapper (community edition) 
 
-(/usr/local/texlive/2017/texmf-dist/tex/platex/base/tascmac.sty
+(c:/w32tex/share/texmf-dist/tex/platex/base/tascmac.sty
 Package: tascmac 2016/08/21 v2.0c ascmac package (community edition) 
 \@savetbaselineshift=\dimen132
 \@saveybaselineshift=\dimen133
@@ -144,10 +145,10 @@ Package: tascmac 2016/08/21 v2.0c ascmac package (community edition)
 \@bcal=\count104
 \shaderule=\dimen137
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/setspace/setspace.sty
+(c:/w32tex/share/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/float/float.sty
+(c:/w32tex/share/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count105
 \float@exts=\toks23
@@ -155,21 +156,21 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks24
 \@floatcapt=\box52
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/color.sty
+(c:/w32tex/share/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/color.cfg
+(c:/w32tex/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: dvipdfmx.def on input line 147.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/dvipsnam.def
+(c:/w32tex/share/texmf-dist/tex/latex/graphics/dvipsnam.def
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/colortbl/colortbl.sty
-Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+(c:/w32tex/share/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2001/02/13 v0.1j Color table columns (DPC)
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/array.sty
+(c:/w32tex/share/texmf-dist/tex/latex/tools/array.sty
 Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \col@sep=\dimen138
 \extrarowheight=\dimen139
@@ -180,17 +181,17 @@ Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \everycr=\toks26
 \minrowclearance=\skip48
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/algorithms/algorithm.sty
+(c:/w32tex/share/texmf-dist/tex/latex/algorithms/algorithm.sty
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
 nment
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ifthen.sty
+(c:/w32tex/share/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \@float@every@algorithm=\toks27
 \c@algorithm=\count106
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/algorithms/algorithmic.sty
+(c:/w32tex/share/texmf-dist/tex/latex/algorithms/algorithmic.sty
 Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
 \c@ALC@unique=\count107
 \c@ALC@line=\count108
@@ -198,15 +199,12 @@ Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
 \c@ALC@depth=\count110
 \ALC@tlm=\skip49
 \algorithmicindent=\skip50
-)
-(./udline.sty
-Package: udline 2005/01/28 ‰∏ãÁ∑ö„Éû„ÇØ„É≠ ver2.52Ôºö„É≠„Éº„Éâ„Åó„Åæ„Åô
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/lscape.sty
+) (./udline.sty
+Package: udline 2005/01/28 â∫ê¸É}ÉNÉç ver2.52ÅFÉçÅ[ÉhÇµÇ‹Ç∑
+) (c:/w32tex/share/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/here/here.sty)
-(./in_design_main.aux)
+(c:/w32tex/share/texmf-dist/tex/latex/here/here.sty) (./in_design_main.aux)
 \openout1 = `in_design_main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
@@ -227,12 +225,12 @@ LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 39.
 LaTeX Font Info:    ... okay on input line 39.
 LaTeX Font Info:    Try loading font information for U+msa on input line 41.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
+(c:/w32tex/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 41.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
+(c:/w32tex/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
@@ -254,18 +252,18 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
  [1] (./kankyou.tex
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 5.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
+(c:/w32tex/share/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 5.
- [2]) [3]
-(./subsis.tex
+ [2]) [3] (./subsis.tex
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 3.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 3.
- [4] [5] [6]
+
+[4] [5] [6]
 Overfull \hbox (60.40314pt too wide) in paragraph at lines 116--146
  [][] 
  []
@@ -276,8 +274,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 ) [8] (./database.tex
 File: ./img/er.png Graphic file (type bmp)
-<./img/er.png>
- [9
+ <./img/er.png> [9
 
 
 ] [10]
@@ -286,28 +283,27 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [11] [12] [13] [14] [15] [16] [17]) [18] (./flow_chart.tex
 File: ./img/seq1.png Graphic file (type bmp)
-<./img/seq1.png>
+ <./img/seq1.png>
 File: ./img/flow/1.png Graphic file (type bmp)
+
 <./img/flow/1.png>
 File: ./img/flow/2.png Graphic file (type bmp)
-<./img/flow/2.png>
-
+ <./img/flow/2.png>
 Overfull \hbox (2.61108pt too wide) in paragraph at lines 20--30
 [][]$[]$[] []$[]$[] 
  []
 
 File: ./img/flow/3.png Graphic file (type bmp)
-<./img/flow/3.png>
-[19
+<./img/flow/3.png> [19
 
 ] [20]
 File: ./img/seq2.png Graphic file (type bmp)
-<./img/seq2.png>
+ <./img/seq2.png>
 File: ./img/flow/4.png Graphic file (type bmp)
-<./img/flow/4.png>
+ <./img/flow/4.png>
 File: ./img/flow/5.png Graphic file (type bmp)
-<./img/flow/5.png>
 
+<./img/flow/5.png>
 Overfull \hbox (2.61108pt too wide) in paragraph at lines 64--74
 [][]$[]$[] []$[]$[] 
  []
@@ -316,28 +312,26 @@ Overfull \hbox (2.61108pt too wide) in paragraph at lines 64--74
 
 ] [22]
 File: ./img/seq3.png Graphic file (type bmp)
-<./img/seq3.png>
+ <./img/seq3.png>
 File: ./img/flow/6.png Graphic file (type bmp)
-<./img/flow/6.png>
+ <./img/flow/6.png>
 File: ./img/flow/7.png Graphic file (type bmp)
-<./img/flow/7.png>
-
+ <./img/flow/7.png>
 Overfull \hbox (2.61108pt too wide) in paragraph at lines 94--104
 [][]$[]$[] []$[]$[] 
  []
 
 File: ./img/flow/8.png Graphic file (type bmp)
-<./img/flow/8.png>
-[23
+<./img/flow/8.png> [23
 
 ] [24]
 File: ./img/seq4.png Graphic file (type bmp)
-<./img/seq4.png>
+ <./img/seq4.png>
 File: ./img/flow/9.png Graphic file (type bmp)
-<./img/flow/9.png>
+ <./img/flow/9.png>
 File: ./img/flow/10.png Graphic file (type bmp)
-<./img/flow/10.png>
 
+<./img/flow/10.png>
 Overfull \hbox (2.61108pt too wide) in paragraph at lines 130--140
 [][]$[]$[] []$[]$[] 
  []
@@ -346,12 +340,11 @@ Overfull \hbox (2.61108pt too wide) in paragraph at lines 130--140
 
 ] [26]
 File: ./img/seq5.png Graphic file (type bmp)
-<./img/seq5.png>
+ <./img/seq5.png>
 File: ./img/flow/11.png Graphic file (type bmp)
-<./img/flow/11.png>
+ <./img/flow/11.png>
 File: ./img/flow/12.png Graphic file (type bmp)
-<./img/flow/12.png>
-
+ <./img/flow/12.png>
 Overfull \hbox (2.61108pt too wide) in paragraph at lines 168--178
 [][]$[]$[] []$[]$[] 
  []
@@ -359,12 +352,12 @@ Overfull \hbox (2.61108pt too wide) in paragraph at lines 168--178
 File: ./img/flow/13.png Graphic file (type bmp)
 <./img/flow/13.png>
 File: ./img/flow/14.png Graphic file (type bmp)
-<./img/flow/14.png>
+ <./img/flow/14.png>
 File: ./img/flow/15.png Graphic file (type bmp)
-<./img/flow/15.png>
+ <./img/flow/15.png>
 File: ./img/flow/16.png Graphic file (type bmp)
-<./img/flow/16.png>
 
+<./img/flow/16.png>
 Overfull \hbox (15.65555pt too wide) in paragraph at lines 191--208
 [][] 
  []
@@ -372,10 +365,9 @@ Overfull \hbox (15.65555pt too wide) in paragraph at lines 191--208
 File: ./img/flow/17.png Graphic file (type bmp)
 <./img/flow/17.png>
 File: ./img/flow/18.png Graphic file (type bmp)
-<./img/flow/18.png>
+ <./img/flow/18.png>
 File: ./img/flow/19.png Graphic file (type bmp)
-<./img/flow/19.png>
-
+ <./img/flow/19.png>
 Overfull \hbox (2.61108pt too wide) in paragraph at lines 221--231
 [][]$[]$[] []$[]$[] 
  []
@@ -383,8 +375,7 @@ Overfull \hbox (2.61108pt too wide) in paragraph at lines 221--231
 File: ./img/flow/20.png Graphic file (type bmp)
 <./img/flow/20.png>
 File: ./img/flow/21.png Graphic file (type bmp)
-<./img/flow/21.png>
-
+ <./img/flow/21.png>
 Overfull \hbox (2.61108pt too wide) in paragraph at lines 235--245
 [][]$[]$[] []$[]$[] 
  []
@@ -392,12 +383,12 @@ Overfull \hbox (2.61108pt too wide) in paragraph at lines 235--245
 File: ./img/flow/22.png Graphic file (type bmp)
 <./img/flow/22.png>
 File: ./img/flow/23.png Graphic file (type bmp)
-<./img/flow/23.png>
+ <./img/flow/23.png>
 File: ./img/flow/24.png Graphic file (type bmp)
-<./img/flow/24.png>
+ <./img/flow/24.png>
 File: ./img/flow/25.png Graphic file (type bmp)
-<./img/flow/25.png>
 
+<./img/flow/25.png>
 Overfull \hbox (15.65555pt too wide) in paragraph at lines 256--273
 [][] 
  []
@@ -406,37 +397,35 @@ Overfull \hbox (15.65555pt too wide) in paragraph at lines 256--273
 
 ] [28] [29] [30] [31]
 File: ./img/seq6.png Graphic file (type bmp)
-<./img/seq6.png>
+ <./img/seq6.png>
 File: ./img/flow/26.png Graphic file (type bmp)
-<./img/flow/26.png>
- [32
+ <./img/flow/26.png> [32
 
 ] [33]
 File: ./img/seq7.png Graphic file (type bmp)
+
 <./img/seq7.png>
 File: ./img/flow/27.png Graphic file (type bmp)
-<./img/flow/27.png>
+ <./img/flow/27.png>
 File: ./img/flow/28.png Graphic file (type bmp)
-<./img/flow/28.png>
-
+ <./img/flow/28.png>
 Overfull \hbox (2.61108pt too wide) in paragraph at lines 320--330
 [][]$[]$[] []$[]$[] 
  []
 
 File: ./img/flow/29.png Graphic file (type bmp)
-<./img/flow/29.png>
-[34
+<./img/flow/29.png> [34
 
 ] [35]
 File: ./img/seq8.png Graphic file (type bmp)
-<./img/seq8.png>
+ <./img/seq8.png>
 File: ./img/flow/30.png Graphic file (type bmp)
-<./img/flow/30.png>
+ <./img/flow/30.png>
 File: ./img/flow/31.png Graphic file (type bmp)
+
 <./img/flow/31.png>
 File: ./img/flow/32.png Graphic file (type bmp)
-<./img/flow/32.png>
-
+ <./img/flow/32.png>
 Overfull \hbox (15.65555pt too wide) in paragraph at lines 359--376
 [][] 
  []
@@ -445,12 +434,11 @@ Overfull \hbox (15.65555pt too wide) in paragraph at lines 359--376
 
 ] [37]
 File: ./img/seq9.png Graphic file (type bmp)
-<./img/seq9.png>
+ <./img/seq9.png>
 File: ./img/flow/33.png Graphic file (type bmp)
-<./img/flow/33.png>
+ <./img/flow/33.png>
 File: ./img/flow/34.png Graphic file (type bmp)
-<./img/flow/34.png>
-
+ <./img/flow/34.png>
 Overfull \hbox (2.61108pt too wide) in paragraph at lines 401--411
 [][]$[]$[] []$[]$[] 
  []
@@ -458,10 +446,9 @@ Overfull \hbox (2.61108pt too wide) in paragraph at lines 401--411
 File: ./img/flow/35.png Graphic file (type bmp)
 <./img/flow/35.png>
 File: ./img/flow/36.png Graphic file (type bmp)
-<./img/flow/36.png>
+ <./img/flow/36.png>
 File: ./img/flow/37.png Graphic file (type bmp)
-<./img/flow/37.png>
-
+ <./img/flow/37.png>
 Overfull \hbox (2.61108pt too wide) in paragraph at lines 424--434
 [][]$[]$[] []$[]$[] 
  []
@@ -470,19 +457,18 @@ Overfull \hbox (2.61108pt too wide) in paragraph at lines 424--434
 
 ] [39] [40]
 File: ./img/seq10.png Graphic file (type bmp)
-<./img/seq10.png>
+ <./img/seq10.png>
 File: ./img/flow/38.png Graphic file (type bmp)
-<./img/flow/38.png>
- [41
+ <./img/flow/38.png> [41
 
 ] [42]
 File: ./img/seq11.png Graphic file (type bmp)
+
 <./img/seq11.png>
 File: ./img/flow/39.png Graphic file (type bmp)
-<./img/flow/39.png>
+ <./img/flow/39.png>
 File: ./img/flow/40.png Graphic file (type bmp)
-<./img/flow/40.png>
-
+ <./img/flow/40.png>
 Overfull \hbox (2.61108pt too wide) in paragraph at lines 486--496
 [][]$[]$[] []$[]$[] 
  []
@@ -490,10 +476,9 @@ Overfull \hbox (2.61108pt too wide) in paragraph at lines 486--496
 File: ./img/flow/41.png Graphic file (type bmp)
 <./img/flow/41.png>
 File: ./img/flow/42.png Graphic file (type bmp)
-<./img/flow/42.png>
+ <./img/flow/42.png>
 File: ./img/flow/43.png Graphic file (type bmp)
-<./img/flow/43.png>
-
+ <./img/flow/43.png>
 Overfull \hbox (15.65555pt too wide) in paragraph at lines 500--517
 [][] 
  []
@@ -501,8 +486,7 @@ Overfull \hbox (15.65555pt too wide) in paragraph at lines 500--517
 File: ./img/flow/44.png Graphic file (type bmp)
 <./img/flow/44.png>
 File: ./img/flow/45.png Graphic file (type bmp)
-<./img/flow/45.png>
-
+ <./img/flow/45.png>
 Overfull \hbox (2.61108pt too wide) in paragraph at lines 521--531
 [][]$[]$[] []$[]$[] 
  []
@@ -511,14 +495,14 @@ Overfull \hbox (2.61108pt too wide) in paragraph at lines 521--531
 
 ] [44] [45]
 File: ./img/seq12.png Graphic file (type bmp)
-<./img/seq12.png>
+ <./img/seq12.png>
 File: ./img/flow/46.png Graphic file (type bmp)
-<./img/flow/46.png>
+ <./img/flow/46.png>
 File: ./img/flow/47.png Graphic file (type bmp)
-<./img/flow/47.png>
+ <./img/flow/47.png>
 File: ./img/flow/48.png Graphic file (type bmp)
-<./img/flow/48.png>
 
+<./img/flow/48.png>
 Overfull \hbox (15.65555pt too wide) in paragraph at lines 554--571
 [][] 
  []
@@ -527,34 +511,32 @@ Overfull \hbox (15.65555pt too wide) in paragraph at lines 554--571
 
 ] [47]
 File: ./img/seq13.png Graphic file (type bmp)
-<./img/seq13.png>
+ <./img/seq13.png>
 File: ./img/flow/49.png Graphic file (type bmp)
-<./img/flow/49.png>
+ <./img/flow/49.png>
 File: ./img/flow/50.png Graphic file (type bmp)
-<./img/flow/50.png>
-
+ <./img/flow/50.png>
 Overfull \hbox (2.61108pt too wide) in paragraph at lines 594--604
 [][]$[]$[] []$[]$[] 
  []
 
 File: ./img/flow/51.png Graphic file (type bmp)
 <./img/flow/51.png>
-File: ./img/flow/52.png Graphic file (type bmp)
-<./img/flow/52.png>
 File: ./img/flow/53.png Graphic file (type bmp)
-<./img/flow/53.png>
-
-Overfull \hbox (15.65555pt too wide) in paragraph at lines 608--625
-[][] 
+ <./img/flow/53.png>
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 608--618
+[][]$[]$[] []$[]$[] 
  []
 
+File: ./img/flow/52.png Graphic file (type bmp)
+<./img/flow/52.png>
 File: ./img/flow/54.png Graphic file (type bmp)
-<./img/flow/54.png>
+ <./img/flow/54.png>
 File: ./img/flow/55.png Graphic file (type bmp)
-<./img/flow/55.png>
+ <./img/flow/55.png>
 File: ./img/flow/56.png Graphic file (type bmp)
-<./img/flow/56.png>
 
+<./img/flow/56.png>
 Overfull \hbox (2.61108pt too wide) in paragraph at lines 636--646
 [][]$[]$[] []$[]$[] 
  []
@@ -563,14 +545,14 @@ Overfull \hbox (2.61108pt too wide) in paragraph at lines 636--646
 
 ] [49] [50]
 File: ./img/seq14.png Graphic file (type bmp)
-<./img/seq14.png>
+ <./img/seq14.png>
 File: ./img/flow/57.png Graphic file (type bmp)
-<./img/flow/57.png>
+ <./img/flow/57.png>
 File: ./img/flow/58.png Graphic file (type bmp)
-<./img/flow/58.png>
+ <./img/flow/58.png>
 File: ./img/flow/59.png Graphic file (type bmp)
-<./img/flow/59.png>
 
+<./img/flow/59.png>
 Overfull \hbox (15.65555pt too wide) in paragraph at lines 668--685
 [][] 
  []
@@ -579,12 +561,11 @@ Overfull \hbox (15.65555pt too wide) in paragraph at lines 668--685
 
 ] [52]
 File: ./img/seq15.png Graphic file (type bmp)
-<./img/seq15.png>
+ <./img/seq15.png>
 File: ./img/flow/60.png Graphic file (type bmp)
-<./img/flow/60.png>
+ <./img/flow/60.png>
 File: ./img/flow/61.png Graphic file (type bmp)
-<./img/flow/61.png>
-
+ <./img/flow/61.png>
 Overfull \hbox (2.61108pt too wide) in paragraph at lines 709--719
 [][]$[]$[] []$[]$[] 
  []
@@ -593,14 +574,14 @@ Overfull \hbox (2.61108pt too wide) in paragraph at lines 709--719
 
 ] [54]
 File: ./img/seq16.png Graphic file (type bmp)
-<./img/seq16.png>
+ <./img/seq16.png>
 File: ./img/flow/62.png Graphic file (type bmp)
-<./img/flow/62.png>
+ <./img/flow/62.png>
 File: ./img/flow/63.png Graphic file (type bmp)
-<./img/flow/63.png>
+ <./img/flow/63.png>
 File: ./img/flow/64.png Graphic file (type bmp)
-<./img/flow/64.png>
 
+<./img/flow/64.png>
 Overfull \hbox (2.61108pt too wide) in paragraph at lines 749--759
 [][]$[]$[] []$[]$[] 
  []
@@ -609,28 +590,26 @@ Overfull \hbox (2.61108pt too wide) in paragraph at lines 749--759
 
 ] [56]
 File: ./img/seq17.png Graphic file (type bmp)
-<./img/seq17.png>
+ <./img/seq17.png>
 File: ./img/flow/65.png Graphic file (type bmp)
-<./img/flow/65.png>
+ <./img/flow/65.png>
 File: ./img/flow/66.png Graphic file (type bmp)
-<./img/flow/66.png>
-
+ <./img/flow/66.png>
 Overfull \hbox (2.61108pt too wide) in paragraph at lines 780--790
 [][]$[]$[] []$[]$[] 
  []
 
 File: ./img/flow/67.png Graphic file (type bmp)
-<./img/flow/67.png>
-[57
+<./img/flow/67.png> [57
 
 ] [58]
 File: ./img/seq18.png Graphic file (type bmp)
-<./img/seq18.png>
+ <./img/seq18.png>
 File: ./img/flow/68.png Graphic file (type bmp)
-<./img/flow/68.png>
+ <./img/flow/68.png>
 File: ./img/flow/69.png Graphic file (type bmp)
-<./img/flow/69.png>
 
+<./img/flow/69.png>
 Overfull \hbox (2.61108pt too wide) in paragraph at lines 821--831
 [][]$[]$[] []$[]$[] 
  []
@@ -638,8 +617,7 @@ Overfull \hbox (2.61108pt too wide) in paragraph at lines 821--831
 File: ./img/flow/70.png Graphic file (type bmp)
 <./img/flow/70.png>
 File: ./img/flow/71.png Graphic file (type bmp)
-<./img/flow/71.png>
-
+ <./img/flow/71.png>
 Overfull \hbox (2.61108pt too wide) in paragraph at lines 836--846
 [][]$[]$[] []$[]$[] 
  []
@@ -648,44 +626,41 @@ Overfull \hbox (2.61108pt too wide) in paragraph at lines 836--846
 
 ] [60]
 File: ./img/seq19.png Graphic file (type bmp)
-<./img/seq19.png>
+ <./img/seq19.png>
 File: ./img/flow/72.png Graphic file (type bmp)
-<./img/flow/72.png>
+ <./img/flow/72.png>
 File: ./img/flow/73.png Graphic file (type bmp)
-<./img/flow/73.png>
-
+ <./img/flow/73.png>
 Overfull \hbox (2.61108pt too wide) in paragraph at lines 871--881
 [][]$[]$[] []$[]$[] 
  []
 
 File: ./img/flow/74.png Graphic file (type bmp)
-<./img/flow/74.png>
-[61
+<./img/flow/74.png> [61
 
 ] [62]
 File: ./img/seq20.png Graphic file (type bmp)
-<./img/seq20.png>
+ <./img/seq20.png>
 File: ./img/flow/75.png Graphic file (type bmp)
-<./img/flow/75.png>
+ <./img/flow/75.png>
 File: ./img/flow/76.png Graphic file (type bmp)
-<./img/flow/76.png>
 
+<./img/flow/76.png>
 Overfull \hbox (2.61108pt too wide) in paragraph at lines 910--920
 [][]$[]$[] []$[]$[] 
  []
 
 File: ./img/flow/77.png Graphic file (type bmp)
-<./img/flow/77.png>
-[63
+<./img/flow/77.png> [63
 
 ] [64]
 File: ./img/seq21.png Graphic file (type bmp)
-<./img/seq21.png>
+ <./img/seq21.png>
 File: ./img/flow/79.png Graphic file (type bmp)
-<./img/flow/79.png>
+ <./img/flow/79.png>
 File: ./img/flow/80.png Graphic file (type bmp)
-<./img/flow/80.png>
 
+<./img/flow/80.png>
 Overfull \hbox (2.61108pt too wide) in paragraph at lines 948--958
 [][]$[]$[] []$[]$[] 
  []
@@ -699,36 +674,36 @@ LaTeX Warning: No positions in optional float specifier.
 
 [66] [67] [68] [69] [70]
 Overfull \hbox (5.78256pt too wide) in paragraph at lines 215--223
-[]\OT1/cmr/m/n/12 - \JY1/mc/m/n/12 Êõ¥Êñ∞„ÇíÊäº„Åô„Å® Ôºå ÂÖ•Âäõ„Åï„Çå„ÅüË™≤È°å„ÅÆ„ÉÅ „Çß „ÉÉ „ÇØ
-„Éú „ÉÉ „ÇØ„Çπ„ÇíÊÉÖÂ†±„Å®„Åó„Å¶ Ôºå \OT1/cmr/m/n/12 /progress/:id
+[]\OT1/cmr/m/n/12 - \JY1/mc/m/n/12 çXêVÇâüÇ∑Ç∆ ÅC ì¸óÕÇ≥ÇÍÇΩâ€ëËÇÃÉ` ÉF Éb ÉN
+É{ Éb ÉNÉXÇèÓïÒÇ∆ÇµÇƒ ÅC \OT1/cmr/m/n/12 /progress/:id
  []
 
 [71]
 Overfull \hbox (14.58345pt too wide) in paragraph at lines 252--261
-[]\OT1/cmr/m/n/12 - home \JY1/mc/m/n/12 Ôºö Ë≥™Âïè‰∏ÄË¶ß„Å®ÈÄ≤Êçó„Åå„ÅÇ„Çå„Å∞ÈÄ≤ÊçóÊÉÖÂ†±„ÇÇÂèñÂæó
-„Åó Ôºå \OT1/cmr/m/n/12 /static[]pages/home.html.erb
+[]\OT1/cmr/m/n/12 - home \JY1/mc/m/n/12 ÅF éøñ‚àÍóóÇ∆êiíªÇ™Ç†ÇÍÇŒêiíªèÓïÒÇ‡éÊìæ
+Çµ ÅC \OT1/cmr/m/n/12 /static[]pages/home.html.erb
  []
 
 [72]
 Overfull \hbox (35.33362pt too wide) in paragraph at lines 304--316
-[]\OT1/cmr/m/n/12 - in-dex \JY1/mc/m/n/12 Ôºö ÈÅéÂéª„ÅÆË≥™Âïè‰∏ÄË¶ß„Å®ÈÄ≤Êçó„Åå„ÅÇ„Çå„Å∞ÈÄ≤ÊçóÊÉÖ
-Â†±„ÇÇÂèñÂæó„Åó Ôºå \OT1/cmr/m/n/12 /ques-tions/index.html.erb
+[]\OT1/cmr/m/n/12 - in-dex \JY1/mc/m/n/12 ÅF âﬂãéÇÃéøñ‚àÍóóÇ∆êiíªÇ™Ç†ÇÍÇŒêiíªèÓ
+ïÒÇ‡éÊìæÇµ ÅC \OT1/cmr/m/n/12 /ques-tions/index.html.erb
  []
 
 [73] [74]
 Overfull \hbox (9.9993pt too wide) in paragraph at lines 350--359
-[]\OT1/cmr/m/n/12 - in-dex \JY1/mc/m/n/12 Ôºö ÈÅ∏Êäû„Åï„Çå„ÅüÂπ¥Â∫¶„Åã„ÇâÈñãË¨õÂõû‰∏ÄË¶ß„ÇíÂèñÂæó
-„Åó Ôºå \OT1/cmr/m/n/12 /lec-ture[]times/index.html.erb
+[]\OT1/cmr/m/n/12 - in-dex \JY1/mc/m/n/12 ÅF ëIëÇ≥ÇÍÇΩîNìxÇ©ÇÁäJçuâÒàÍóóÇéÊìæ
+Çµ ÅC \OT1/cmr/m/n/12 /lec-ture[]times/index.html.erb
  []
 
 [75] [76] [77]) [78] (./in_design_main.aux) ) 
 Here is how much of TeX's memory you used:
- 2892 strings out of 493648
- 37010 string characters out of 6148806
- 108710 words of memory out of 5000000
- 6320 multiletter control sequences out of 15000+600000
+ 2888 strings out of 493654
+ 36901 string characters out of 6150794
+ 108909 words of memory out of 5000000
+ 6308 multiletter control sequences out of 15000+600000
  19995 words of font info for 81 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 34i,16n,26p,290b,457s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,16n,26p,292b,456s stack positions out of 5000i,500n,10000p,500000b,80000s
 
-Output written on in_design_main.dvi (80 pages, 150976 bytes).
+Output written on in_design_main.dvi (80 pages, 147428 bytes).
